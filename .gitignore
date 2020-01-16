@@ -4,5 +4,6 @@ _site/
 .jekyll-metadata
 node_modules
 .cache/
+.cache
 public
 .DS_Store
