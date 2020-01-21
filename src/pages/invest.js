@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout';
 
-const index = () => {
+export const invest = () => {
    return (
       <Layout>
-         This is the homepage
+         Invest in your goals
       </Layout>
    )
 }
 
-export default index;
+export default invest;

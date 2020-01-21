@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout';
 
-const index = () => {
+const press = () => {
    return (
       <Layout>
-         This is the homepage
+         Press
       </Layout>
    )
 }
 
-export default index;
+export default press;

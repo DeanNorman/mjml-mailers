@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/Layout';
 
-const index = () => {
+const partners = () => {
    return (
       <Layout>
-         This is the homepage
+         partners
       </Layout>
    )
 }
 
-export default index;
+export default partners;
