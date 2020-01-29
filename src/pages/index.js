@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout';
+import { FaBeer } from 'react-icons/fa';
 
 const index = () => {
    return (
       <Layout>
-
+         <FaBeer />
       <div> 
          <div>
             <h1>Boss your money.</h1>
@@ -88,7 +89,7 @@ const index = () => {
       <div>
          <p>Pssssssst!</p>
          <p>For a limited time, you can put a minimum of R250 into your goals (instead of the usual R350). Once off or monthly. Or both!</p>         
-      </div> <!-- psst container -->
+      </div>
 
       <div>
          <h2>Our customers say the nicest things.</h2>

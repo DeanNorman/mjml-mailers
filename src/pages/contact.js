@@ -9,4 +9,4 @@ const contact = () => {
    )
 }
 
-export default contact;gonna 
+export default contact;
