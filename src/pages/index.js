@@ -2,6 +2,7 @@ import React from 'react'
 import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
 import { FaBeer } from 'react-icons/fa';
+import Header from '../components/Header';
 
 const index = () => {
    return (
@@ -12,6 +13,7 @@ const index = () => {
                 <link rel="canonical" href="http://mysite.com/example" />
             </Helmet>
          <FaBeer />
+         <Header />
       <div> 
          <div>
             <h1>Boss your money.</h1>
