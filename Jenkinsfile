@@ -37,6 +37,7 @@ pipeline {
     disableConcurrentBuilds()
     skipStagesAfterUnstable()
     timeout(activity: true, time: 1, unit: 'HOURS')
+    options { skipDefaultCheckout true }
   }
   environment {
     JOB = "website"
@@ -47,6 +48,7 @@ pipeline {
   }
   stages {
     stage('Build App') {
+      options { skipDefaultCheckout false }
       agent {label 'docker'}
       steps {
         sh label: 'Docker Build', script: """
