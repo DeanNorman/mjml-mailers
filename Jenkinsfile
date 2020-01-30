@@ -31,13 +31,12 @@ def sshRemoteCredentials = [:]
  */
 
 pipeline {
-  agent { label 'docker' }
   options {
     buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
     disableConcurrentBuilds()
     skipStagesAfterUnstable()
     timeout(activity: true, time: 1, unit: 'HOURS')
-    options { skipDefaultCheckout true }
+    skipDefaultCheckout true
   }
   environment {
     JOB = "website"
