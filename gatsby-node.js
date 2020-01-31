@@ -1,5 +1,5 @@
 exports.onCreateWebpackConfig = ({ stage, actions }) => {
-  if (stage === `build-javascript`) {
+  if (stage === "build-javascript") {
     actions.setWebpackConfig({ // Any change to entry, output, target, or resolveLoaders will be ignored.
       devtool: false,
       optimization:{
