@@ -20,8 +20,8 @@
 
 // * DNS/Vault based on branch name: [develop|staging|master].
 def sshRemote = [:]
-    sshRemote.host = "jill.${env.BRANCH_NAME}.my227.net"
-    sshRemote.name = "jill.${env.BRANCH_NAME}.my227.net"
+    sshRemote.host = "web.${env.BRANCH_NAME}.my227.net"
+    sshRemote.name = "web.${env.BRANCH_NAME}.my227.net"
     sshRemote.user = "jenkins-${env.BRANCH_NAME}"
     sshRemote.identity = vault path: "kv-jenkins-${env.BRANCH_NAME}/ssh", key: "prv", credentialsId: "jenkins-${env.BRANCH_NAME}", engineVersion: "2"
     sshRemote.allowAnyHosts = true
