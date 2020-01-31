@@ -19,12 +19,12 @@
  */
 
 // * DNS/Vault based on branch name: [develop|staging|master].
-def sshRemoteCredentials = [:]
-    sshRemoteCredentials.host = "jill.${env.BRANCH_NAME}.my227.net"
-    sshRemoteCredentials.name = "jill.${env.BRANCH_NAME}.my227.net"
-    sshRemoteCredentials.user = "jenkins-${env.BRANCH_NAME}"
-    sshRemoteCredentials.identity = vault path: "kv-jenkins-${env.BRANCH_NAME}/ssh", key: "prv", credentialsId: "jenkins-${env.BRANCH_NAME}", engineVersion: "2"
-    sshRemoteCredentials.allowAnyHosts = true
+def sshRemote = [:]
+    sshRemote.host = "jill.${env.BRANCH_NAME}.my227.net"
+    sshRemote.name = "jill.${env.BRANCH_NAME}.my227.net"
+    sshRemote.user = "jenkins-${env.BRANCH_NAME}"
+    sshRemote.identity = vault path: "kv-jenkins-${env.BRANCH_NAME}/ssh", key: "prv", credentialsId: "jenkins-${env.BRANCH_NAME}", engineVersion: "2"
+    sshRemote.allowAnyHosts = true
 
 /**
  * * DSL Zone - Jenkins Pipeline
@@ -40,10 +40,10 @@ pipeline {
     skipDefaultCheckout true
   }
   environment {
-    JOB = "website"
+    JOB = "web"
     ENV = "${env.BRANCH_NAME}"
     NUM = "${env.BUILD_NUMBER}"
-    DOCKER_TAGS = "${JOB}.${ENV}:${NUM}"
+    DOCKER_TAGS = "${JOB}.${ENV}" // :${NUM}
     DOCKER_FILE = "Dockerfile"
   }
   stages {
@@ -61,11 +61,11 @@ pipeline {
           docker run \\
             --rm \\
             --mount type=bind,src=${env.WORKSPACE},dst=/mnt \\
-            ${_DOCKER_TAGS} \\
-            "-c" "cd /src && tar -cz -f /mnt/${JOB}.tar.gz *";
+            ${DOCKER_TAGS} \\
+            "-c" "cd /src/public/ && tar -cz -f /mnt/${JOB}.tar.gz *";
         """
         archiveArtifacts allowEmptyArchive:false , fingerprint:true, artifacts:"${JOB}.tar.gz"
-        sh 'docker rmi --force ${DOCKER_TAGS}'
+        // sh 'docker rmi --force ${DOCKER_TAGS}'
       }
     }
     stage('Package App') {
@@ -82,7 +82,17 @@ pipeline {
         stage('Develop') {
           when {branch 'develop'}
           steps {
-            echo 'TODO'
+            copyArtifacts fingerprintArtifacts:true, projectName:env.JOB_NAME, selector:specific(env.BUILD_NUMBER)
+            sshPut remote:sshRemote, from:"${JOB}.tar.gz", into:"."
+            sshCommand remote:sshRemote, failOnError:true, command: """
+              sudo rm -rf /srv/${JOB}.${ENV}.my227.net/public/;
+              sudo mkdir -p /srv/${JOB}.${ENV}.my227.net/public/;
+              sudo tar -xzf /home/jenkins-${ENV}/${JOB}.tar.gz -C /srv/${JOB}.${ENV}.my227.net/public/;
+              sudo chown -R nginx:nginx /srv/${JOB}.${ENV}.my227.net/;
+              find /srv/${JOB}.${ENV}.my227.net -type f -print0 | sudo xargs -0 chmod 644;
+              find /srv/${JOB}.${ENV}.my227.net -type d -print0 | sudo xargs -0 chmod 755;
+            """
+            sshRemove remote:sshRemote, failOnError:true, path:"${JOB}.tar.gz"
           }
         }
         stage('Staging') {

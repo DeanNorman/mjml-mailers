@@ -21,3 +21,4 @@ RUN gatsby build
 EXPOSE 9000
 ENTRYPOINT [ "/bin/sh"]
 CMD ["-c","gatsby serve --no-color --host ${BINDING_IP} --port ${BINDING_PORT}"]
+##
