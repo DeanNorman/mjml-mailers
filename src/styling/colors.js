@@ -1,12 +1,4 @@
-import chroma from 'chroma-js';
-
 import { css } from 'styled-components';
-
-export const darken = color => chroma(color).darker(0.5).css();
-
-export const lighten = color => chroma(color).brighten().css();
-
-export const alpha = (color, amount = 0.2) => chroma(color).alpha(amount).css();
 
 export const greyBackground = css`
    background-color: #f1f2f3;
@@ -49,7 +41,31 @@ export default {
    uncategorised: '#aaa',
    transfer: '#666',
 
-   alpha,
-   darken,
-   lighten,
+   // new colors 
+   thanos: '#434b6b',
+   cheshire: '#6a678D',
+   bulbasaur: '#27C5B8',
+   gandalf: '#A7B2BC',
+   stormTrooper: '#F1F2F3',
+
+   /* Sedconday Colors */
+
+   black: '#000',
+   white: '#fff',
+   darthVader: '#606060',
+
+   megaman: '#24B4C7',
+   pikachu: '#FFD74E',
+   dumbledore: '#7A71EF',
+   kermit: '#893E53',
+   garfield: '#FD924B',
+   princessPeach: '#FD7A7C',
+
+   /* Util colors  */
+
+   wingardiumLeviosa: '#F1F5FB',
+   alohomora: '#FFF2F2',
+   expelliarmus: '#E9F9F8',
+   lumos: '#FFF9EE',
+
 };

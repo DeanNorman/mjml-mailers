@@ -12,6 +12,13 @@ module.exports = {
     data: ["item1", "item2"],
   },
   plugins: [
+   {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
     "gatsby-plugin-styled-components",
     "gatsby-plugin-react-helmet"
   ],

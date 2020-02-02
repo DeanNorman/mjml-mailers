@@ -6,6 +6,11 @@ import Semibold from './ProximaNova/ProximaNova-Semibold.otf';
 import Bold from './ProximaNova/ProximaNova-Bold.otf';
 import Extrabold from './ProximaNova/ProximaNova-Extrabold.otf';
 
+// import circularBlack from './CircularStd/CircularStd-Black.otf';
+import Black from './CircularStd/CircularStd-Bold.otf';
+// import circularBook from './CircularStd/CircularStd-Book.otf';
+// import circularMedium from './CircularStd/CircularStd-Medium.otf';
+
 
 export default css`
    @font-face {
@@ -33,4 +38,10 @@ export default css`
       font-weight: 800;
       src: url('${Extrabold}') format('opentype');
    }
+   @font-face {
+      font-family: 'CircularStd';
+      font-weight: 800;
+      src: url('${Black}') format('opentype');
+   }
+
 `;
