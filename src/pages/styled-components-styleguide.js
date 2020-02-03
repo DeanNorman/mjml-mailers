@@ -25,8 +25,8 @@ export const Nav = styled.div`
 `;
 
 export const Title = styled.div`
-   /* font-family: "ProximaNova"; */
-   font-family: "CircularStd";
+   font-family: "ProximaNova";
+   /* font-family: "CircularStd"; */
    font-size: 50px;
    text-align: center;
    padding: 90px 0 30px 0;

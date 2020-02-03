@@ -7,7 +7,7 @@ import Bold from './ProximaNova/ProximaNova-Bold.otf';
 import Extrabold from './ProximaNova/ProximaNova-Extrabold.otf';
 
 // import circularBlack from './CircularStd/CircularStd-Black.otf';
-import Black from './CircularStd/CircularStd-Bold.otf';
+import Black from './ProximaNova/CircularStd-Medium.otf';
 // import circularBook from './CircularStd/CircularStd-Book.otf';
 // import circularMedium from './CircularStd/CircularStd-Medium.otf';
 
@@ -43,5 +43,4 @@ export default css`
       font-weight: 800;
       src: url('${Black}') format('opentype');
    }
-
 `;
