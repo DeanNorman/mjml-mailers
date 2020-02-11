@@ -113,11 +113,11 @@ const NavbarLinks = () => {
       </LoginSigupButtons>
       
 
-      <AppStoreBadges>
+      {/* <AppStoreBadges>
          <AppBadge src={appStore} />
          <AppBadge src={googlePlay} />
       </AppStoreBadges>
-   
+    */}
     </>
   )
 }
