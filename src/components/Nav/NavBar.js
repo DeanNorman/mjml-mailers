@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
-import logo from '../../images/22seven-logo.svg';
+// import logo from '../../images/22seven-logo.svg';
 
 const Navigation = styled.nav`
   font-family: Arial, Helvetica, sans-serif;
@@ -91,7 +91,7 @@ const Navbar = () => {
 
   return (
     <Navigation>
-      <img src={logo} alt="logo" />
+      {/* <img src={logo} alt="logo" /> */}
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}
