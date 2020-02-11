@@ -2,7 +2,6 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavbarLinks"
 import logo from '../../images/22seven-logo.svg';
-// import Logo from "./Logo"
 
 const Navigation = styled.nav`
   font-family: Arial, Helvetica, sans-serif;
@@ -16,7 +15,6 @@ const Navigation = styled.nav`
   padding: 0 5vw;
   z-index: 2;
   align-self: center;
-  /* position: fixed; */
 
   @media (max-width: 768px) {
     position: sticky;
