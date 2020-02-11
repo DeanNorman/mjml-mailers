@@ -17,6 +17,7 @@ WORKDIR /src
 COPY package.json .
 RUN npm install
 COPY . .
+RUN gatsby clear
 RUN gatsby build
 EXPOSE 9000
 ENTRYPOINT [ "/bin/sh"]
