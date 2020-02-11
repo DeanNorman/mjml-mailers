@@ -5,8 +5,9 @@ import logo from '../../images/22seven-logo.svg';
 // import Logo from "./Logo"
 
 const Navigation = styled.nav`
-font-family: Arial, Helvetica, sans-serif;
-  height: 10vh;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14.4px;
+  height: 86px;
   display: flex;
   background-color: #4e4b6b;
   justify-content: space-between;
@@ -15,10 +16,10 @@ font-family: Arial, Helvetica, sans-serif;
   padding: 0 5vw;
   z-index: 2;
   align-self: center;
+  /* position: fixed; */
 
   @media (max-width: 768px) {
     position: sticky;
-    height: 8vh;
     top: 0;
     left: 0;
     right: 0;
@@ -51,7 +52,7 @@ const Navbox = styled.div`
     padding-top: 10vh;
     background-color: #4e4b6b;
     transition: all 0.3s ease-in;
-    top: 8vh;
+    top: 17vh;
     left: ${props => (props.open ? "-100%" : "0")};
   }
 `
@@ -59,7 +60,7 @@ const Navbox = styled.div`
 const Hamburger = styled.div`
   background-color: #fff;
   width: 30px;
-  height: 3px;
+  height: 2px;
   transition: all .3s linear;
   align-self: center;
   position: relative;
@@ -68,7 +69,7 @@ const Hamburger = styled.div`
   ::before,
   ::after {
     width: 30px;
-    height: 3px;
+    height: 2px;
     background-color: #fff;
     content: "";
     position: absolute;
