@@ -83,19 +83,19 @@ const LogIn = styled(Link)`
   border-radius: 3px;
 `
 
-const AppStoreBadges = styled.div`
-   display: none;
-   @media (max-width: 768px) {
-      display: block;
-      margin-top: 24px;
-      border-top: 1px solid #ffffff2b;
-  }
-`
-const AppBadge = styled.img`
-   height: 40px;
-   width: 131px;
-   margin: 20px 1vw;
-`
+// const AppStoreBadges = styled.div`
+//    display: none;
+//    @media (max-width: 768px) {
+//       display: block;
+//       margin-top: 24px;
+//       border-top: 1px solid #ffffff2b;
+//   }
+// `
+// const AppBadge = styled.img`
+//    height: 40px;
+//    width: 131px;
+//    margin: 20px 1vw;
+// `
 
 
 
@@ -122,4 +122,4 @@ const NavbarLinks = () => {
   )
 }
 
-export default NavbarLinks
+export default NavbarLinks;
