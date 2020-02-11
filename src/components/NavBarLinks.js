@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-// import appStore from '../../images/public-mobile-badgeappstore-1@2x.png';
-// import googlePlay from '../../images/public-mobile-badgegoogle-play-1@2x.png';
+import appStore from '../images/public-mobile-badgeappstore-1@2x.png';
+import googlePlay from '../images/public-mobile-badgegoogle-play-1@2x.png';
 import { Link } from "gatsby"
 
 const NavItem = styled(Link)`
@@ -83,19 +83,19 @@ const LogIn = styled(Link)`
   border-radius: 3px;
 `
 
-// const AppStoreBadges = styled.div`
-//    display: none;
-//    @media (max-width: 768px) {
-//       display: block;
-//       margin-top: 24px;
-//       border-top: 1px solid #ffffff2b;
-//   }
-// `
-// const AppBadge = styled.img`
-//    height: 40px;
-//    width: 131px;
-//    margin: 20px 1vw;
-// `
+const AppStoreBadges = styled.div`
+   display: none;
+   @media (max-width: 768px) {
+      display: block;
+      margin-top: 24px;
+      border-top: 1px solid #ffffff2b;
+  }
+`
+const AppBadge = styled.img`
+   height: 40px;
+   width: 131px;
+   margin: 20px 1vw;
+`
 
 
 
@@ -113,11 +113,11 @@ const NavbarLinks = () => {
       </LoginSigupButtons>
       
 
-      {/* <AppStoreBadges>
+      <AppStoreBadges>
          <AppBadge src={appStore} />
          <AppBadge src={googlePlay} />
       </AppStoreBadges>
-    */}
+   
     </>
   )
 }
