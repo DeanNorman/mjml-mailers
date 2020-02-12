@@ -29,3 +29,9 @@
    font-weight: 300;
    src: url('../styling/fonts/CircularStd/CircularStd-Book.otf') format('opentype');
 }
+
+@font-face {
+   font-family: 'CircularStd';
+   font-weight: 400;
+   src: url('../styling/fonts/CircularStd/CircularStd-Bold.otf') format('opentype');
+}
