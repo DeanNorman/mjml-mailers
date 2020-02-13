@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavBarLinks"
-import logo from '../images/22seven-logo.svg';
+import logo from '../../images/22seven-logo.svg';
 
 const Navigation = styled.nav`
   font-family: Arial, Helvetica, sans-serif;
