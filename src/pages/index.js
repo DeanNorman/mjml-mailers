@@ -1,10 +1,13 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
-import { FaBeer } from 'react-icons/fa';
 
-import HeaderHome from '../components/Headers/HeaderHome'
+import HeaderHome from '../components/Headers/HeaderHome';
 import Security from '../components/Home/Security';
+import SectionOne from '../components/Home/SectionOne';
+import SectionTwo from '../components/Home/SectionTwo';
+import SectionThree from '../components/Home/SectionThree';
+import SectionFour from '../components/Home/SectionFour';
 
 const index = () => {
    return (
@@ -17,46 +20,12 @@ const index = () => {
 
       <HeaderHome />
       <Security />
-      <div>
-         <div>
-            <img src="service-providers" alt=""/>
-         </div>
-         <div>
-            <h2>See all your money in place.</h2>
-            <p>All your accounts. All your transactions. All together. Link bank accounts, credit and store cards, investments, loans and rewards.</p>
-            <a href="#">100+ supported institutions</a>
-         </div>
-      </div> 
+      <SectionOne />
+      <SectionTwo />
+      <SectionThree />
+      <SectionFour />
 
-      <div>
-         <div>
-            <h2>Get a personalised budget, automatically.</h2>
-            <p>It’s generated for you. And based on your own, actual spending. See exactly how much you spend on what each month. Know what you‘ve already spent and have left to spend, and find more money</p>
-         </div>
-         <div><img src="budget.jpg" alt="" /></div>
-      </div> 
-      <div>
-         <div>
-            <img src="nudges" alt=""/>
-         </div>
-         <div>
-            <h2>Find relevant insights, regularly.</h2>
-            <p>Nudges are hints and observations about your money. See things you didn’t know or hadn’t considered, and use your money better.</p>
-         </div>
-      </div> 
 
-      <div>
-         <div>
-            <h2>Invest in your goals and reach them sooner.</h2>
-            <p>Putting money towards your future can be a pain. But the right planning can change that. Set, track and invest in your life goals from as little as R350.</p>
-         </div>
-         <div><img src="invest.jpg" alt="" /></div>
-      </div> 
-
-      <div>
-         <p>Pssssssst!</p>
-         <p>For a limited time, you can put a minimum of R250 into your goals (instead of the usual R350). Once off or monthly. Or both!</p>         
-      </div>
 
       <div>
          <h2>Our customers say the nicest things.</h2>
