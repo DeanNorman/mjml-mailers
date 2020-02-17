@@ -11,6 +11,7 @@ const Container = styled.div`
    justify-content: center;
    background-color: #4e4b6b;
    color: #fff;
+   height: 503px;
 `
 
 const Content = styled.div`

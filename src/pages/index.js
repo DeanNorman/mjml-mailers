@@ -4,6 +4,7 @@ import Layout from '../components/Layout';
 import { FaBeer } from 'react-icons/fa';
 
 import HeaderHome from '../components/Headers/HeaderHome'
+import Security from '../components/Home/Security';
 
 const index = () => {
    return (
@@ -15,35 +16,7 @@ const index = () => {
             </Helmet>
 
       <HeaderHome />
-      <div>
-         <div>
-            <img src="eye.jpg" alt=""/>
-            <h2>We take security very seriously</h2>
-            <p>Your data is secure, private and insured.</p>
-            <button>Over 180 000 South Africans trust us with their money stuff. ></button>
-         </div> 
-
-         <div>
-            <div>
-               <img src="eye.jpg" alt=""/>
-               
-               <p>Keep track of your money more simply.</p>
-            </div>
-            <div>
-               <img src="fingerClick.jpg" alt=""/>
-               
-               <p>Get a personalised budget, automatically</p>
-            </div>
-            <div>
-               <img src="yellowGlasses.jpg" alt=""/>
-               <p>Find relevant insights, regularly.</p>
-            </div>
-            <div>
-               <img src="purpleMountain.jpg" alt=""/>
-               <p>Invest in your goals and reach them sooner.</p>
-            </div>
-         </div> 
-      </div> 
+      <Security />
       <div>
          <div>
             <img src="service-providers" alt=""/>
