@@ -11,35 +11,28 @@ import SectionFour from '../components/Home/SectionFour';
 import Testimonials from '../components/Home/Testimonials';
 import Privacy from '../components/Home/Privacy';
 import HowItWorks from '../components/Home/HowItWorks';
+import Svens from '../components/Home/Svens';
 
 const index = () => {
    return (
       <Layout>
-            <Helmet>
-                <meta charSet="utf-8" />
-                <title>My Title</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+         <Helmet>
+               <meta charSet="utf-8" />
+               <title>My Title</title>
+               <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
 
-      <HeaderHome />
-      <Security />
-      <SectionOne />
-      <SectionTwo />
-      <SectionThree />
-      <SectionFour />
-      <Testimonials />
-      <Privacy />
-      <HowItWorks />
+         <HeaderHome />
+         <Security />
+         <SectionOne />
+         <SectionTwo />
+         <SectionThree />
+         <SectionFour />
+         <Testimonials />
+         <Privacy />
+         <HowItWorks />
+         <Svens />
 
-
-      <div>
-         <img src="svens.jpg" alt=""/>
-         <h2>Get really good support from real, live people.</h2>
-         <p>The Svens, our support team, are available from 8am to 8pm.</p>
-         <a href="#">thesvens@22sven.com</a>
-         <a href="#">+27 87 8550 4331</a>
-      </div>
-   
       </Layout>
    )
 }
