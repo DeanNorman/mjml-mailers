@@ -10,6 +10,7 @@ import SectionThree from '../components/Home/SectionThree';
 import SectionFour from '../components/Home/SectionFour';
 import Testimonials from '../components/Home/Testimonials';
 import Privacy from '../components/Home/Privacy';
+import HowItWorks from '../components/Home/HowItWorks';
 
 const index = () => {
    return (
@@ -28,30 +29,8 @@ const index = () => {
       <SectionFour />
       <Testimonials />
       <Privacy />
+      <HowItWorks />
 
-      <div>
-         <h1>How it works...</h1>
-         <div>
-            <div>1</div>
-            <h3>Link your accounts</h3>
-            <p>The first thing you’ll do is link your money stuff: cheque and savings accounts, credit and store cards, investments, loans and rewards.</p>
-         </div>
-         <div>
-            <div>2</div>
-            <h3>We gather your transactions</h3>
-            <p>When you link accounts, 22seven usually gets the last 3 months’ transactions from them. After that, they’re automatically updated whenever you log in, or daily</p>
-         </div>
-         <div>
-            <div>3</div>
-            <h3>…and sort them for you</h3>
-            <p>22seven identifies each transaction and automatically puts it into a category like Groceries, Rent or Pets. Use existing categories or create your own.</p>
-         </div>
-         <div>
-            <div>4</div>
-            <h3>See where your money goes</h3>
-            <p>We automatically add up what you spend on each category, each month, so you see exactly where your money goes. Brace yourself: it’s honest about what you do with your money.</p>
-         </div>
-      </div> 
 
       <div>
          <img src="svens.jpg" alt=""/>
