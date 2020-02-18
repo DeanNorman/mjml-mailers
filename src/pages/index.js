@@ -8,6 +8,7 @@ import SectionOne from '../components/Home/SectionOne';
 import SectionTwo from '../components/Home/SectionTwo';
 import SectionThree from '../components/Home/SectionThree';
 import SectionFour from '../components/Home/SectionFour';
+import Testimonials from '../components/Home/Testimonials';
 
 const index = () => {
    return (
@@ -24,36 +25,7 @@ const index = () => {
       <SectionTwo />
       <SectionThree />
       <SectionFour />
-
-
-
-      <div>
-         <h2>Our customers say the nicest things.</h2>
-         <div>
-            <div>
-               <img src="yellowApos" alt=""/>
-               <p>I love it, it helped me detect when my insurance charged me twice</p>
-               <p>It’s my 3rd day using this app and I love it already; an insurance company deducted money twice from my account; I was not aware of it and the app could pick that up for me so I was able to get my money and the app could pick that up for me so I was to get my money back; thank you very much.</p>
-               <p>Letshego, Dec 2017</p>
-               <img src="yellowStars.jpg" alt=""/>
-            </div>
-            <div>
-               <img src="greenApos" alt=""/>
-               <p>Thanks to 22seven I’m debt free</p>
-               <p>Yay!! When I made a decision 6 months ago to turn my financial life around, I started doing research and came across 22seven. You’ve certainly made sticking to that decision a lot easier. Today I’m debt free. From a debt of R40 000 6 months ago… may you keep nudging me as I move from debt to building an emergency fund and eventually growing my wealth through savings and investments.</p>
-               <p>Thandekile, Jan 2018</p>
-               <img src="greenStars.jpg" alt=""/>
-            </div>
-            <div>
-               <img src="purpleApos" alt=""/>
-               <p>The best app I have used in 2018</p>
-               <p>This is by far the best app I have used in 2018. Why did it take me so long to get it?!
-                  It helps me keep track of all my spending- to the cent. I am more aware of my spending habits as all my accounts are linked to the app. If you need budgeting tools and a reality check about your spending, this is the best app for you. If you have a goal you are saving towards, this is for you - as the app tells you how much you need to save per month to reach your goal. It’s WONDERFULL!!!!!</p>
-               <p>Manileng, Dec 2018</p>
-               <img src="purpleStars.pg" alt=""/>
-            </div>
-         </div>
-      </div> 
+      <Testimonials />
 
       <div>
          <div>

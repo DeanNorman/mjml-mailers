@@ -1,8 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ServiceProviders from '../../images/section-1---left.svg';
-
+import temp from '../../images/sectionOne.svg';
 const Container = styled.div`
    display: flex;
    justify-content: center;
@@ -42,7 +41,7 @@ const SectionThree = () => {
       <Container>
          <Content>
          <Column right>
-            <img src={ServiceProviders} alt="Nudges"/>
+            <img src={temp} alt="Nudges"/>
          </Column>
          <Column>
             <h2>Find relevant<br />insights, regularly.</h2>
