@@ -9,6 +9,7 @@ import SectionTwo from '../components/Home/SectionTwo';
 import SectionThree from '../components/Home/SectionThree';
 import SectionFour from '../components/Home/SectionFour';
 import Testimonials from '../components/Home/Testimonials';
+import Privacy from '../components/Home/Privacy';
 
 const index = () => {
    return (
@@ -26,38 +27,7 @@ const index = () => {
       <SectionThree />
       <SectionFour />
       <Testimonials />
-
-      <div>
-         <div>
-            <img src="lock.jpg" alt=""/>
-            <h2>Your information is secure. And it belongs to you.</h2>
-            <p>We use the same security measures as banks, governments and the military.
-               Your information is always encrypted, and we won’t sell your data to third parties.</p>
-         </div>
-
-         <div>
-            <div>
-               <img src="read-only" alt=""/>
-               <p>Read only.</p>
-               <p>We can only fetch your information. No one can touch your money.</p>
-            </div>
-            <div>
-               <img src="insured" alt=""/>
-               <p></p>
-               <p>You can feel reassured because we're insured
-                  by Beazley.</p>
-            </div>
-            <div>
-               <img src="backed by old mutual" alt=""/>
-               <p>Backed by Old Mutual.</p>
-               <p>One of the biggest, oldest and most trusted financial institutions of South Africa</p>
-            </div>
-         </div>
-         <div>
-            <a href="#">More about our security ></a>
-            <button>Sign up. It&apos;s free.</button>
-         </div>
-      </div>
+      <Privacy />
 
       <div>
          <h1>How it works...</h1>

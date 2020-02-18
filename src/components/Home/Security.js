@@ -13,7 +13,7 @@ const Container = styled.div`
    font-family: 'CircularStd';
    color: #4e4b6b;
    text-align: center;
-   border-bottom: 1px solid gray;
+   /* border-bottom: 1px solid gray; */
 `
 const Content = styled.div`
    display:flex;
