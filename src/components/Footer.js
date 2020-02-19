@@ -8,7 +8,7 @@ import styled from 'styled-components';
 import youtube from '../images/legalterms-iconyoutube.svg';
 import twitter from '../images/about-icontwitter.svg';
 import facebook from '../images/jobs-iconfacebook.svg';
-import linkedin from '../images/legalterms-iconyoutube.svg';
+import linkedin from '../images/iconlinkedin.svg';
 import instagram from '../images/invest-in-your-goals-iconinstagram.svg';
 import om from '../images/public-logo-om-mark.svg';
 
@@ -21,6 +21,7 @@ const Container = styled.div`
    margin-top: 80px;
    /* padding:50px; */
    margin-bottom: 50px;
+ 
 `;
 
 const Column = styled.div`
@@ -50,7 +51,8 @@ const NavItem = styled(Link)`
 
 
   &:hover {
-   transform: translate( -5px, 0px);
+   transform: translate( 5px, 0px);
+   transition: all 0.2s ease-in-out;
   }
 `
 
@@ -58,15 +60,28 @@ const SocialContainer = styled.div`
    display:flex;
    align-items: flex-start;
    justify-content: space-around;
+
+   a:hover {
+      transform:translate(0, -5px);
+      transition: all 0.2s ease-in-out;
+   }
 `;
 
 
-const AppBadgeContainer = styled.div``;
+const AppBadgeContainer = styled.div`
+display: flex;
+a:hover {
+   transform: translate( 0px, -5px);
+   transition: all 0.2s ease-in-out;
+  }
+
+`;
 
 const OldMutualTag = styled.div`
    display: flex;
    align-items: flex-end;
    margin-top: 40px;
+   margin-left: 25px;
 p {
    font-family: "CircularStd-Book", Helvetica, Arial, serif;
    font-size: 12px;
@@ -134,25 +149,29 @@ export default function Footer() {
          </Column>
          <Column social>
             <SocialContainer>
-               <a href="">
+               <a href="https://twitter.com/22seven">
                   <img src={twitter} alt="twitter" />
                </a>
-               <a href="">
+               <a href="https://www.facebook.com/ilike22seven">
                <img src={facebook} alt="facebook" />
                </a>
-               <a href="">
+               <a href="https://www.linkedin.com/company/3309665/admin/">
                   <img src={linkedin} alt="linkedin" />
                </a>
-               <a href="">
+               <a href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ">
                   <img src={youtube} alt="youtube" />
                </a>
-               <a href="">
+               <a href="https://www.instagram.com/ilike22seven/" target="_blank">
                   <img src={instagram} alt="instagram" />
                </a>
             </SocialContainer>
             <AppBadgeContainer>
-               <AppBadge src={appStore} />
-               <AppBadge src={googlePlay} />
+               <a href="" target="_blank>">
+                  <AppBadge src={appStore} />
+               </a>
+               <a href="" target="_blank>">
+                  <AppBadge src={googlePlay} />
+               </a>
             </AppBadgeContainer>
          </Column>
       </Container>
