@@ -9,6 +9,7 @@ const NavItem = styled(Link)`
   text-align: left;
   line-height: 13.0px;
   text-decoration: none;
+  font-weight: 300;
   color: #fff;
   display: inline-block;
   white-space: nowrap;
@@ -35,6 +36,11 @@ const NavItem = styled(Link)`
       width: 100%;
     }
   } */
+
+
+  &:hover {
+   transform: translate(0, -5px);
+  }
 
   @media (max-width: 768px) {
     padding: 20px 0;
@@ -64,6 +70,9 @@ const SignUp = styled(Link)`
   background-color: #13c6b9;
   padding: 10px 18px ;
   border-radius: 3px;
+  &:hover {
+   transform: translate(0, -5px);
+  }
 `
 
 const LogIn = styled(Link)`
@@ -81,6 +90,9 @@ const LogIn = styled(Link)`
   border: #fff solid 1px;
   padding: 9px 18px ;
   border-radius: 3px;
+  &:hover {
+   transform: translate(0, -5px);
+  }
 `
 
 const AppStoreBadges = styled.div`

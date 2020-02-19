@@ -15,6 +15,11 @@ const Navigation = styled.nav`
   padding: 0 5vw;
   z-index: 2;
   align-self: center;
+      position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
 
   @media (max-width: 768px) {
     position: sticky;
@@ -47,7 +52,7 @@ const Navbox = styled.div`
     position: fixed;
     width: 100%;
     justify-content: flex-start;
-    padding-top: 10vh;
+    padding-top: 50px;
     background-color: #4e4b6b;
     transition: all 0.3s ease-in;
     top: 85px;;
