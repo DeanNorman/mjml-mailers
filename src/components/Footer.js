@@ -149,16 +149,16 @@ export default function Footer() {
          </Column>
          <Column social>
             <SocialContainer>
-               <a href="https://twitter.com/22seven">
+               <a href="https://twitter.com/22seven" target="_blank">
                   <img src={twitter} alt="twitter" />
                </a>
-               <a href="https://www.facebook.com/ilike22seven">
+               <a href="https://www.facebook.com/ilike22seven" target="_blank">
                <img src={facebook} alt="facebook" />
                </a>
-               <a href="https://www.linkedin.com/company/3309665/admin/">
+               <a href="https://www.linkedin.com/company/3309665/admin/" target="_blank">
                   <img src={linkedin} alt="linkedin" />
                </a>
-               <a href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ">
+               <a href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ" target="_blank">
                   <img src={youtube} alt="youtube" />
                </a>
                <a href="https://www.instagram.com/ilike22seven/" target="_blank">
@@ -166,10 +166,10 @@ export default function Footer() {
                </a>
             </SocialContainer>
             <AppBadgeContainer>
-               <a href="" target="_blank>">
+               <a href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
                   <AppBadge src={appStore} />
                </a>
-               <a href="" target="_blank>">
+               <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
                   <AppBadge src={googlePlay} />
                </a>
             </AppBadgeContainer>
