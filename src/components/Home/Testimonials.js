@@ -10,8 +10,6 @@ import greenStars from '../../images/greenStars.svg'
 import redQuote from '../../images/redQuote.svg'
 import redStars from '../../images/redStars.svg'
 
-// import greenQuote from '../../images/orangeStars.svg'
-
 const Container = styled.div`
    display: flex;
    flex-direction: column;
@@ -64,7 +62,7 @@ const Testimonials = () => {
    return (
       <>
       <Title>
-      <h2>Our customers say the nicest things.</h2>
+         Our customers say the nicest things.
       </Title>
       <Container>
       <Content>
