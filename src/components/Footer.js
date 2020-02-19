@@ -43,10 +43,15 @@ const NavItem = styled(Link)`
   line-height: 30px;
   text-decoration: none;
   color: #4e4b6b;
-  display: inline-block;
+  /* display: inline-block;
   white-space: nowrap;
-  transition: all 200ms ease-in;
-  position: relative;
+  transition: all 200ms ease-in; */
+  /* position: relative; */
+
+
+  &:hover {
+   transform: translate( -5px, 0px);
+  }
 `
 
 const SocialContainer = styled.div`
