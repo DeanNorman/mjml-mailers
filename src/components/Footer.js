@@ -112,7 +112,7 @@ const Foot = styled.div`
    flex-direction: column;
    align-content: center;
    justify-content: center;
-   height:60px;
+   min-height:60px;
    border-top: 1px solid #f6f9ff;
    padding-left: 20px;
 
@@ -122,6 +122,10 @@ const Foot = styled.div`
       margin: 0;
       color: #4e4b6b;
    }
+
+   @media (max-width: 768px) {
+      padding: 20px;
+  }
 `;
 
 export default function Footer() {
