@@ -31,7 +31,7 @@ const Content = styled.div`
    align-content: center;
    justify-content: center;
    height: 100%; 
-   min-width: 1000px;
+   /* min-width: 1000px; */
 `
 
 const Column = styled.div`

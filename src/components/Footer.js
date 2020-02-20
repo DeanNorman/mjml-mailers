@@ -17,16 +17,20 @@ const Container = styled.div`
    display: flex;
    align-items: flex-start;
    justify-content:space-around;
-   /* height: 500px; */
    margin-top: 80px;
-   /* padding:50px; */
    margin-bottom: 50px;
- 
+   /* max-width: 1000px; */
+   
+
+   @media (max-width: 768px) {
+      flex-wrap: wrap;
+  }
 `;
 
 const Column = styled.div`
    display: flex;
    flex-direction: column;
+
 
    p {
       font-family: "CircularStd";
@@ -35,6 +39,11 @@ const Column = styled.div`
       color: #4e4b6b;
       margin-bottom: 10px;
    }
+   @media (max-width: 768px) {
+      flex-basis: ${props => props.social ? '100%' : '50%'};
+      padding: 15px;
+      margin-top: 10px;
+  }
 `
 const NavItem = styled(Link)`
   font-family: "CircularStd";
@@ -44,10 +53,7 @@ const NavItem = styled(Link)`
   line-height: 30px;
   text-decoration: none;
   color: #4e4b6b;
-  /* display: inline-block;
-  white-space: nowrap;
-  transition: all 200ms ease-in; */
-  /* position: relative; */
+
 
 
   &:hover {
@@ -73,6 +79,10 @@ display: flex;
 a:hover {
    transform: translate( 0px, -5px);
    transition: all 0.2s ease-in-out;
+  }
+
+  @media (max-width: 768px) {
+     justify-content: center;
   }
 
 `;
@@ -123,7 +133,7 @@ export default function Footer() {
       </OldMutualTag>
       <Container>
          <Column>
-            <p>Using 22seven</p>
+            <p>Using 22sevens</p>
             <NavItem to="/">Security</NavItem>
             <NavItem to="/">Invest in your goals</NavItem>
          </Column>

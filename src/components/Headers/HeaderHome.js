@@ -18,7 +18,7 @@ const Content = styled.div`
    display: flex;
    align-items: center;
    justify-content: space-around;
-   min-width: 1160px;
+   /* min-width: 1160px; */
 
    p {
       font-family: 'CircularStd';
