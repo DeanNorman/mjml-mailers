@@ -20,10 +20,6 @@ const Container = styled.div`
 
    background: url(${background}) no-repeat center;
    background-size: cover;
-
-   ${bp.md`
-      color: red;
-   `}
 `
 
 const Content = styled.div`
@@ -31,12 +27,10 @@ const Content = styled.div`
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-   /* min-width: 1160px; */
 
    p {
       font-family: 'CircularStd';
       font-weight: 300;
-      /* font-size: 16px; */
       line-height: 20px;
    }
 `
@@ -54,10 +48,18 @@ const Column = styled.div`
 
 const Title = styled.h1`
    font-size: 30px;
+
+   ${bp.sm`
+      font-size: 50px;
+   `}
 `
 
 const Description = styled.p`
    font-size: 13px;
+
+   ${bp.sm`
+      font-size: 16px;
+   `}
 `
 
 const Phone = styled.img`
@@ -87,12 +89,37 @@ const AppLinksContainer = styled.div`
    justify-content: space-between;
 
    ${bp.md`
-      flex-direction: column;
+      flex-direction: row;
    `}
 `
 
 const SignUpBtn = styled.a`
-   
+   display: none;
+   background-color: #13c6b9;
+   height: 45px;
+   width: 100%;
+   border-radius: 4px;
+   justify-content: center;
+   align-content: center;
+   text-decoration: none;
+   margin-bottom: 10px;
+
+   p {
+      font-family: 'CircularStd';
+      font-weight: 300;
+      font-size: 17px;
+      margin: 0;
+      color: #fff;
+      align-self:center;
+   }
+
+   ${bp.md`
+      display: inline-flex;
+      width: 176px;
+   `}
+`
+
+const MobileSignUpBtn = styled.a`
    display: inline-flex;
    background-color: #13c6b9;
    height: 45px;
@@ -105,13 +132,14 @@ const SignUpBtn = styled.a`
    p {
       font-family: 'CircularStd';
       font-weight: 300;
+      font-size: 17px;
       margin: 0;
       color: #fff;
       align-self:center;
    }
 
    ${bp.md`
-      width: 176px;
+      display: none;
    `}
 `
 const WatchVideo = styled.a`
@@ -120,12 +148,21 @@ const WatchVideo = styled.a`
    color: #fff;
    align-items: center;
    justify-content: center;
+   margin-bottom: 10px;
    
    width: 153px;
    justify-content: space-evenly;
-   p { margin: 0}
+   p { 
+      margin: 0
+   }
 
-   ${bp.md`
+   ${bp.sm`
+   margin-top: 20px;
+      margin-left:10px;
+   `}
+
+${bp.md`
+
       margin-left:10px;
    `}
 `
@@ -134,47 +171,61 @@ const MobileColumn = styled.div`
    display: flex;
    flex-direction: column;
    width: 75%;
+   max-width: 320px;
+
    ${bp.md`
       display: none;
    `}
 `
+const PlaystoreDesktop = styled.a`
+   display: none;
+
+   ${bp.md` display: inline-block;`}
+`;
+const AppstoreDesktop = styled.a`
+      display: none;
+
+${bp.md`
+   display: inline-block;
+   margin-left: 15px;
+`}
+`;
 
 const HeaderHome = () => {
    return (
       <Container>
-         {/* <img src={background} alt="background" /> */}
          <Content>
              <Column>
                <Title>Boss your money.</Title>
                <Description>Manage your money more easily and invest
                   in your goals with the free 22seven app.</Description>
                
-               {/* <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
+               <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
                   <p>Sign up. It&apos;s free.</p>
-               </SignUpBtn> */}
+               </SignUpBtn>
 
                <WatchVideo href="https://vimeo.com/310103079" target="_blank">
                   <img src={playButton} alt="play" />
                   <p>Watch the video</p>
                </WatchVideo>
+              
+                  <PlaystoreDesktop href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
+                     <AppLink src={googlePlay} alt="Googleplay"/>
+                  </PlaystoreDesktop>
+                  <AppstoreDesktop href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
+                     <AppLink src={appStore} alt="appstore"/>
+                  </AppstoreDesktop>
+            
             </Column> 
             
             <Column right>
                <Phone src={phone} alt="iphone" />
-               <AppLinksContainer mobile>
-                  <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
-                     <AppLink src={googlePlay} alt="Googleplay"/>
-                  </a>
-                  <a href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
-                     <AppLink src={appStore} alt="appstore"/>
-                  </a>
-               </AppLinksContainer>
             </Column>
 
             <MobileColumn>
-               <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
+               <MobileSignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
                   <p>Sign up. It&apos;s free.</p>
-               </SignUpBtn>
+               </MobileSignUpBtn>
                <AppLinksContainer>
                   <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
                      <AppLink src={googlePlay} alt="Googleplay"/>
