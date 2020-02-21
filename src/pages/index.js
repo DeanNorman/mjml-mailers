@@ -23,7 +23,7 @@ const index = () => {
          </Helmet>
 
          <HeaderHome />
-         <Security />
+         {/* <Security />
          <SectionOne />
          <SectionTwo />
          <SectionThree />
@@ -31,7 +31,7 @@ const index = () => {
          <Testimonials />
          <Privacy />
          <HowItWorks />
-         <Svens />
+         <Svens /> */}
 
       </Layout>
    )
