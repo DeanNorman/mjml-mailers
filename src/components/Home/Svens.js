@@ -4,6 +4,7 @@ import svens from '../../images/svens.png';
 
 import email from '../../images/email.svg'
 import phone from '../../images/phone.svg'
+import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
    display: flex;
@@ -12,6 +13,7 @@ const Container = styled.div`
    align-items: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
+   font-weight: 300;
    text-align: center;
    padding-top:100px;
 
@@ -36,15 +38,26 @@ a {
 `
 
 const SvenTeam = styled.img`
-    height: 118px;
-    max-width: 600px;
+    /* height: 118px; */
+    max-width:300px;
     align-self: center;
+
+    ${bp.sm`
+      max-width: 500px;
+    `}
 
 `
 const Contact = styled.div`
 display: flex;
 justify-content: space-evenly;
+a {
+   display: flex;
+   font-size:15px;
 
+   img { 
+      padding-right: 10px;
+   }
+}
 `
 
 const Svens = () => {

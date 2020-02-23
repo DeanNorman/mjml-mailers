@@ -1,14 +1,21 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-import temp from '../../images/sectionOne.svg';
+import temp from '../../images/sectionThree.svg';
+import { breakpoints as bp } from '../../styling/index';
+
 const Container = styled.div`
    display: flex;
    justify-content: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
-   height: 300px;
-   padding-top: 100px;
+   min-height: 300px;
+   /* margin-top: 100px; */
+   text-align: center;
+
+${bp.sm`
+   text-align: left;
+`}
 
    a {
       text-decoration: none;
@@ -24,10 +31,14 @@ const Container = styled.div`
 
 const Content = styled.div`
    display: flex;
+   flex-direction: column;
    align-content: center;
    justify-content: center;
    height: 100%; 
-   /* min-width: 1000px; */
+   
+   ${bp.sm`
+      flex-direction: row;
+   `}
 `
 
 const Column = styled.div`

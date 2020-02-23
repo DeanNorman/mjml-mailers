@@ -10,22 +10,35 @@ import greenStars from '../../images/greenStars.svg'
 import redQuote from '../../images/redQuote.svg'
 import redStars from '../../images/redStars.svg'
 
+import { breakpoints as bp } from '../../styling/index';
+
 const Container = styled.div`
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-content: center;
+   align-items: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
-justify-content: space-evenly;
-align-content: space-between;
+   text-align: center;
+   margin-top:50px;
+/* height: 300px; */
+
+${bp.md`
+margin-top:150px;
+   height: 350px;
+`}
 `
 
 const Content = styled.div`
 display: flex;
-/* max-width: 885px; */
-  
+flex-direction: column;
 justify-content: space-evenly;
+width: 100%;
+max-width: 1000px;
+${bp.md`
+   flex-direction: row;
+
+ `}
 align-items: flex-start;
 `;
 
@@ -33,25 +46,44 @@ const Title = styled.h2`
  display: flex;
  justify-content: center;
  align-content: center;
- padding-top: 20px;
+ /* margin: 20px 0 0 0 0; */
+ color: #4e4b6b;
+ text-align: center;
+ padding: 0 20px;
+
+ ${bp.sm`
+   padding: 0 20px;
+ `}
 `
 const Card = styled.div`
 display: flex;
 flex-direction: column;
 height: 100%;
 
- max-width: 250px;
+ width: 250px;
  text-align: center;
  box-shadow: 0px 0px 36px 9px rgba(0,0,0,0.10);
  border-radius: 5px;
  padding :20px;
- min-height: 210px;
- justify-content: space-evenly;
+ margin: 20px 0px;
+ /* min-height: 400px; */
+ /* justify-content: space-evenly; */
+
+ align-self: center;
+
+ ${bp.sm`
+   
+ `}
+
  P { 
 font-size:11px;
 color: #69668e;
 line-height: 18px;
  }
+
+ /* ${bp.md`
+   margin: 0;
+ `} */
 `;
 
 const Quote = styled.img`
@@ -61,10 +93,10 @@ padding: 10px;
 const Testimonials = () => {
    return (
       <>
-      <Title>
-         Our customers say the nicest things.
-      </Title>
       <Container>
+         <Title>
+            Our customers say the nicest things.
+         </Title>
       <Content>
          <Card>
                <Quote src={yellowQuote} alt="quote"/>

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { breakpoints as bp } from '../../styling/index';
 
 
 const Container = styled.div`
@@ -22,9 +23,14 @@ h2 {
 const Content = styled.div`
 
 display: flex;
-flex-direction: row;
+flex-direction: column;
+align-items: center;
 justify-content: space-evenly;
 width: 100%;
+max-width: 1000px;
+${bp.md`
+   flex-direction: row;
+ `}
 `
 
 const Card = styled.div`
@@ -35,6 +41,8 @@ box-shadow: 0px 0px 68px -17px rgba(0,0,0,0.25);
 width: 200px;
 border-radius: 9px;
 padding: 10px 18px 0px 18px;
+margin: 20px 0;
+height: 300px; 
 h3 {
    font-size: 20px;
    margin: 0;
@@ -55,11 +63,15 @@ const Circle = styled.div`
    border-radius: 50%;
    width: 45px;
    height: 45px;
-   padding: 8px;
+   padding: 10px;
    background-color: #69658f;
    color: #fff;
    text-align: center;
    font-size: 19px;
+
+   ${bp.sm`
+       padding: 8px;
+   `}
 `
 
 const Line = styled.hr`

@@ -15,7 +15,6 @@ const Container = styled.div`
    font-family: 'CircularStd';
    color: #4e4b6b;
    text-align: center;
-   /* border-bottom: 1px solid gray; */
 `
 const Content = styled.div`
    display:flex;
@@ -46,7 +45,7 @@ const Benefit = styled.div`
   height: 100%;
   max-width: 200px;
   margin: 10px 30px;
-  width: 50%;
+  /* width: 50%; */
 
   p { 
       line-height: 23px;

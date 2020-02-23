@@ -9,7 +9,7 @@ const Container = styled.div`
    justify-content: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
-   height: 500px;
+   min-height: 300px;
    margin-top: 100px;
    text-align: center;
 

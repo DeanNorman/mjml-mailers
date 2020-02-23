@@ -5,19 +5,25 @@ import umbrella from '../../images/umbrella.svg';
 import oldmutual from '../../images/oldmutual.svg';
 import lock from '../../images/lock.svg';
 
+import { breakpoints as bp } from '../../styling/index';
+
 const Container = styled.div`
    display: flex;
    flex-direction: column;
    font-family: 'CircularStd';
    color: #4e4b6b;
    text-align: center;
-   /* border-bottom: 1px solid gray; */
+
+   ${bp.sm`
+   margin-top: 190px;
+   `}
 `
 const Content = styled.div`
    display:flex;
    flex-direction: ${props => props.benefit ? 'row' : 'column'};
    justify-content: center;
    padding: 20px 0;
+   flex-wrap:wrap;
    p {
       font-weight: 300;
       margin-bottom: 10px;
@@ -45,6 +51,7 @@ const Benefit = styled.div`
   height: 100%;
   max-width: 200px;
   margin: 10px 30px;
+  align-items: center;
 
   p { 
       line-height: 23px;
