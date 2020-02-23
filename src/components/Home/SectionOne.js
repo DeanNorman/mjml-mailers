@@ -1,7 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 import ServiceProviders from '../../images/sectionOne.svg';
+
+import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
    display: flex;
@@ -10,6 +12,11 @@ const Container = styled.div`
    color: #4e4b6b;
    height: 300px;
    padding-top: 100px;
+   text-align: center;
+
+   ${bp.sm`
+      text-align: left;
+   `}
 
    a {
       text-decoration: none;
@@ -25,16 +32,28 @@ const Container = styled.div`
 
 const Content = styled.div`
    display: flex;
+   flex-direction: column;
    align-content: center;
    justify-content: center;
    height: 100%; 
-   /* min-width: 1000px; */
+
+   ${bp.sm`
+      flex-direction: row;
+   `}
 `
 
 const Column = styled.div`
 align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
 padding-left: ${props => props.left ? '10px' : '0'};
+
+
+/* ${props => !props.right ? ''
+      : css`
+         order: 1;
+      `
+   } */
+
 `
 
 const SectionOne = () => {

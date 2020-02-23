@@ -7,6 +7,8 @@ import yellowGoggles from '../../images/yellowgoggles.svg';
 import purpleMountain from '../../images/mountain.svg';
 
 
+import { breakpoints as bp } from '../../styling/index';
+
 const Container = styled.div`
    display: flex;
    flex-direction: column;
@@ -20,6 +22,7 @@ const Content = styled.div`
    flex-direction: ${props => props.benefit ? 'row' : 'column'};
    justify-content: center;
    padding: 20px 0;
+   flex-wrap:wrap;
    p {
       font-weight: 300;
       margin-bottom: 10px;
@@ -43,6 +46,7 @@ const Benefit = styled.div`
   height: 100%;
   max-width: 200px;
   margin: 10px 30px;
+  width: 50%;
 
   p { 
       line-height: 23px;

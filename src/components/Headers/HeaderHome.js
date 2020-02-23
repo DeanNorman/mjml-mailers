@@ -6,7 +6,7 @@ import phone from '../../images/public-header.png';
 import appStore from '../../images/public-mobile-badgeappstore-1@2x.png';
 import googlePlay from '../../images/public-mobile-badgegoogle-play-1@2x.png';
 
-import background from '../../images/homepageCurves/public-header.svg';
+import background from '../../images/homepageCurves/public-header.png';
 
 import { breakpoints as bp } from '../../styling/index';
 
@@ -16,9 +16,9 @@ const Container = styled.div`
 
    background-color: #4e4b6b;
    color: #fff;
-   height: 503px;
+   min-height: 600px;
 
-   background: url(${background}) no-repeat center;
+   background: url(${background}) no-repeat;
    background-size: cover;
 `
 
@@ -42,6 +42,12 @@ const Column = styled.div`
    ${props => props.right ? ''
       : css`
          padding-left: 20px;
+      `
+   }
+
+   ${props => !props.phone ? ''
+      : css`
+         justify-content: center;
       `
    }
 `
@@ -70,6 +76,7 @@ const Phone = styled.img`
       height: 527px;
       width: 299px;
       margin-bottom: -210px;
+       
    `}
 `
 
@@ -218,7 +225,7 @@ const HeaderHome = () => {
             
             </Column> 
             
-            <Column right>
+            <Column right phone>
                <Phone src={phone} alt="iphone" />
             </Column>
 

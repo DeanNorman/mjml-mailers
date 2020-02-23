@@ -23,10 +23,10 @@ const index = () => {
          </Helmet>
 
          <HeaderHome />
-         {/* <Security />
+         <Security />
          <SectionOne />
          <SectionTwo />
-         <SectionThree />
+         {/* <SectionThree />
          <SectionFour />
          <Testimonials />
          <Privacy />
