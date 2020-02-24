@@ -2,6 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import { breakpoints as bp } from '../../styling/index';
 
+import divider from '../../images/divider.png';
+
 
 const Container = styled.div`
    display: flex;
@@ -57,6 +59,18 @@ p {
    line-height: 22px;
 }
 
+img {
+
+   background-color: rgba(255,255,255,0.0);
+    top: 129px;
+    height: 3px;
+    width: 46px;
+align-self: center;
+justify-self: center;
+margin: 20px 0;
+   
+}
+
 `
 
 const Circle = styled.div`
@@ -76,12 +90,6 @@ const Circle = styled.div`
    `}
 `
 
-const Line = styled.hr`
- width: 60px;
- height: 3px;
- color: #e1e1e9;
- margin: 30px auto;
-`
 
 const HowItWorks = () => {
    return (
@@ -91,25 +99,25 @@ const HowItWorks = () => {
             <Card>
                <Circle>1</Circle>
                <h3>Link your<br />accounts</h3>
-               <Line />
+               <img src={divider} alt="divider" />
                <p>The first thing you’ll do is link your money stuff: cheque and savings accounts, credit and store cards, investments, loans and rewards.</p>
             </Card>
             <Card>
                <Circle>2</Circle>
                <h3>We gather your<br />transactions</h3>
-               <Line />
+               <img src={divider} alt="divider" />
                <p>When you link accounts, 22seven usually gets the last 3 months’ transactions from them. After that, they’re automatically updated whenever you log in, or daily</p>
             </Card>
             <Card>
                <Circle>3</Circle>
                <h3>…and sort<br />them for you</h3>
-               <Line />
+               <img src={divider} alt="divider" />
                <p>22seven identifies each transaction and automatically puts it into a category like Groceries, Rent or Pets. Use existing categories or create your own.</p>
             </Card>
             <Card>
                <Circle>4</Circle>
                <h3>See where your<br />money goes</h3>
-               <Line />
+               <img src={divider} alt="divider" />
                <p>We automatically add up what you spend on each category, each month, so you see exactly where your money goes. Brace yourself: it’s honest about what you do with your money.</p>
             </Card>
          </Content> 
