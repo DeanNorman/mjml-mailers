@@ -20,8 +20,8 @@
 
 // * DNS/Vault based on branch name: [develop|staging|master].
 def sshRemote = [:]
-    sshRemote.host = "web.${env.BRANCH_NAME}.my227.net"
-    sshRemote.name = "web.${env.BRANCH_NAME}.my227.net"
+    sshRemote.host = "publicsite.${env.BRANCH_NAME}.my227.net"
+    sshRemote.name = "publicsite.${env.BRANCH_NAME}.my227.net"
     sshRemote.user = "jenkins-${env.BRANCH_NAME}"
     sshRemote.identity = vault path: "kv-jenkins-${env.BRANCH_NAME}/ssh", key: "prv", credentialsId: "jenkins-${env.BRANCH_NAME}", engineVersion: "2"
     sshRemote.allowAnyHosts = true
@@ -40,7 +40,7 @@ pipeline {
     skipDefaultCheckout true
   }
   environment {
-    JOB = "web"
+    JOB = "publicsite"
     ENV = "${env.BRANCH_NAME}"
     NUM = "${env.BUILD_NUMBER}"
     DOCKER_TAGS = "${JOB}.${ENV}" // :${NUM}
