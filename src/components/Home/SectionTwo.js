@@ -2,6 +2,8 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 
 import personalisedBudget from '../../images/public-section-2---right.svg';
+
+import background from '../../images/homepageCurves/blobTwo.png';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -10,8 +12,7 @@ const Container = styled.div`
    font-family: 'CircularStd';
    color: #4e4b6b;
    min-height: 300px;
-   margin-top: 100px;
-   text-align: center;
+   z-index: 1;   
 
 
 
@@ -46,6 +47,17 @@ const Content = styled.div`
    `}
 `
 
+const Background = styled.div`
+background-color: rgba(255,255,255,0.0);
+    right: calc(0.01% - 491px);
+    top: 1037px;
+    height: 1010px;
+    width: 818px;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+`
+
 const Column = styled.div`
 align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
@@ -60,6 +72,9 @@ ${bp.sm(css`
 const SectionTwo = () => {
    return (
       <Container>
+         <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
          <Content>
             <Column>
                <h2>Get a personalised budget,<br/>automatically.</h2>

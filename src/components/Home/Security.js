@@ -15,6 +15,9 @@ const Container = styled.div`
    font-family: 'CircularStd';
    color: #4e4b6b;
    text-align: center;
+   z-index: 1;
+
+
 `
 const Content = styled.div`
    display:flex;

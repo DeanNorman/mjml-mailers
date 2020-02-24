@@ -5,6 +5,7 @@ import umbrella from '../../images/umbrella.svg';
 import oldmutual from '../../images/oldmutual.svg';
 import lock from '../../images/lock.svg';
 
+import background from '../../images/homepageCurves/blobFive.png';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -13,6 +14,7 @@ const Container = styled.div`
    font-family: 'CircularStd';
    color: #4e4b6b;
    text-align: center;
+   z-index: 1;
 
    ${bp.sm`
    margin-top: 190px;
@@ -103,9 +105,26 @@ const SignUpBtn = styled.a`
    }
 `
 
+const Background = styled.div`
+background-color: rgba(255,255,255,0.0);
+    top: 3368px;
+    height: 531px;
+    width: 1771px;
+    position: absolute;
+    margin: 0;
+    left: calc(-2.60% - 259px);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    z-index: -1;
+`
+
 const Privacy = () => {
    return (
    <Container>
+         <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
       <Content>
             <Lock src={lock} alt="lock" />
             <h2>Your information is secure. And it belongs to you.</h2>

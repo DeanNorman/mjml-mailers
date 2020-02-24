@@ -2,6 +2,7 @@ import React from 'react';
 import styled, { css } from 'styled-components';
 
 import temp from '../../images/sectionThree.svg';
+import background from '../../images/homepageCurves/blobFour.png';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -12,6 +13,8 @@ const Container = styled.div`
    min-height: 300px;
    /* margin-top: 100px; */
    text-align: center;
+   z-index: 1;
+
 
 ${bp.sm`
    text-align: left;
@@ -41,6 +44,21 @@ const Content = styled.div`
    `}
 `
 
+const Background = styled.div`
+   background-color: rgba(255,255,255,0.0);
+    top: 1637px;
+    height: 813px;
+    width: 1116px;
+    position: absolute;
+    margin: 0;
+    left: calc(0.00% - 634px);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 0.72;
+    z-index: -1;
+`
+
 const Column = styled.div`
 align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
@@ -50,6 +68,9 @@ padding-left: ${props => props.left ? '10px' : '0'};
 const SectionThree = () => {
    return (
       <Container>
+         <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
          <Content>
          <Column right>
             <img src={temp} alt="Nudges"/>

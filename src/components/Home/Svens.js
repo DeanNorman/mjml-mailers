@@ -4,6 +4,7 @@ import svens from '../../images/svens.png';
 
 import email from '../../images/email.svg'
 import phone from '../../images/phone.svg'
+import background from '../../images/homepageCurves/blobSix.svg';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -16,6 +17,7 @@ const Container = styled.div`
    font-weight: 300;
    text-align: center;
    padding-top:100px;
+   z-index: 1;
 
 `
 const Content = styled.div`
@@ -60,9 +62,23 @@ a {
 }
 `
 
+const Background = styled.div`
+    top: 4089px;
+    height: 1030px;
+    width: 2399px;
+    position: absolute;
+    margin: 0;
+    left: calc(0.01% - 750px);
+    transform: rotate(0deg);
+    z-index: -1;
+`
+
 const Svens = () => {
    return (
       <Container>
+         <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
          <Content>
             <SvenTeam src={svens} alt="Svens"/>
             <h2>Get really good support from real, live people.</h2>

@@ -5,6 +5,7 @@ import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
    display: flex;
+   position: relative;
    flex-direction: column;
    justify-content: center;
    align-items: center;
@@ -12,7 +13,7 @@ const Container = styled.div`
    color: #4e4b6b;
    text-align: center;
    padding-top:80px;
-
+   z-index: 1;
 
 
 h2 {
@@ -43,6 +44,7 @@ border-radius: 9px;
 padding: 10px 18px 0px 18px;
 margin: 20px 0;
 height: 300px; 
+background: white;
 h3 {
    font-size: 20px;
    margin: 0;

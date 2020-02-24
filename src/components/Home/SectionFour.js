@@ -3,7 +3,9 @@ import styled, { css } from 'styled-components';
 import InvestPromo from './InvestPromo';
 
 import personalisedBudget from '../../images/public-section-2---right.svg';
+
 import { breakpoints as bp } from '../../styling/index';
+
 
 const Container = styled.div`
    display: flex;
@@ -12,8 +14,8 @@ const Container = styled.div`
    text-align: right;
    color: #4e4b6b;
    min-height: 300px;
-   /* padding-top: 100px; */
    text-align: center;
+   z-index: 1;   
 
 ${bp.sm`
    text-align: right;
@@ -44,6 +46,8 @@ const Content = styled.div`
    
 `
 
+
+
 const Column = styled.div`
 align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
@@ -68,10 +72,9 @@ const SectionFour = () => {
             <img src={personalisedBudget} alt="" />
             </Column>
          </Content>
-       
       </Container> 
         <InvestPromo />
-        </>
+     </>
    )
 }
 

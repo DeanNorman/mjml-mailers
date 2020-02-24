@@ -21,7 +21,6 @@ const Container = styled.div`
    color: #4e4b6b;
    text-align: center;
    margin-top:50px;
-/* height: 300px; */
 
 ${bp.md`
 margin-top:150px;
@@ -66,6 +65,7 @@ height: 100%;
  border-radius: 5px;
  padding :20px;
  margin: 20px 0px;
+ background: #fff;
  /* min-height: 400px; */
  /* justify-content: space-evenly; */
 

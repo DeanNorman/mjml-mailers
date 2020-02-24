@@ -3,6 +3,9 @@ import styled, { css } from 'styled-components';
 
 import ServiceProviders from '../../images/sectionOne.svg';
 
+// import background from '../../images/homepageCurves/sectionOne.png';
+import background from '../../images/homepageCurves/blobOne.png';
+
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -13,6 +16,7 @@ const Container = styled.div`
    height: 300px;
    padding-top: 100px;
    text-align: center;
+   z-index: 0;
 
    ${bp.sm`
       text-align: left;
@@ -29,6 +33,20 @@ const Container = styled.div`
       font-size: 16px;
    }
 `;
+
+const Background = styled.div`
+background-color: rgba(255,255,255,0.0);
+    top: 752px;
+    height: 756px;
+    width: 916px;
+    position: absolute;
+    margin: 0;
+    left: calc(0.01% - 406px);
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    z-index: -1;
+`
 
 const Content = styled.div`
    display: flex;
@@ -59,6 +77,9 @@ padding-left: ${props => props.left ? '10px' : '0'};
 const SectionOne = () => {
    return (
       <Container>
+         <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
          <Content>
             <Column right>
                <img src={ServiceProviders} alt="22seven Service Providers"/>
