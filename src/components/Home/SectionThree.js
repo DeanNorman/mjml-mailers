@@ -45,18 +45,32 @@ const Content = styled.div`
 `
 
 const Background = styled.div`
-   background-color: rgba(255,255,255,0.0);
-    top: 1637px;
-    height: 813px;
+background-color: rgba(255,255,255,0.0);
+    top: 2697px;
+    height: 879px;
     width: 1116px;
     position: absolute;
     margin: 0;
-    left: calc(0.00% - 634px);
+    left: calc(0.00% - 853px);
     -ms-transform: rotate(0deg);
     -webkit-transform: rotate(0deg);
     transform: rotate(0deg);
     opacity: 0.72;
     z-index: -1;
+
+
+
+
+    ${bp.sm`
+         
+    top: 1637px;
+    height: 813px;
+    width: 1116px;
+    
+    left: calc(0.00% - 634px);
+    opacity: 0.72;
+
+    `}
 `
 
 const Column = styled.div`

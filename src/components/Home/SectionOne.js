@@ -35,18 +35,24 @@ const Container = styled.div`
 `;
 
 const Background = styled.div`
-background-color: rgba(255,255,255,0.0);
-    top: 752px;
-    height: 756px;
-    width: 916px;
-    position: absolute;
-    margin: 0;
-    left: calc(0.01% - 406px);
-    -ms-transform: rotate(3deg);
-    -webkit-transform: rotate(3deg);
-    transform: rotate(3deg);
-    z-index: -1;
-`
+   background-color: rgba(255,255,255,0.0);
+   top: 1447px;
+
+   height: 979px;
+   width: 916px;
+   position: absolute;
+   margin: 0;
+   left: calc(-0.32% - 699px);
+   transform: rotate(3deg);
+   z-index: -1;
+
+
+
+   ${bp.sm`
+      top: 752px;
+      left: calc(0.01% - 406px);
+   `}
+   `
 
 const Content = styled.div`
    display: flex;

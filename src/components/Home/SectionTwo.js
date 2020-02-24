@@ -13,7 +13,7 @@ const Container = styled.div`
    color: #4e4b6b;
    min-height: 300px;
    z-index: 1;   
-
+   text-align: center;
 
 
 ${bp.sm`
@@ -48,14 +48,27 @@ const Content = styled.div`
 `
 
 const Background = styled.div`
+
+display:none;
 background-color: rgba(255,255,255,0.0);
-    right: calc(0.01% - 491px);
-    top: 1037px;
-    height: 1010px;
-    width: 818px;
-    position: absolute;
-    margin: 0;
-    z-index: -1;
+/* TODO: right calc fix */
+right: calc(0.00% - 581px);
+
+top: 2110px;
+
+height: 802px;
+width: 782px;
+position: absolute;
+margin: 0;
+z-index: -1;
+
+${bp.md`
+   display: block;
+    height: 767px;
+    width: 327px;
+    top: 1330px;
+    right: 0px;
+`}
 `
 
 const Column = styled.div`

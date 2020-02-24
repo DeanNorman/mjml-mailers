@@ -63,14 +63,28 @@ a {
 `
 
 const Background = styled.div`
-    top: 4089px;
+   top: 7333px;
     height: 1030px;
     width: 2399px;
     position: absolute;
     margin: 0;
-    left: calc(0.01% - 750px);
-    transform: rotate(0deg);
+    left: -2045px;
+    transform: rotate(-2deg);
+
     z-index: -1;
+   ${bp.xs`
+       top: 7043px;
+       left: -2085px;
+   `}
+
+${bp.sm`
+       top: 6603px;
+       left: -2085px;
+   `}
+    ${bp.md`
+      top: 4089px;
+      left: calc(0.01% - 750px);
+    `}
 `
 
 const Svens = () => {

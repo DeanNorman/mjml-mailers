@@ -106,17 +106,25 @@ const SignUpBtn = styled.a`
 `
 
 const Background = styled.div`
+
 background-color: rgba(255,255,255,0.0);
-    top: 3368px;
-    height: 531px;
-    width: 1771px;
+    /* top: 5807px; */
+    display: none;
+    top: 5807px;
+    height: 1109px;
+    width: 2550px;
     position: absolute;
     margin: 0;
-    left: calc(-2.60% - 259px);
-    -ms-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+    left: calc(-2.73% - 1925px);
+    transform: rotate(3deg);
     z-index: -1;
+
+   ${bp.md`
+   display: block;
+    top: 3368px;  
+      left: calc(-2.73% - 1025px);
+   `}
+
 `
 
 const Privacy = () => {
