@@ -6,6 +6,7 @@ import oldmutual from '../../images/oldmutual.svg';
 import lock from '../../images/lock.svg';
 
 import background from '../../images/homepageCurves/blobFive.png';
+import linkArrow from '../../images/linkArrow.png';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -127,6 +128,11 @@ background-color: rgba(255,255,255,0.0);
 
 `
 
+const Arrow = styled.img`
+    height: 9px;
+    width: 5px;
+    margin-left: 10px;
+`;
 const Privacy = () => {
    return (
    <Container>
@@ -173,7 +179,11 @@ const Privacy = () => {
                <p>One of the biggest, oldest and most trusted financial institutions of South Africa</p>
          </Benefit> 
       </Content> 
-      <MoreInfo><a href="/">More about our security ></a></MoreInfo>
+      <MoreInfo>
+         <a href="/">More about our security
+         <Arrow src={linkArrow} alt="link" />
+         </a>
+       </MoreInfo>
       <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
                   <p>Sign up. It&apos;s free.</p>
                </SignUpBtn>

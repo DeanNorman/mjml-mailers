@@ -5,7 +5,7 @@ import eye from '../../images/eye.svg';
 import fingerClick from '../../images/click.svg';
 import yellowGoggles from '../../images/yellowgoggles.svg';
 import purpleMountain from '../../images/mountain.svg';
-
+import linkArrow from '../../images/linkArrow.png';
 
 import { breakpoints as bp } from '../../styling/index';
 
@@ -25,6 +25,7 @@ const Content = styled.div`
    justify-content: center;
    padding: 20px 0;
    flex-wrap:wrap;
+   transition: all 0.2s ease-in-out;
    p {
       font-weight: 300;
       margin-bottom: 10px;
@@ -35,6 +36,11 @@ const Content = styled.div`
       color: #4e4b6b;
       font-size: 16px;
    }
+
+   a:hover {
+   transform: translate(5px, 0);
+ }
+
 `
 const Shield = styled.img`
    padding-bottom: 15px;
@@ -76,6 +82,13 @@ const Aligner = styled.div`
   text-align: center;
 `
 
+const Arrow = styled.img`
+    height: 9px;
+    width: 5px;
+    margin-left: 10px;
+`;
+
+
 
 const Security = () => {
    return (
@@ -84,7 +97,10 @@ const Security = () => {
          <Shield src={shield} alt=""/>         
          <h2>We take security very seriously</h2>
          <p>Your data is secure, private and insured.</p>
-         <a href="/">Over 180 000 South Africans trust us with their money stuff. ></a>
+         <a href="/">
+            Over 180 000 South Africans trust us with their money stuff.
+            <Arrow src={linkArrow} alt="link" />
+         </a>
       </Content> 
 
       <Content benefit>

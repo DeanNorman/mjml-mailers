@@ -5,6 +5,7 @@ import ServiceProviders from '../../images/sectionOne.svg';
 
 // import background from '../../images/homepageCurves/sectionOne.png';
 import background from '../../images/homepageCurves/blobOne.png';
+import linkArrow from '../../images/linkArrow.png';
 
 import { breakpoints as bp } from '../../styling/index';
 
@@ -71,6 +72,9 @@ align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
 padding-left: ${props => props.left ? '10px' : '0'};
 
+ a:hover {
+   transform: translate(5px, 0);
+ }
 
 /* ${props => !props.right ? ''
       : css`
@@ -79,6 +83,12 @@ padding-left: ${props => props.left ? '10px' : '0'};
    } */
 
 `
+
+const Arrow = styled.img`
+    height: 9px;
+    width: 5px;
+    margin-left: 10px;
+`;
 
 const SectionOne = () => {
    return (
@@ -93,7 +103,10 @@ const SectionOne = () => {
             <Column>
                <h2>See all your money<br/>in one place.</h2>
                <p>All your accounts. All your transactions. All<br/>together. Link bank accounts, credit and store<br /> cards, investments, loans and rewards.</p>
-               <a href="/">100+ supported institutions ></a>
+               <a href="/">
+                  100+ supported institutions 
+                  <Arrow src={linkArrow} alt="link" />
+               </a>
             </Column>
          </Content>
       </Container> 

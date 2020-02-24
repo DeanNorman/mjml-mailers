@@ -157,20 +157,20 @@ const WatchVideo = styled.a`
    justify-content: center;
    margin-bottom: 10px;
    
-   width: 153px;
+   width: 180px;
    justify-content: space-evenly;
    p { 
       margin: 0
    }
 
    ${bp.sm`
-   margin-top: 20px;
+     margin-top: 20px;
       margin-left:10px;
    `}
 
 ${bp.md`
 
-      margin-left:10px;
+      margin-left:20px;
    `}
 `
 
