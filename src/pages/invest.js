@@ -23,32 +23,6 @@ export const invest = () => {
          <SectionTwo />
          <SectionThree />
          <SectionFour />
-         <div>
-            <h1>Put your money where your dream is.</h1>
-            <p>Invest in your goals and start living.</p>
-         </div> 
-
-         <div>
-            <h2>How it works</h2>
-         </div>
-
-         <div>
-            <div><img src="section1.jpg" alt=""/></div>
-            <div>
-               <h2>Decide what matters to you.</h2>
-               <p>Finding the motivation to save can be tough. But it’s so much easier when you’re saving for the things that really matter to you.
-
-                  Deciding what you want from life is the first step to getting it. So start by creating your goals in 22seven.</p>
-            </div>
-         </div> 
-
-         <div>
-            <div>
-               <h2>Get a plan.</h2>
-               <p>Planning for your life goals and reaching them is actually pretty simple. Just tell 22seven how much you need and when you need it by. We’ll tell you how much to save. If that’s too much, you can always delay your target date a bit to make sure you can afford it</p>
-            </div>
-            <div><img src="section2.jpg" alt=""/></div>
-         </div> 
 
          <div>
             <div><img src="section3.jpg" alt=""/></div>
