@@ -15,13 +15,29 @@ const Container = styled.div`
    background: url(${background}) no-repeat;
    background-position: center;
    background-size: cover;
-   margin-top: -4px;
+   margin-top: -1px;
 
 
    ${bp.sm`
-      min-height: 600px;
       background-position: initial;
    `}
+
+
+   ${bp.md`
+      background-position-x: -700px;
+   `}
+
+   ${bp.lg`
+     min-height: 550px;
+     background-position-x: -450px;
+   `}
+
+   
+   ${bp.xl`
+   min-height: 500px;
+    background-position-x: 0px;
+   `}
+
 `
 
 const Content = styled.div`
@@ -29,18 +45,27 @@ const Content = styled.div`
    align-content: center;
    justify-content: flex-start;
    padding-left: 10px;
-`
-const Column = styled.div`
-   align-self: center;
 
    ${bp.sm`
-      br {
-         display:none;
-      }
+      
+      justify-content: center;
+   `}
+`
+const Column = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+   width: 80%;
+
+   ${bp.sm`
+      width: 70%;
+      text-align: center; 
    `}
 `
 const Title = styled.h1``
-const Description = styled.p``
+const Description = styled.p`
+   font-weight: 300;
+`
 
 const SignUpBtn = styled.a`
    display: flex;
@@ -54,7 +79,6 @@ const SignUpBtn = styled.a`
    margin-bottom: 10px;
 
    p {
-      font-family: 'CircularStd';
       font-weight: 300;
       font-size: 17px;
       margin: 0;
@@ -62,9 +86,10 @@ const SignUpBtn = styled.a`
       align-self:center;
    }
 
-   ${bp.md`
-      display: inline-flex;
-      width: 176px;
+   ${bp.sm`
+      max-width: 157px;
+      text-align: center; 
+      align-self: center;
    `}
 `
 
@@ -73,10 +98,9 @@ const HeaderInvest = () => {
       <Container>
          <Content>
              <Column>
-               <Title>Put your money where your <br />dream is.</Title>
+               <Title>Put your money where your dream is.</Title>
                <Description>
-                  Manage your money more easily and invest
-                  in your goals with the free 22seven app.
+                  Invest in your goals and start living.
                </Description>
                <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
                <p>Invest now.</p>

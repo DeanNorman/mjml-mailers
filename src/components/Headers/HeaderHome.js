@@ -160,7 +160,7 @@ const WatchVideo = styled.a`
    width: 180px;
    justify-content: space-evenly;
    p { 
-      margin: 0
+      margin: 0;
    }
 
    ${bp.sm`
