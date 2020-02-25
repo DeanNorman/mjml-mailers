@@ -39,17 +39,6 @@ export const invest = () => {
          </div>  */}
 
          <div>
-            <h2>A fund for every goal</h2>
-            <p>With the launch of our Money Market fund, we offer the right tools for every goal. Whether you’re saving for something a few months away, or twenty years from now.</p>
-            <div>
-               <img src="fund1" alt=""/>
-               <img src="fund2" alt=""/>
-               <img src="fund3" alt=""/>
-               <img src="fund4" alt=""/>
-            </div>
-         </div> 
-
-         <div>
             <div>
                <img src="noBrokers" alt=""/>
                <p>No brokers. No extra fees.</p>
