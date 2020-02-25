@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-import sectionTwo from '../../images/invest/sectionTwo.svg';
+import sectionSix from '../../images/invest/sectionSix.svg';
 
 import background from '../../images/homepageCurves/blobTwo.png';
 import { breakpoints as bp } from '../../styling/index';
@@ -91,7 +91,7 @@ ${bp.md`
 `}
 `
 
-const SectionFour = () => {
+const SectionSix = () => {
    return (
       <Container>
          <Background>
@@ -99,14 +99,14 @@ const SectionFour = () => {
          </Background>
          <Content>
             <Column>
-               <h2>Add money whenever you want.</h2>
+               <h2>Spend guilt-free.</h2>
                <p>
-               If you can’t commit to a monthly contribution right away, no sweat! You can invest in your goals monthly, once off, or both. Toggle debit orders on or off whenever you like, so you have the flexibility to adjust to life as it happens.
+               Once you reach your goals, give yourself a pat on the back! You get to spend guilt free, knowing you aren’t dipping into credit to enjoy the things you want. Say goodbye to debt repayment headaches and hello to living.
                </p>
             </Column>
             <Column left>
                <Phone>
-                <img src={sectionTwo} alt="Get a plan" />
+                <img src={sectionSix} alt="Get a plan" />
                </Phone>
             </Column>
          </Content> 
@@ -114,4 +114,4 @@ const SectionFour = () => {
    )
 }
 
-export default SectionFour;
+export default SectionSix;

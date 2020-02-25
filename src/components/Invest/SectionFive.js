@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 import phoneBackground from '../../images/invest/phoneBackground.svg';
-import sectionOneAnimation from '../../images/invest/sectionThreeAnimation.gif';
+import sectionOneAnimation from '../../images/invest/sectionFiveAnimation.gif';
 import background from '../../images/homepageCurves/blobOne.png';
 
 import { breakpoints as bp } from '../../styling/index';
@@ -27,7 +27,7 @@ const Content = styled.div`
    justify-content: center;
    height: 100%; 
    text-align: center;
-   padding: 0 48px;
+   padding: 0 50px;
    line-height: 20.74px;
    width: 320px;
    align-self: center;
@@ -92,7 +92,7 @@ const Background = styled.div`
    `}
 `
 
-const SectionThree = () => {
+const SectionFive = () => {
    return (
       <Container>
          <Background>
@@ -105,11 +105,9 @@ const SectionThree = () => {
                </PhoneBackground>
             </Column>
             <Column>
-               <h2>Invest in your goals.</h2>
+               <h2>Track your progress.</h2>
                <p>
-               Putting money in a savings account may be familiar. But investing in your goals can be way better.<br /><br />
-
-               22seven offers low cost funds from one of the most trusted names in the investment business - Old Mutual. So you know your money is safe and working towards your future just as hard as you are.
+               Sometimes life gets in the way of our plans despite our best intentions. So we’ve made sure you can track the progress of your goals. See how many days you have to go and if you’re going to reach them on time. Then make changes if you need to.
                </p>
             </Column>
          </Content>
@@ -117,4 +115,4 @@ const SectionThree = () => {
    )
 }
 
-export default SectionThree;
+export default SectionFive;

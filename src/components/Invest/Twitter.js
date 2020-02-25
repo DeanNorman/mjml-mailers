@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 
 import phoneBackground from '../../images/invest/phoneBackground.svg';
-import sectionOneAnimation from '../../images/invest/sectionThreeAnimation.gif';
+import sectionOneAnimation from '../../images/invest/sectionOneAnimation.gif';
 import background from '../../images/homepageCurves/blobOne.png';
 
 import { breakpoints as bp } from '../../styling/index';
@@ -27,7 +27,7 @@ const Content = styled.div`
    justify-content: center;
    height: 100%; 
    text-align: center;
-   padding: 0 48px;
+   padding: 0 50px;
    line-height: 20.74px;
    width: 320px;
    align-self: center;
@@ -37,6 +37,12 @@ const Content = styled.div`
       text-align: left;
       flex-direction: row;
    `}
+
+   h1 {
+      text-align: center;
+      font-size: 30px;
+      line-height: 40px;
+   }
 
    h2 {
       line-height: 35.0px;
@@ -92,9 +98,10 @@ const Background = styled.div`
    `}
 `
 
-const SectionThree = () => {
+const Twitter = () => {
    return (
       <Container>
+         <h1>How it works</h1>
          <Background>
             <img src={background} alt="22seven Service Providers"/>
          </Background>
@@ -105,11 +112,11 @@ const SectionThree = () => {
                </PhoneBackground>
             </Column>
             <Column>
-               <h2>Invest in your goals.</h2>
+               <h2>Decide what matters to you.</h2>
                <p>
-               Putting money in a savings account may be familiar. But investing in your goals can be way better.<br /><br />
+               Finding the motivation to save can be tough. But it’s so much easier when you’re saving for the things that really matter to you.<br/><br/>
 
-               22seven offers low cost funds from one of the most trusted names in the investment business - Old Mutual. So you know your money is safe and working towards your future just as hard as you are.
+               Deciding what you want from life is the first step to getting it. So start by creating your goals in 22seven.
                </p>
             </Column>
          </Content>
@@ -117,4 +124,4 @@ const SectionThree = () => {
    )
 }
 
-export default SectionThree;
+export default Twitter;

@@ -8,6 +8,10 @@ import SectionOne from '../components/Invest/SectionOne';
 import SectionTwo from '../components/Invest/SectionTwo';
 import SectionThree from '../components/Invest/SectionThree';
 import SectionFour from '../components/Invest/SectionFour';
+import SectionFive from '../components/Invest/SectionFive';
+import SectionSix from '../components/Invest/SectionSix';
+
+import Twitter from '../components/Invest/Twitter';
 
 
 export const invest = () => {
@@ -23,45 +27,15 @@ export const invest = () => {
          <SectionTwo />
          <SectionThree />
          <SectionFour />
+         <SectionFive />
+         <SectionSix />
+         <Twitter />
 
-         <div>
-            <div><img src="section3.jpg" alt=""/></div>
-            <div>
-               <h2>Invest in your goals.</h2>
-               <p>Putting money in a savings account may be familiar. But investing in your goals can be way better.
-
-                  22seven offers low cost funds from one of the most trusted names in the investment business - Old Mutual. So you know your money is safe and working towards your future just as hard as you are</p>
-            </div>
-         </div> 
-
-         <div>
-            <div>
-               <h2>Add money whenever you want.</h2>
-               <p>If you can’t commit to a monthly contribution right away, no sweat! You can invest in your goals monthly, once off, or both. Toggle debit orders on or off whenever you like, so you have the flexibility to adjust to life as it happens.</p>
-            </div>
-            <div><img src="section4.jpg" alt=""/></div>
-         </div> 
-
-         <div>
+         {/* <div>
             <p>Pssssssst!</p>
             <p>For a limited time, you can put a minimum of R250 into your goals (instead of the usual R350). Once off or monthly. Or both!</p>         
-         </div> 
+         </div>  */}
 
-         <div>
-            <div><img src="section5.jpg" alt=""/></div>
-            <div>
-               <h2>Track your progress.</h2>
-               <p>Sometimes life gets in the way of our plans despite our best intentions. So we’ve made sure you can track the progress of your goals. See how many days you have to go and if you’re going to reach them on time. Then make changes if you need to.</p>
-            </div>
-         </div> 
-
-         <div>
-            <div>
-               <h2>Spend guilt-free.</h2>
-               <p>Once you reach your goals, give yourself a pat on the back! You get to spend guilt free, knowing you aren’t dipping into credit to enjoy the things you want. Say goodbye to debt repayment headaches and hello to living.</p>
-            </div>
-            <div><img src="section6.jpg" alt=""/></div>
-         </div> 
 
          <div>
             <h2>But don&apos; our word for it</h2>
