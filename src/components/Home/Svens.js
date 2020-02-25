@@ -89,7 +89,7 @@ const Background = styled.div`
 
    ${bp.lg`
       top: 4089px;
-      left: calc(0.01% - 1000px);
+      left: calc(0.01% - 1220px);
     `}
 `
 

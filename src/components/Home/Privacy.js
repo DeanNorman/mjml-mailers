@@ -38,9 +38,6 @@ const Content = styled.div`
       font-size: 16px;
    }
 
-   br {
-      display: none;
-   }
 `
 const MoreInfo = styled.span`
   a {
@@ -117,7 +114,7 @@ const Background = styled.div`
    display: none;
    top: 5807px;
    height: 1109px;
-   width: 2550px;
+   width: 2050px;
    position: absolute;
    margin: 0;
    left: calc(-2.73% - 1925px);
