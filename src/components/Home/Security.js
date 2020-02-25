@@ -125,7 +125,7 @@ const Security = () => {
          <Benefit>
             <Circle>
                <Aligner>
-                  <img src={yellowGoggles} alt="22seven goggles"/>
+                  <img src={yellowGoggles} alt="22seven goggles"/> 
                </Aligner>
             </Circle>
                <p>Find relevant<br/>insights, regularly.</p>

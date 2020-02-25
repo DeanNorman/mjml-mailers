@@ -18,7 +18,7 @@ const index = () => {
       <Layout>
          <Helmet>
                <meta charSet="utf-8" />
-               <title>My Title</title>
+               <title>22seven</title>
                <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
 
@@ -26,7 +26,7 @@ const index = () => {
          <Security />
          <SectionOne />
          <SectionTwo />
-          <SectionThree />
+         <SectionThree />
          <SectionFour />
          <Testimonials />
          <Privacy />

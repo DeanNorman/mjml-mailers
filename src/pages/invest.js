@@ -1,9 +1,28 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
+
+
+import HeaderInvest from '../components/Headers/HeaderInvest';
+import SectionOne from '../components/Home/SectionOne';
+import SectionTwo from '../components/Home/SectionTwo';
+import SectionThree from '../components/Home/SectionThree';
+import SectionFour from '../components/Home/SectionFour';
+
 
 export const invest = () => {
    return (
       <Layout>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>22seven</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
+         <HeaderInvest />
+         <SectionOne />
+         <SectionTwo />
+         <SectionThree />
+         <SectionFour />
          <div>
             <h1>Put your money where your dream is.</h1>
             <p>Invest in your goals and start living.</p>

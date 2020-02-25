@@ -115,7 +115,7 @@ const AppBadge = styled.img`
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/">Invest in your goals</NavItem>
+      <NavItem to="/invest/">Invest in your goals</NavItem>
       <NavItem to="/">Help Centre</NavItem>
       <NavItem to="/">Blog</NavItem>
       
