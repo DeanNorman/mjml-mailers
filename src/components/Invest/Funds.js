@@ -83,10 +83,10 @@ margin: 20px;
 
 `
 
-const Twitter = () => {
+const Funds = () => {
    return (
       <Container>
-         <h1>But don&apos;t take<br /> our word for it.</h1>
+         <h1>A fund for every goal.</h1>
          <Content>
             <Column >
                <img src={tweetOne} alt="22seven testimonial" />
@@ -101,4 +101,4 @@ const Twitter = () => {
    )
 }
 
-export default Twitter;
+export default Funds;

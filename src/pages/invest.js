@@ -12,6 +12,7 @@ import SectionFive from '../components/Invest/SectionFive';
 import SectionSix from '../components/Invest/SectionSix';
 
 import Twitter from '../components/Invest/Twitter';
+import Funds from '../components/Invest/Funds';
 
 
 export const invest = () => {
@@ -30,19 +31,12 @@ export const invest = () => {
          <SectionFive />
          <SectionSix />
          <Twitter />
+         <Funds />
 
          {/* <div>
             <p>Pssssssst!</p>
             <p>For a limited time, you can put a minimum of R250 into your goals (instead of the usual R350). Once off or monthly. Or both!</p>         
          </div>  */}
-
-
-         <div>
-            <h2>But don&apos; our word for it</h2>
-            <div>
-               <img src="twitter" alt=""/>
-            </div>
-         </div> 
 
          <div>
             <h2>A fund for every goal</h2>
