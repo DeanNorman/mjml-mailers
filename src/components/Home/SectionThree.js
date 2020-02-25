@@ -16,7 +16,7 @@ const Container = styled.div`
    z-index: 1;
 
 
-${bp.sm`
+${bp.md`
    text-align: left;
 `}
 
@@ -39,7 +39,7 @@ const Content = styled.div`
    justify-content: center;
    height: 100%; 
    
-   ${bp.sm`
+   ${bp.md`
       flex-direction: row;
    `}
 `

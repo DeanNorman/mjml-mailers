@@ -68,22 +68,28 @@ const Background = styled.div`
     width: 2399px;
     position: absolute;
     margin: 0;
-    left: -2045px;
+    left: -2085px;
     transform: rotate(-2deg);
-
     z-index: -1;
+
    ${bp.xs`
        top: 7043px;
-       left: -2085px;
+       left: -2080px;
    `}
 
-${bp.sm`
+   ${bp.sm`
        top: 6603px;
-       left: -2085px;
+       left: calc(0.01% - 1900px);
    `}
+
     ${bp.md`
       top: 4089px;
-      left: calc(0.01% - 750px);
+      left: calc(0.01% - 1650px);
+    `}
+
+   ${bp.lg`
+      top: 4089px;
+      left: calc(0.01% - 1000px);
     `}
 `
 

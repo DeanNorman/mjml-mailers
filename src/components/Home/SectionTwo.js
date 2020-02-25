@@ -16,7 +16,7 @@ const Container = styled.div`
    text-align: center;
 
 
-${bp.sm`
+${bp.md`
    text-align: right;
    margin-top: 100px;
 `}
@@ -42,7 +42,7 @@ const Content = styled.div`
    justify-content: center;
    height: 100%; 
    
-   ${bp.sm`
+   ${bp.md`
       flex-direction: row;
    `}
 `
@@ -76,7 +76,7 @@ align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
 padding-left: ${props => props.left ? '50px' : '0'};
 order: ${props => props.left ? '-1' : '0'};;
-${bp.sm(css`
+${bp.md(css`
       order: 0;
    `)}
        

@@ -14,12 +14,12 @@ const Container = styled.div`
    justify-content: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
-   height: 300px;
+   min-height: 300px;
    padding-top: 100px;
    text-align: center;
    z-index: 0;
 
-   ${bp.sm`
+   ${bp.md`
       text-align: left;
    `}
 
@@ -38,7 +38,6 @@ const Container = styled.div`
 const Background = styled.div`
    background-color: rgba(255,255,255,0.0);
    top: 1447px;
-
    height: 979px;
    width: 916px;
    position: absolute;
@@ -47,11 +46,9 @@ const Background = styled.div`
    transform: rotate(3deg);
    z-index: -1;
 
-
-
    ${bp.sm`
       top: 752px;
-      left: calc(0.01% - 406px);
+      left: calc(0.01% - 456px);
    `}
    `
 
@@ -62,7 +59,7 @@ const Content = styled.div`
    justify-content: center;
    height: 100%; 
 
-   ${bp.sm`
+   ${bp.md`
       flex-direction: row;
    `}
 `

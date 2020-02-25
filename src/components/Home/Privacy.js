@@ -37,6 +37,10 @@ const Content = styled.div`
       color: #4e4b6b;
       font-size: 16px;
    }
+
+   br {
+      display: none;
+   }
 `
 const MoreInfo = styled.span`
   a {
@@ -108,21 +112,27 @@ const SignUpBtn = styled.a`
 
 const Background = styled.div`
 
-background-color: rgba(255,255,255,0.0);
-    /* top: 5807px; */
-    display: none;
-    top: 5807px;
-    height: 1109px;
-    width: 2550px;
-    position: absolute;
-    margin: 0;
-    left: calc(-2.73% - 1925px);
-    transform: rotate(3deg);
-    z-index: -1;
+   background-color: rgba(255,255,255,0.0);
+   /* top: 5807px; */
+   display: none;
+   top: 5807px;
+   height: 1109px;
+   width: 2550px;
+   position: absolute;
+   margin: 0;
+   left: calc(-2.73% - 1925px);
+   transform: rotate(3deg);
+   z-index: -1;
 
    ${bp.md`
-   display: block;
-    top: 3368px;  
+      display: block;
+      top: 3368px;  
+      left: calc(-2.73% - 1025px);
+   `}
+
+   ${bp.md`
+      display: block;
+      top: 3368px;  
       left: calc(-2.73% - 1025px);
    `}
 
@@ -143,8 +153,7 @@ const Privacy = () => {
             <Lock src={lock} alt="lock" />
             <h2>Your information is secure. And it belongs to you.</h2>
             <p>We use the same security measures as banks, governments and the military.<br />
-               Your informaation is always encrypted, and we won’t sell your data to third parties.</p>
-   
+               Your informaation is always encrypted, and we won’t sell your data to third parties.</p>   
       </Content> 
 
       <Content benefit>
@@ -184,9 +193,9 @@ const Privacy = () => {
          <Arrow src={linkArrow} alt="link" />
          </a>
        </MoreInfo>
-      <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
-                  <p>Sign up. It&apos;s free.</p>
-               </SignUpBtn>
+         <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
+               <p>Sign up. It&apos;s free.</p>
+         </SignUpBtn>
    </Container> 
    )
 }
