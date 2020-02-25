@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import background from '../../images/invest/header.png'
+import background from '../../images/invest/Header.png'
 
 import { breakpoints as bp } from '../../styling/index'
 

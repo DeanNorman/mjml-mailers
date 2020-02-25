@@ -101,7 +101,6 @@ const Background = styled.div`
 const Twitter = () => {
    return (
       <Container>
-         <h1>How it works</h1>
          <Background>
             <img src={background} alt="22seven Service Providers"/>
          </Background>
