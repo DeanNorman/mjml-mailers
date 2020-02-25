@@ -12,6 +12,7 @@ const Container = styled.div`
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-content: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
    min-height: 300px;
@@ -26,15 +27,14 @@ const Content = styled.div`
    justify-content: center;
    height: 100%; 
    text-align: center;
-   padding: 0 70px;
+   padding: 0 50px;
    line-height: 20.74px;
-
-
-   ${bp.md`
-      text-align: left;
-   `}
+   width: 320px;
+   align-self: center;
 
    ${bp.lg`
+      width: 900px;
+      text-align: left;
       flex-direction: row;
    `}
 
@@ -53,6 +53,7 @@ const Content = styled.div`
       font-weight: 300;
       line-height: 20px;
       font-size: 14px;
+      color: #69668e;
    }
 `
 
@@ -64,7 +65,6 @@ const PhoneBackground = styled.div`
     height: 427px;
     width: 243px;
     
-
     img {
       height: 296px;
       width: 160px;
@@ -74,8 +74,11 @@ const PhoneBackground = styled.div`
 
 const Column = styled.div`
    align-self:center;
-   /* padding-right: ${props => props.right ? '50px' : '0'};
-   padding-left: ${props => props.left ? '10px' : '0'}; */
+
+   ${bp.lg`
+      padding-right: 50px;
+ 
+   `}
 `
 
 const Background = styled.div`
