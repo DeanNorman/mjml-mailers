@@ -1,39 +1,82 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-import ServiceProviders from '../../images/sectionOne.svg';
 
-// import background from '../../images/homepageCurves/sectionOne.png';
+import phoneBackground from '../../images/invest/phoneBackground.svg';
+import sectionOneAnimation from '../../images/invest/sectionOneAnimation.gif';
 import background from '../../images/homepageCurves/blobOne.png';
-import linkArrow from '../../images/linkArrow.png';
 
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
    display: flex;
+   flex-direction: column;
    justify-content: center;
    font-family: 'CircularStd';
    color: #4e4b6b;
    min-height: 300px;
-   padding-top: 100px;
    text-align: center;
    z-index: 0;
+`
+
+const Content = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-content: center;
+   justify-content: center;
+   height: 100%; 
+   text-align: center;
+   padding: 0 70px;
+   line-height: 20.74px;
+
 
    ${bp.md`
       text-align: left;
    `}
 
-   a {
-      text-decoration: none;
-      color: #4e4b6b;
+   ${bp.lg`
+      flex-direction: row;
+   `}
+
+   h1 {
+      text-align: center;
+      font-size: 30px;
+      line-height: 40px;
+   }
+
+   h2 {
+      line-height: 35.0px;
+      font-size: 25px;
    }
 
    p {
       font-weight: 300;
       line-height: 20px;
-      font-size: 16px;
+      font-size: 14px;
    }
-`;
+`
+
+const PhoneBackground = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(${phoneBackground}) no-repeat;
+    height: 427px;
+    width: 243px;
+    
+
+    img {
+      height: 296px;
+      width: 160px;
+      margin-top: -50px;
+    }
+`
+
+const Column = styled.div`
+   align-self:center;
+   /* padding-right: ${props => props.right ? '50px' : '0'};
+   padding-left: ${props => props.left ? '10px' : '0'}; */
+`
 
 const Background = styled.div`
    background-color: rgba(255,255,255,0.0);
@@ -50,60 +93,28 @@ const Background = styled.div`
       top: 752px;
       left: calc(0.01% - 456px);
    `}
-   `
-
-const Content = styled.div`
-   display: flex;
-   flex-direction: column;
-   align-content: center;
-   justify-content: center;
-   height: 100%; 
-
-   ${bp.md`
-      flex-direction: row;
-   `}
 `
-
-const Column = styled.div`
-align-self:center;
-padding-right: ${props => props.right ? '50px' : '0'};
-padding-left: ${props => props.left ? '10px' : '0'};
-
- a:hover {
-   transform: translate(5px, 0);
- }
-
-/* ${props => !props.right ? ''
-      : css`
-         order: 1;
-      `
-   } */
-
-`
-
-const Arrow = styled.img`
-    height: 9px;
-    width: 5px;
-    margin-left: 10px;
-`;
 
 const SectionOne = () => {
    return (
       <Container>
+         <h1>How it works</h1>
          <Background>
             <img src={background} alt="22seven Service Providers"/>
          </Background>
          <Content>
             <Column right>
-               <img src={ServiceProviders} alt="22seven Service Providers"/>
+               <PhoneBackground>
+                  <img src={sectionOneAnimation} alt="22seven goals" />
+               </PhoneBackground>
             </Column>
             <Column>
-               <h2>See all your money<br/>in one place.</h2>
-               <p>All your accounts. All your transactions. All<br/>together. Link bank accounts, credit and store<br /> cards, investments, loans and rewards.</p>
-               <a href="/">
-                  100+ supported institutions 
-                  <Arrow src={linkArrow} alt="link" />
-               </a>
+               <h2>Decide what matters to you.</h2>
+               <p>
+               Finding the motivation to save can be tough. But it’s so much easier when you’re saving for the things that really matter to you.<br/><br/>
+
+               Deciding what you want from life is the first step to getting it. So start by creating your goals in 22seven.
+               </p>
             </Column>
          </Content>
       </Container> 

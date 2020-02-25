@@ -4,10 +4,10 @@ import Layout from '../components/Layout';
 
 
 import HeaderInvest from '../components/Headers/HeaderInvest';
-import SectionOne from '../components/Home/SectionOne';
-import SectionTwo from '../components/Home/SectionTwo';
-import SectionThree from '../components/Home/SectionThree';
-import SectionFour from '../components/Home/SectionFour';
+import SectionOne from '../components/Invest/SectionOne';
+import SectionTwo from '../components/Invest/SectionTwo';
+import SectionThree from '../components/Invest/SectionThree';
+import SectionFour from '../components/Invest/SectionFour';
 
 
 export const invest = () => {
