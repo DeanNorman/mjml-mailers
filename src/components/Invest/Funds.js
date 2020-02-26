@@ -36,7 +36,8 @@ const Container = styled.div`
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
-
+      width: 350px;
+      
       ${bp.sm`
          max-width: 630px;
       `}
@@ -78,6 +79,7 @@ const Content = styled.div`
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+   
    }
 `
 

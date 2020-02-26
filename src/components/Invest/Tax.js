@@ -24,7 +24,7 @@ const Content = styled.div`
    justify-content: center;
    padding: 0 50px;
    line-height: 20.74px;
-   width: 320px;
+   
    align-self: center;
 
    ${bp.sm`
