@@ -73,7 +73,9 @@ const Column = styled.div`
    `}
 
 `
-const Title = styled.h1``
+const Title = styled.h1`
+   font-size: 30px;
+`
 const Description = styled.p`
    font-weight: 300;
 `

@@ -108,7 +108,7 @@ ${bp.md`
 `
 
 const Background = styled.div`
-    top: 7968px;
+    top: 7800px;
     height: 1030px;
     width: 2399px;
     position: absolute;
@@ -132,17 +132,17 @@ const Background = styled.div`
     `}
 
    ${bp.lg`
-      top: 4793px;
+      top: 4433px;
       left: calc(0.01% - 1450px);
     `}
 
    ${bp.xl`
-      top: 4793px;
+      top: 4383px;
       left: calc(0.01% - 1260px);
     `}
 
 ${bp.xxl`
-      top: 4793px;
+      top: 4383px;
       left: calc(0.01% - 1260px);
     `}
 `
