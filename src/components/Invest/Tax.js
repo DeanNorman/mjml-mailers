@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 
 import tax from '../../images/invest/tax.svg';
 
-
+import background from '../../images/homepageCurves/blobSix.svg';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -99,10 +99,43 @@ ${bp.md`
 
 `
 
+const Background = styled.div`
+    top: 5000px;
+    height: 1030px;
+    width: 2399px;
+    position: absolute;
+    margin: 0;
+    left: -2085px;
+    transform: rotate(-2deg);
+    z-index: -1;
+
+   ${bp.xs`
+       left: -2080px;
+   `}
+
+   ${bp.sm`
+       top: 7000px;
+       left: calc(0.01% - 1900px);
+   `}
+
+    ${bp.md`
+      top: 6603px;
+      left: calc(0.01% - 1650px);
+    `}
+
+   ${bp.lg`
+      top: 4933px;
+      left: calc(0.01% - 1220px);
+    `}
+`
+
 
 const Tax = () => {
    return (
       <Container>
+            <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
          <Content>
             <Column>
             <img src={tax} alt="tax" />

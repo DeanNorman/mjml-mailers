@@ -34,7 +34,7 @@ const Container = styled.div`
 
    
    ${bp.xl`
-   min-height: 500px;
+    min-height: 500px;
     background-position-x: 0px;
    `}
 
@@ -46,8 +46,8 @@ const Content = styled.div`
    justify-content: flex-start;
    padding-left: 10px;
 
-   ${bp.sm`
-      
+   ${bp.md`
+   
       justify-content: center;
    `}
 `
@@ -61,6 +61,12 @@ const Column = styled.div`
       width: 70%;
       text-align: center; 
    `}
+
+   ${bp.xl`
+      width: 70%;
+      text-align: left; 
+   `}
+
 `
 const Title = styled.h1``
 const Description = styled.p`

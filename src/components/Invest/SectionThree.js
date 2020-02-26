@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import phoneBackground from '../../images/invest/phoneBackground.svg';
 import sectionOneAnimation from '../../images/invest/sectionThreeAnimation.gif';
-import background from '../../images/homepageCurves/blobOne.png';
+import background from '../../images/homepageCurves/blobFour.png';
 
 import { breakpoints as bp } from '../../styling/index';
 
@@ -76,21 +76,34 @@ const Column = styled.div`
 `
 
 const Background = styled.div`
-   background-color: rgba(255,255,255,0.0);
-   top: 1447px;
-   height: 979px;
-   width: 916px;
-   position: absolute;
-   margin: 0;
-   left: calc(-0.32% - 699px);
-   transform: rotate(3deg);
-   z-index: -1;
+background-color: rgba(255,255,255,0.0);
+    top: 2697px;
+    height: 879px;
+    width: 1116px;
+    position: absolute;
+    margin: 0;
+    left: calc(0.00% - 853px);
+    -ms-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    opacity: 0.72;
+    z-index: -1;
 
-   ${bp.sm`
-      top: 752px;
-      left: calc(0.01% - 456px);
-   `}
+
+
+
+    ${bp.sm`
+         
+    top: 1637px;
+    height: 813px;
+    width: 1116px;
+    
+    left: calc(0.00% - 634px);
+    opacity: 0.72;
+
+    `}
 `
+
 
 const SectionThree = () => {
    return (

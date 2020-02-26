@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 import phoneBackground from '../../images/invest/phoneBackground.svg';
 import sectionOneAnimation from '../../images/invest/sectionOneAnimation.gif';
-import background from '../../images/homepageCurves/blobOne.png';
+import background from '../../images/homepageCurves/blobFive.png';
 import tweetOne from '../../images/invest/tweetOne.svg';
 import tweetTwo from '../../images/invest/tweetTwo.svg';
 import tweetThree from '../../images/invest/tweetThree.svg';
@@ -80,12 +80,40 @@ const Column = styled.div`
 margin: 20px;
 `}
 
+`
 
+const Background = styled.div`
+   background-color: rgba(255,255,255,0.0);
+   /* top: 5807px; */
+   display: none;
+   top: 5807px;
+   height: 1109px;
+   width: 2050px;
+   position: absolute;
+   margin: 0;
+   left: calc(-2.73% - 1925px);
+   transform: rotate(3deg);
+   z-index: -1;
+
+   ${bp.md`
+      display: block;
+      top: 3368px;  
+      left: calc(-2.73% - 1025px);
+   `}
+
+   ${bp.md`
+      display: block;
+      top: 3368px;  
+      left: calc(-2.73% - 1025px);
+   `}
 `
 
 const Twitter = () => {
    return (
       <Container>
+         <Background>
+            <img src={background} alt="22seven Service Providers"/>
+         </Background>
          <h1>But don&apos;t take<br /> our word for it.</h1>
          <Content>
             <Column >
