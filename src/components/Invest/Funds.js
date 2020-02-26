@@ -20,7 +20,7 @@ const Container = styled.div`
    min-height: 300px;
    text-align: center;
    z-index: 0;
-   margin-top: 20px;
+   margin-top: 40px;
    /* padding: 0 20px; */
    h1 {
       text-align: center;
@@ -42,7 +42,7 @@ const Container = styled.div`
       `}
    }
    br {
-      ${bp.lg`
+      ${bp.md`
          display: none;
    `}
    }

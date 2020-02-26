@@ -22,6 +22,13 @@ const Container = styled.div`
    min-height: 300px;
    text-align: center;
    z-index: 0;
+   margin-top: 20px;
+
+   br {
+      ${bp.md`
+         display: none;
+      `}
+   }
 `
 
 const Content = styled.div`
@@ -74,11 +81,13 @@ const Column = styled.div`
       margin: 8px 0;
       width: 100%;
    }
-
    ${bp.sm`
-
-margin: 20px;
-`}
+      margin: 20px;
+   `}
+   ${bp.md`
+      margin-bottom: 0px;
+      margin-top: 0px
+   `}
 
 `
 
