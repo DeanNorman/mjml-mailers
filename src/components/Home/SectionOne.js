@@ -26,7 +26,12 @@ const Container = styled.div`
    a {
       text-decoration: none;
       color: #4e4b6b;
+      font-size: 15px;
    }
+   a:hover {
+   transition: all 0.2s ease-in-out;
+   padding-left: 5px;
+ }
 
    p {
       font-weight: 300;
@@ -69,10 +74,6 @@ const Column = styled.div`
 align-self:center;
 padding-right: ${props => props.right ? '50px' : '0'};
 padding-left: ${props => props.left ? '10px' : '0'};
-
- a:hover {
-   transform: translate(5px, 0);
- }
 
 /* ${props => !props.right ? ''
       : css`

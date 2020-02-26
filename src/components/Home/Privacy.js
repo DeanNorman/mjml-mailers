@@ -34,13 +34,14 @@ const Content = styled.div`
     }
    a {
       text-decoration: none;
-      color: #4e4b6b;
+      color: #69668e;
       font-size: 16px;
+      align-self: center;
    }
    a:hover {
-   transform: translate(5px, 0);
-   transition: all 0.2s ease-in-out;
- }
+      transform: translate(5px, 0);
+      transition: all 0.2s ease-in-out;
+   }
 
 `
 const MoreInfo = styled.div`
@@ -109,6 +110,11 @@ const SignUpBtn = styled.a`
    align-self: center;
    margin-top: 20px;
 
+   &:hover {
+      transform: translate(0, -5px);
+      transition: all 0.2s ease-in-out;
+   }
+
    p {
       font-family: 'CircularStd';
       font-weight: 300;
@@ -119,7 +125,7 @@ const SignUpBtn = styled.a`
 `
 
 const Background = styled.div`
-
+   display: none;
    background-color: rgba(255,255,255,0.0);
    /* top: 5807px; */
    display: none;
@@ -131,6 +137,10 @@ const Background = styled.div`
    left: calc(-2.73% - 1925px);
    transform: rotate(3deg);
    z-index: -1;
+
+   ${bp.sm`
+      // display:block;
+   `}
 
    ${bp.md`
       display: block;
@@ -196,11 +206,11 @@ const Privacy = () => {
                <p>One of the biggest, oldest and most trusted financial institutions of South Africa</p>
          </Benefit> 
       </Content> 
-      <MoreInfo>
+      <Content>
          <a href="/">More about our security
             <Arrow src={linkArrow} alt="link" />
          </a>
-       </MoreInfo>
+       </Content>
          <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
                <p>Sign up. It&apos;s free.</p>
          </SignUpBtn>

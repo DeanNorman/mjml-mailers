@@ -34,6 +34,10 @@ const Content = styled.div`
       font-weight: 300;
       line-height: 20px;
    }
+
+   ${bp.lg`
+      max-height: 425px;
+   `}
 `
 
 const Column = styled.div`
@@ -111,6 +115,11 @@ const SignUpBtn = styled.a`
    align-content: center;
    text-decoration: none;
    margin-bottom: 10px;
+
+   &:hover {
+      transform: translate(0, -5px);
+      transition: all 0.2s ease-in-out;
+   }
 
    p {
       font-family: 'CircularStd';

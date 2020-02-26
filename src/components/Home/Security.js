@@ -17,6 +17,9 @@ const Container = styled.div`
    text-align: center;
    z-index: 1;
 
+   ${bp.xl`
+      margin-top: -130px;
+   `}
 
 `
 const Content = styled.div`
@@ -36,12 +39,13 @@ const Content = styled.div`
       text-decoration: none;
       color: #69668e;
       font-size: 16px;
+      align-self: center;
    }
 
    a:hover {
-   transform: translate(5px, 0);
-   transition: all 0.2s ease-in-out;
- }
+      transform: translate(5px, 0);
+      transition: all 0.2s ease-in-out;
+   }
 
 `
 const Shield = styled.img`
