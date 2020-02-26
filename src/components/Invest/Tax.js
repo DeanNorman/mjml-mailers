@@ -27,6 +27,14 @@ const Content = styled.div`
    width: 320px;
    align-self: center;
 
+   ${bp.sm`
+      width: 500px;
+   `}
+
+   ${bp.md`
+      width: 500px;
+   `}
+
    ${bp.lg`
       text-align: center;
       margin-top: 100px;
@@ -100,7 +108,7 @@ ${bp.md`
 `
 
 const Background = styled.div`
-    top: 5000px;
+    top: 7968px;
     height: 1030px;
     width: 2399px;
     position: absolute;
@@ -115,17 +123,27 @@ const Background = styled.div`
 
    ${bp.sm`
        top: 7000px;
-       left: calc(0.01% - 1900px);
+       left: calc(0.01% - 1930px);
    `}
 
     ${bp.md`
       top: 6603px;
-      left: calc(0.01% - 1650px);
+      left: calc(0.01% - 1720px);
     `}
 
    ${bp.lg`
-      top: 4933px;
-      left: calc(0.01% - 1220px);
+      top: 4823px;
+      left: calc(0.01% - 1450px);
+    `}
+
+   ${bp.xl`
+      top: 4843px;
+      left: calc(0.01% - 1260px);
+    `}
+
+${bp.xxl`
+      top: 4823px;
+      left: calc(0.01% - 1260px);
     `}
 `
 

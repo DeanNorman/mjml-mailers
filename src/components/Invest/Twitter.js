@@ -32,7 +32,7 @@ const Content = styled.div`
    height: 100%; 
    text-align: center;
    line-height: 20.74px;
-   width: 350px;
+   width: 310px;
    align-self: center;
 
    ${bp.md`
@@ -88,24 +88,46 @@ const Background = styled.div`
    display: none;
    top: 5807px;
    height: 1109px;
-   width: 2050px;
+   /* width: 1800px; */
    position: absolute;
    margin: 0;
    left: calc(-2.73% - 1925px);
    transform: rotate(3deg);
    z-index: -1;
 
-   ${bp.md`
+   ${bp.sm`
+      width: 1450px;
       display: block;
       top: 3368px;  
       left: calc(-2.73% - 1025px);
    `}
 
    ${bp.md`
+     width: 1700px;
       display: block;
       top: 3368px;  
       left: calc(-2.73% - 1025px);
    `}
+
+   ${bp.lg`
+      width: 2020px;
+         display: block;
+         top: 3368px;  
+         left: calc(-2.73% - 1025px);
+      `}
+
+${bp.xl`
+          width: 2320px;
+         display: block;
+         top: 3368px;  
+         left: calc(-2.73% - 1135px);
+      `}
+   ${bp.xxl`
+    width: 2320px;
+    display: block;
+    top: 3518px;
+    left: calc(-2.73% - 814px);
+      `}
 `
 
 const Twitter = () => {
@@ -114,7 +136,7 @@ const Twitter = () => {
          <Background>
             <img src={background} alt="22seven Service Providers"/>
          </Background>
-         <h1>But don&apos;t take<br /> our word for it.</h1>
+         <h2>But don&apos;t take<br /> our word for it.</h2>
          <Content>
             <Column >
                <img src={tweetOne} alt="22seven testimonial" />
