@@ -44,6 +44,14 @@ export default {
          }
       `
    ),
+
+   xxl: (...args) => (
+      css`
+         @media (min-width: 1400px) {
+            ${(args)}
+         }
+      `
+   ),
    custom: width => (...args) => (
       css`
          @media (min-width: ${width}px) {

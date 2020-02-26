@@ -20,12 +20,12 @@ const Container = styled.div`
    font-family: 'CircularStd';
    color: #4e4b6b;
    text-align: center;
-   margin-top:50px;
+   margin-top:80px;
 
-${bp.md`
-margin-top:150px;
-   height: 350px;
-`}
+   ${bp.md`
+      margin-top:150px;
+      height: 350px;
+   `}
 `
 
 const Content = styled.div`
@@ -45,13 +45,17 @@ const Title = styled.h2`
  display: flex;
  justify-content: center;
  align-content: center;
- /* margin: 20px 0 0 0 0; */
+ font-size: 30.0px;
  color: #4e4b6b;
  text-align: center;
  padding: 0 20px;
 
  ${bp.sm`
    padding: 0 20px;
+
+   br  {
+      display: none;
+   }
  `}
 `
 const Card = styled.div`
@@ -61,7 +65,7 @@ height: 100%;
 
  width: 250px;
  text-align: center;
- box-shadow: 0px 0px 36px 9px rgba(0,0,0,0.10);
+ box-shadow: 0px 0px 36px 9px rgba(0,0,0,0.1);
  border-radius: 5px;
  padding :20px;
  margin: 20px 0px;
@@ -76,9 +80,9 @@ height: 100%;
  `}
 
  P { 
-font-size:11px;
-color: #69668e;
-line-height: 18px;
+   font-size:11px;
+   color: #69668e;
+   line-height: 18px;
  }
 
  /* ${bp.md`

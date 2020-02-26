@@ -34,17 +34,15 @@ const Content = styled.div`
     }
    a {
       text-decoration: none;
-      color: #4e4b6b;
+      color: #69668e;
       font-size: 16px;
+      align-self: center;
+   }
+   a:hover {
+      transform: translate(5px, 0);
+      transition: all 0.2s ease-in-out;
    }
 
-`
-const MoreInfo = styled.span`
-  a {
-      text-decoration: none;
-      color: #4e4b6b;
-      font-size: 16px;
-   }
 `
 
 const Benefit = styled.div`
@@ -60,6 +58,7 @@ const Benefit = styled.div`
   p { 
       line-height: 23px;
       color: #69668e;
+      font-size: 15px;
    }
 `
 
@@ -71,7 +70,7 @@ const Circle = styled.div`
    height: 80px;
    border-radius: 1000px; 
    margin: 0.5em;
-   box-shadow: 0px 0px 230px 3px rgba(112,112,112,1);
+   box-shadow: 0px 0px 230px 3px rgba(112,112,112,0.5);
    margin-bottom: 20px;
 `
 
@@ -98,6 +97,11 @@ const SignUpBtn = styled.a`
    align-self: center;
    margin-top: 20px;
 
+   &:hover {
+      transform: translate(0, -5px);
+      transition: all 0.2s ease-in-out;
+   }
+
    p {
       font-family: 'CircularStd';
       font-weight: 300;
@@ -108,13 +112,13 @@ const SignUpBtn = styled.a`
 `
 
 const Background = styled.div`
-
+   display: none;
    background-color: rgba(255,255,255,0.0);
    /* top: 5807px; */
    display: none;
    top: 5807px;
    height: 1109px;
-   width: 2050px;
+   width: 2000px;
    position: absolute;
    margin: 0;
    left: calc(-2.73% - 1925px);
@@ -124,13 +128,20 @@ const Background = styled.div`
    ${bp.md`
       display: block;
       top: 3368px;  
-      left: calc(-2.73% - 1025px);
+
+      left: calc(-2.73% - 1225px);
    `}
 
-   ${bp.md`
+   ${bp.lg`
       display: block;
       top: 3368px;  
-      left: calc(-2.73% - 1025px);
+      left: calc(-2.73% - 1300px);
+   `}
+
+   ${bp.xl`
+      display: block;
+      top: 3368px;  
+      left: calc(-2.73% - 900px);
    `}
 
 `
@@ -185,11 +196,11 @@ const Privacy = () => {
                <p>One of the biggest, oldest and most trusted financial institutions of South Africa</p>
          </Benefit> 
       </Content> 
-      <MoreInfo>
+      <Content>
          <a href="/">More about our security
-         <Arrow src={linkArrow} alt="link" />
+            <Arrow src={linkArrow} alt="link" />
          </a>
-       </MoreInfo>
+       </Content>
          <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
                <p>Sign up. It&apos;s free.</p>
          </SignUpBtn>

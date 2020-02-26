@@ -30,6 +30,7 @@ ${bp.md`
       font-weight: 300;
       line-height: 20px;
       font-size: 16px;
+      color: #69668e;
    }
 `;
 

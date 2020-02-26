@@ -13,13 +13,14 @@ import { breakpoints as bp } from '../../styling/index';
 const Container = styled.div`
    display: flex;
    justify-content: center;
-
    background-color: #4e4b6b;
    color: #fff;
    min-height: 600px;
-
    background: url(${background}) no-repeat;
-   background-size: cover;
+   
+   ${bp.lg`
+      background-size: cover;
+   `}
 `
 
 const Content = styled.div`
@@ -33,6 +34,10 @@ const Content = styled.div`
       font-weight: 300;
       line-height: 20px;
    }
+
+   ${bp.lg`
+      max-height: 425px;
+   `}
 `
 
 const Column = styled.div`
@@ -110,6 +115,11 @@ const SignUpBtn = styled.a`
    align-content: center;
    text-decoration: none;
    margin-bottom: 10px;
+
+   &:hover {
+      transform: translate(0, -5px);
+      transition: all 0.2s ease-in-out;
+   }
 
    p {
       font-family: 'CircularStd';

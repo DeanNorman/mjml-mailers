@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import background from '../../images/invest/Header.png'
+import background from '../../images/invest/invest_hero_background.png'
 
 import { breakpoints as bp } from '../../styling/index'
 
@@ -13,29 +13,33 @@ const Container = styled.div`
    color: #fff;
    min-height: 600px;
    background: url(${background}) no-repeat;
-   background-position: center;
+   background-position: center center;
    background-size: cover;
    margin-top: -1px;
 
 
    ${bp.sm`
-      background-position: initial;
+     
    `}
 
 
    ${bp.md`
-      background-position-x: -700px;
+     
    `}
 
    ${bp.lg`
      min-height: 550px;
-     background-position-x: -450px;
+   
    `}
 
    
    ${bp.xl`
-   min-height: 500px;
-    background-position-x: 0px;
+    min-height: 500px;
+   
+   `}
+
+${bp.xl`
+    min-height: 500px;
    `}
 
 `
@@ -47,9 +51,10 @@ const Content = styled.div`
    padding-left: 10px;
 
    ${bp.sm`
-      
-      justify-content: center;
+      padding-right: 60px;
    `}
+
+
 `
 const Column = styled.div`
    display: flex;
@@ -59,10 +64,18 @@ const Column = styled.div`
 
    ${bp.sm`
       width: 70%;
-      text-align: center; 
+      text-align: left; 
    `}
+
+   ${bp.xl`
+      width: 70%;
+      text-align: left; 
+   `}
+
 `
-const Title = styled.h1``
+const Title = styled.h1`
+   font-size: 30px;
+`
 const Description = styled.p`
    font-weight: 300;
 `
@@ -89,7 +102,7 @@ const SignUpBtn = styled.a`
    ${bp.sm`
       max-width: 157px;
       text-align: center; 
-      align-self: center;
+      align-self: flex-start;
    `}
 `
 

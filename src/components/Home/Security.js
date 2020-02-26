@@ -17,6 +17,9 @@ const Container = styled.div`
    text-align: center;
    z-index: 1;
 
+   ${bp.xl`
+      margin-top: -130px;
+   `}
 
 `
 const Content = styled.div`
@@ -29,17 +32,20 @@ const Content = styled.div`
    p {
       font-weight: 300;
       margin-bottom: 10px;
-      font-size: 16px;
+      font-size: 15px;
+      color: #69668e;
     }
    a {
       text-decoration: none;
-      color: #4e4b6b;
+      color: #69668e;
       font-size: 16px;
+      align-self: center;
    }
 
    a:hover {
-   transform: translate(5px, 0);
- }
+      transform: translate(5px, 0);
+      transition: all 0.2s ease-in-out;
+   }
 
 `
 const Shield = styled.img`
@@ -70,7 +76,7 @@ const Circle = styled.div`
    height: 80px;
    border-radius: 1000px; 
    margin: 0.5em;
-   box-shadow: 0px 0px 230px 3px rgba(112,112,112,1);
+   box-shadow: 0px 0px 230px 3px rgba(112,112,112,0.5);
    margin-bottom: 20px;
 `
 
@@ -98,7 +104,7 @@ const Security = () => {
          <h2>We take security very seriously</h2>
          <p>Your data is secure, private and insured.</p>
          <a href="/">
-            Over 180 000 South Africans trust us with their money stuff.
+            Over 300 000 South Africans trust us with their money stuff.
             <Arrow src={linkArrow} alt="link" />
          </a>
       </Content> 

@@ -27,13 +27,9 @@ const Content = styled.div`
    p {
       font-weight: 300;
       margin-bottom: 10px;
-      font-size: 16px;
+      font-size: 15px;
     }
 
-
-`
-const Shield = styled.img`
-   padding-bottom: 15px;
 `
 
 const Benefit = styled.div`
@@ -42,13 +38,13 @@ const Benefit = styled.div`
   justify-content: center;
   align-items: center;
   height: 100%;
-  max-width: 200px;
+  max-width: 230px;
   margin: 10px 30px;
-  /* width: 50%; */
 
   p { 
       line-height: 23px;
       color: #69668e;
+      font-size: 14px;
    }
 `
 

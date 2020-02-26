@@ -4,6 +4,7 @@ import styled, { css } from 'styled-components';
 import sectionTwo from '../../images/invest/sectionTwo.svg';
 
 import background from '../../images/homepageCurves/blobTwo.png';
+import InvestPromo from './InvestPromo';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -29,7 +30,6 @@ const Content = styled.div`
 
    ${bp.lg`
       text-align: right;
-      margin-top: 100px;
       width: 900px;
       flex-direction: row;
    `}
@@ -50,7 +50,6 @@ const Content = styled.div`
 const Column = styled.div`
    align-self:center;
    order: -1;
-
    ${bp.xs(css`
       order: ${props => props.left ? '-1' : '0'};
    `)}
@@ -68,6 +67,29 @@ const Column = styled.div`
 
 const Phone = styled.div`
     width: 322px;
+`
+
+const Promo = styled.div`
+   display: flex;
+   justify-content: center;
+   div {
+      text-align: left;
+      margin: 0;
+   }
+
+   ${bp.sm`
+          margin-top: 0px;
+   `}
+
+${bp.lg`
+            align-self: flex-end;
+          padding-right: calc(20% - 100px);
+          margin-top: -60px;
+   `}
+
+   ${bp.xl`
+      margin-top: -100px;
+   `}
 `
 
 const Background = styled.div`
@@ -97,6 +119,7 @@ const SectionFour = () => {
          <Background>
             <img src={background} alt="22seven Service Providers"/>
          </Background>
+            
          <Content>
             <Column>
                <h2>Add money whenever you want.</h2>
@@ -110,6 +133,9 @@ const SectionFour = () => {
                </Phone>
             </Column>
          </Content> 
+         <Promo>
+            <InvestPromo />
+         </Promo>
       </Container> 
    )
 }

@@ -29,7 +29,7 @@ const Content = styled.div`
 
    ${bp.lg`
       text-align: right;
-      margin-top: 100px;
+
       width: 900px;
       flex-direction: row;
    `}
