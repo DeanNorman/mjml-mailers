@@ -61,7 +61,7 @@ height: 100%;
 
  width: 250px;
  text-align: center;
- box-shadow: 0px 0px 36px 9px rgba(0,0,0,0.10);
+ box-shadow: 0px 0px 36px 9px rgba(0,0,0,0.1);
  border-radius: 5px;
  padding :20px;
  margin: 20px 0px;

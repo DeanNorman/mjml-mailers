@@ -37,14 +37,24 @@ const Content = styled.div`
       color: #4e4b6b;
       font-size: 16px;
    }
+   a:hover {
+   transform: translate(5px, 0);
+   transition: all 0.2s ease-in-out;
+ }
 
 `
-const MoreInfo = styled.span`
-  a {
-      text-decoration: none;
+const MoreInfo = styled.div`
+  
+  
+      /* text-decoration: none;
       color: #4e4b6b;
       font-size: 16px;
-   }
+
+
+   :hover {
+   transform: translate(5px, 0);
+   transition: all 0.2s ease-in-out;
+ } */
 `
 
 const Benefit = styled.div`
@@ -60,6 +70,7 @@ const Benefit = styled.div`
   p { 
       line-height: 23px;
       color: #69668e;
+      font-size: 15px;
    }
 `
 
@@ -71,7 +82,7 @@ const Circle = styled.div`
    height: 80px;
    border-radius: 1000px; 
    margin: 0.5em;
-   box-shadow: 0px 0px 230px 3px rgba(112,112,112,1);
+   box-shadow: 0px 0px 230px 3px rgba(112,112,112,0.5);
    margin-bottom: 20px;
 `
 
@@ -187,7 +198,7 @@ const Privacy = () => {
       </Content> 
       <MoreInfo>
          <a href="/">More about our security
-         <Arrow src={linkArrow} alt="link" />
+            <Arrow src={linkArrow} alt="link" />
          </a>
        </MoreInfo>
          <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
