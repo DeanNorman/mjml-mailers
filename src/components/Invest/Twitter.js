@@ -6,7 +6,7 @@ import phoneBackground from '../../images/invest/phoneBackground.svg';
 import sectionOneAnimation from '../../images/invest/sectionOneAnimation.gif';
 import background from '../../images/homepageCurves/blobOne.png';
 import tweetOne from '../../images/invest/tweetOne.svg';
-import tweetTwo from '../../images/invest/TweetTwo.svg';
+import tweetTwo from '../../images/invest/tweetTwo.svg';
 import tweetThree from '../../images/invest/tweetThree.svg';
 import tweetFour from '../../images/invest/tweetFour.svg';
 
