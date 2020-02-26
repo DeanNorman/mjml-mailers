@@ -22,16 +22,18 @@ const Content = styled.div`
       line-height: 15px;
       margin: 0;
       font-size: 12px;
+   
    }
 
 `
 
 const Title = styled.p`
    padding-bottom: 10px;
+   color: #fff !important;
 `
 
 const Copy = styled.p`
-
+      color: #fff !important;
 `
 
 const InvestPromo = () => {
