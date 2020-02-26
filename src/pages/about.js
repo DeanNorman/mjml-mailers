@@ -1,27 +1,22 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
+
+import HeaderAbout from '../components/Headers/HeaderAbout';
+import OurStory from '../components/About/OurStory';
 
 const about = () => {
    return (
       <Layout>
-         <> 
-         <div>
-            <h1>A little bit about us.</h1>
-            <p>We built 22seven because we think there's a new solution to an old problem.</p>
-         </div>
-         <div>
-            <h2>Our story.</h2>
-            <div>
-               <p>The old problem is our relationship with money. We all have regrets about things we did, or didn’t do, or don’t think we’ll be able to do, with money. Money feels limiting when it could be liberating.
 
-               The new solution lies in what we know and have now that we didn’t know or have a few years ago. Thanks to new insights in psychology, we know more about how people think and behave with money, and why. Thanks to new technology, we have tools to do things in radically different ways.</p>
-            </div>
-            <div>
-               <p>Using these new insights and smart technology, 22seven can help people do better with their money. To see new things about it, feel more confident about it, find more of it, use it wiser and grow it smarter.
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>22seven</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
 
-               This was the conviction we launched with as an independent startup in January 2012. It was an ideal Old Mutual shared when they purchased 22seven a year later. Now we’re older, wiser, and more convinced of it than ever.</p>
-            </div>
-         </div>
+         <HeaderAbout />
+         <OurStory />
 
          <div>
              <h2>Learn more.</h2>
@@ -54,7 +49,6 @@ const about = () => {
             <p class="cd-box" id="cd-box">If you have questions, however simple or technical, we&apos;d like to answer them.</p>
             <button>Please email us.</button>
          </div>    
-         </>
       </Layout>
    )
 }
