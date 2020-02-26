@@ -13,6 +13,8 @@ import SectionSix from '../components/Invest/SectionSix';
 
 import Twitter from '../components/Invest/Twitter';
 import Funds from '../components/Invest/Funds';
+import InvestBenefits from '../components/Invest/InvestBenefits';
+import Tax from '../components/Invest/Tax';
 
 
 export const invest = () => {
@@ -32,36 +34,15 @@ export const invest = () => {
          <SectionSix />
          <Twitter />
          <Funds />
+         <InvestBenefits />
+         <Tax />
 
          {/* <div>
             <p>Pssssssst!</p>
             <p>For a limited time, you can put a minimum of R250 into your goals (instead of the usual R350). Once off or monthly. Or both!</p>         
          </div>  */}
 
-         <div>
-            <div>
-               <img src="noBrokers" alt=""/>
-               <p>No brokers. No extra fees.</p>
-               <p>We offer low cost index tracker unit trust funds. And don’t charge an advice fee. So you’re able to make the most of your money’s growth.</p>
-            </div>
-            <div>
-               <img src="paperless" alt=""/>
-               <p>Paperless. And done in minutes.</p>
-               <p>No complicated forms. No queues. No calls. And no fuss. You’ll be done in minutes. And when you need to make changes in future that’s all on the app too.</p>
-            </div>
-            <div>
-               <img src="localorint" alt=""/>
-               <p>Local or international</p>
-               <p>Our funds represent the top listed companies around the world.</p>
-            </div>
-         </div> 
 
-         <div>
-            <img src="taxortaxfree" alt=""/>
-            <h2>Tax or tax free.</h2>
-            <p>With the launch of tax free savings, you can opt between taxed and tax free investments. We’ll also protect you from over contributing, so you can enjoy your tax freeness!</p>
-            <button>Reach your goals now</button>
-         </div>
       </Layout>
    )
 }
