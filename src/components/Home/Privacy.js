@@ -44,19 +44,6 @@ const Content = styled.div`
    }
 
 `
-const MoreInfo = styled.div`
-  
-  
-      /* text-decoration: none;
-      color: #4e4b6b;
-      font-size: 16px;
-
-
-   :hover {
-   transform: translate(5px, 0);
-   transition: all 0.2s ease-in-out;
- } */
-`
 
 const Benefit = styled.div`
   display: flex;
@@ -131,27 +118,30 @@ const Background = styled.div`
    display: none;
    top: 5807px;
    height: 1109px;
-   width: 2050px;
+   width: 2000px;
    position: absolute;
    margin: 0;
    left: calc(-2.73% - 1925px);
    transform: rotate(3deg);
    z-index: -1;
 
-   ${bp.sm`
-      // display:block;
-   `}
-
    ${bp.md`
       display: block;
       top: 3368px;  
-      left: calc(-2.73% - 1025px);
+
+      left: calc(-2.73% - 1225px);
    `}
 
-   ${bp.md`
+   ${bp.lg`
       display: block;
       top: 3368px;  
-      left: calc(-2.73% - 1025px);
+      left: calc(-2.73% - 1300px);
+   `}
+
+   ${bp.xl`
+      display: block;
+      top: 3368px;  
+      left: calc(-2.73% - 900px);
    `}
 
 `

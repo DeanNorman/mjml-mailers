@@ -5,6 +5,7 @@ import svens from '../../images/svens.png';
 import email from '../../images/email.svg'
 import phone from '../../images/phone.svg'
 import background from '../../images/homepageCurves/blobSix.svg';
+import linkArrow from '../../images/linkArrow.png';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`
@@ -51,16 +52,43 @@ const SvenTeam = styled.img`
 `
 const Contact = styled.div`
 display: flex;
+flex-direction: column;
+align-items: center;
 justify-content: space-evenly;
+
+${bp.md`
+     flex-direction: row;
+   `}
+
+
 a {
    display: flex;
+   align-items: center;
    font-size:15px;
+   text-decoration: none;
+   margin-bottom: 15px;
 
-   img { 
-      padding-right: 10px;
-   }
+   ${bp.sm`
+      margin-bottom: 0px;
+   `}
 }
+a:hover {
+      transform: translate(5px, 0);
+      transition: all 0.2s ease-in-out;
+   }
+
 `
+
+const Arrow = styled.img`
+    height: 9px;
+    width: 5px;
+    margin-left: 10px;
+`;
+
+const Icon = styled.img`
+   padding-right: 10px;
+`
+
 
 const Background = styled.div`
    top: 7333px;
@@ -89,7 +117,13 @@ const Background = styled.div`
 
    ${bp.lg`
       top: 4089px;
-      left: calc(0.01% - 1220px);
+      left: calc(0.01% - 1400px);
+    `}
+
+
+   ${bp.xl`
+      top: 4089px;
+      left: calc(0.01% - 1200px);
     `}
 `
 
@@ -104,8 +138,16 @@ const Svens = () => {
             <h2>Get really good support from real, live people.</h2>
             <p>The Svens, our support team, are available from 8am to 8pm.</p>
             <Contact>
-             <a href="mailto:thzesvens@22seven.com"><img src={email} />thesvens@22sven.com</a>
-             <a href="tel:+27875504331"><img src={phone} />+27 87 8550 4331</a>
+            <a href="mailto:thzesvens@22seven.com">
+               <Icon src={email} />
+                  thesvens@22sven.com
+               <Arrow src={linkArrow} alt="link" />
+            </a>
+            <a href="tel:+27875504331">
+               <Icon src={phone} />
+                  +27 87 8550 4331
+               <Arrow src={linkArrow} alt="link" />
+            </a>
             </Contact>
          </Content>
       </Container>
