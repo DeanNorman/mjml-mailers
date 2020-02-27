@@ -115,7 +115,10 @@ const AppBadge = styled.img`
 const NavbarLinks = () => {
   return (
     <>
-      <NavItem to="/invest/">Invest in your goals</NavItem>
+      <NavItem to="/invest/"
+      activeStyle={{  borderBottom: "2px solid #ffffff52",  padding: "7px 0px" }}
+      
+      >Invest in your goals</NavItem>
       <NavItem to="/">Help Centre</NavItem>
       <NavItem to="/">Blog</NavItem>
       

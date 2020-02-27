@@ -67,9 +67,10 @@ const Content = styled.div`
    `} 
 
    ${bp.lg`
-      width: 1000px;
+      width: 100%;
       text-align: left;
       flex-direction: row;
+     
    `}
 
 
@@ -96,13 +97,19 @@ const Column = styled.div`
    img {
       margin: 8px 0;
       width: 100%;
-      max-width: 217px;
+      max-width: 270px;
 
-      ${bp.lg`
+      ${bp.md`
+
+
          width: 50%;
       `}
 
-${bp.xl`
+      ${bp.lg`
+         
+             width: 50%;`}
+
+      ${bp.xl`
          width: auto;
       `}
    }
