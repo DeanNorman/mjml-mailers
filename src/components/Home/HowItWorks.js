@@ -106,7 +106,7 @@ const HowItWorks = () => {
                <Circle>2</Circle>
                <h3>We gather your<br />transactions</h3>
                <img src={divider} alt="divider" />
-               <p>When you link accounts, 22seven usually gets the last 3 months’ transactions from them. After that, they’re automatically updated whenever you log in, or daily</p>
+               <p>When you link accounts, 22seven usually gets the last 3 months’ transactions from them. After that, they’re automatically updated whenever you log in, or daily.</p>
             </Card>
             <Card>
                <Circle>3</Circle>

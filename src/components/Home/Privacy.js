@@ -161,7 +161,7 @@ const Privacy = () => {
             <Lock src={lock} alt="lock" />
             <h2>Your information is secure. And it belongs to you.</h2>
             <p>We use the same security measures as banks, governments and the military.<br />
-               Your informaation is always encrypted, and we won’t sell your data to third parties.</p>   
+               Your information is always encrypted, and we won’t sell your data to third parties.</p>   
       </Content> 
 
       <Content benefit>
@@ -193,7 +193,7 @@ const Privacy = () => {
                </Aligner>
             </Circle>
             <p><strong>Backed by Old Mutual.</strong></p>
-               <p>One of the biggest, oldest and most trusted financial institutions of South Africa</p>
+               <p>One of the biggest, oldest and most trusted financial institutions of South Africa.</p>
          </Benefit> 
       </Content> 
       <Content>

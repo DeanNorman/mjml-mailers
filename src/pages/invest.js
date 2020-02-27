@@ -22,7 +22,7 @@ export const invest = () => {
       <Layout>
          <Helmet>
             <meta charSet="utf-8" />
-            <title>22seven</title>
+            <title>22seven | Budgeting and Investing App</title>
             <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
          <HeaderInvest />
@@ -36,13 +36,6 @@ export const invest = () => {
          <Funds />
          <InvestBenefits />
          <Tax />
-
-         {/* <div>
-            <p>Pssssssst!</p>
-            <p>For a limited time, you can put a minimum of R250 into your goals (instead of the usual R350). Once off or monthly. Or both!</p>         
-         </div>  */}
-
-
       </Layout>
    )
 }

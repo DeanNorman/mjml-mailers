@@ -1,9 +1,8 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import InvestPromo from './InvestPromo';
 
-import personalisedBudget from '../../images/public-section-2---right.svg';
-
+import personalisedBudget from '../../images/sectionFour.svg';
+import linkArrow from '../../images/linkArrow.png';
 import { breakpoints as bp } from '../../styling/index';
 
 
@@ -24,12 +23,18 @@ ${bp.md`
    a {
       text-decoration: none;
       color: #4e4b6b;
+      font-size: 15px;
    }
+
+      a:hover {
+   transition: all 0.2s ease-in-out;
+   margin-right: -5px;
+ }   
 
    p {
       font-weight: 300;
       line-height: 20px;
-      font-size: 16px;
+      font-size: 15px;
       color: #69668e;
    }
 `;
@@ -60,6 +65,12 @@ ${bp.md(css`
    `)}
 `
 
+const Arrow = styled.img`
+    height: 9px;
+    width: 5px;
+    margin-left: 10px;
+`;
+
 const SectionFour = () => {
    return (
       <>
@@ -68,13 +79,16 @@ const SectionFour = () => {
          <Column>
             <h2>Invest in your goals and<br />reach them sooner.</h2>
             <p>Putting money towards your future can be a pain. But<br />the right planning can change that. Set, track and<br /> invest in your life goals from as little as R350.</p>
+            <a href="/">
+               100+ supported institutions 
+               <Arrow src={linkArrow} alt="link" />
+            </a>
          </Column>
          <Column left>
             <img src={personalisedBudget} alt="" />
             </Column>
          </Content>
       </Container> 
-        <InvestPromo />
      </>
    )
 }

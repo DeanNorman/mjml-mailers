@@ -2,6 +2,7 @@ import React, { useState } from "react"
 import styled from "styled-components"
 import NavbarLinks from "./NavBarLinks"
 import logo from '../../images/22seven-logo.svg';
+import { Link } from "gatsby"
 
 const Navigation = styled.nav`
   font-family: Arial, Helvetica, sans-serif;
@@ -92,12 +93,18 @@ const Hamburger = styled.div`
     top: 10px;
   }
 `
+
+const Logo = styled(Link)`
+   align-self: center;
+`
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
 
   return (
     <Navigation>
-      <img src={logo} alt="logo" />
+      <Logo to="/">
+         <img src={logo} alt="logo" />
+      </Logo>
       <Toggle
         navbarOpen={navbarOpen}
         onClick={() => setNavbarOpen(!navbarOpen)}

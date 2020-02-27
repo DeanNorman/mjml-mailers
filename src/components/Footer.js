@@ -169,7 +169,7 @@ export default function Footer() {
                <a href="https://www.facebook.com/ilike22seven" target="_blank">
                <img src={facebook} alt="facebook" />
                </a>
-               <a href="https://www.linkedin.com/company/3309665/admin/" target="_blank">
+               <a href="https://www.linkedin.com/company/22seven-digital/" target="_blank">
                   <img src={linkedin} alt="linkedin" />
                </a>
                <a href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ" target="_blank">
@@ -180,17 +180,18 @@ export default function Footer() {
                </a>
             </SocialContainer>
             <AppBadgeContainer>
+                <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
+                  <AppBadge src={googlePlay} />
+               </a>
                <a href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
                   <AppBadge src={appStore} />
                </a>
-               <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
-                  <AppBadge src={googlePlay} />
-               </a>
+
             </AppBadgeContainer>
          </Column>
       </Container>
       <Foot>
-         <p>© 2019 22seven All Rights Reserved. <strong>Old Mutual is a Licensed Financial Services Provider. 22seven is a juristic representative of Old Mutual</strong></p>
+         <p>© 2019 22seven All Rights Reserved. <strong>Old Mutual is a Licensed Financial Services Provider. 22seven is a juristic representative of Old Mutual.</strong></p>
       </Foot>
    </>
    )

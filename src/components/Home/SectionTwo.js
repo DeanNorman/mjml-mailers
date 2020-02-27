@@ -92,7 +92,7 @@ const SectionTwo = () => {
          <Content>
             <Column>
                <h2>Get a personalised budget,<br/>automatically.</h2>
-               <p>It’s generated for you. And based on your own, actual<br />spending. See exactly how much you spend on what<br />each month. Know what you‘ve already spent and<br />have left to spend, and find more money</p>
+               <p>It’s generated for you. And based on your own, actual<br />spending. See exactly how much you spend on what<br />each month. Know what you‘ve already spent and<br />have left to spend, and find more money.</p>
             </Column>
             <Column left>
                <img src={personalisedBudget} alt="Personalised Budget" />
