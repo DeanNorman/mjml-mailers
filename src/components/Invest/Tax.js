@@ -37,7 +37,7 @@ const Content = styled.div`
 
    ${bp.lg`
       text-align: center;
-      margin-top: 100px;
+      margin-top: 30px;
       width: 619px;
   
    `}
