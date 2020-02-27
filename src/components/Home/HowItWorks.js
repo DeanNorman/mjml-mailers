@@ -17,23 +17,21 @@ const Container = styled.div`
    padding-top:80px;
    z-index: 1;
 
-
-h2 {
-   margin-bottom: 80px;
-}
-
+   h2 {
+      margin-bottom: 80px;
+   }
 `
 const Content = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: space-evenly;
+   width: 100%;
+   max-width: 1000px;
 
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-evenly;
-width: 100%;
-max-width: 1000px;
-${bp.md`
-   flex-direction: row;
- `}
+   ${bp.md`
+      flex-direction: row;
+   `}
 `
 
 const Card = styled.div`

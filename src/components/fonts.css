@@ -35,3 +35,14 @@
    font-weight: 400;
    src: url('../styling/fonts/CircularStd/CircularStd-Bold.otf') format('opentype');
 }
+
+@font-face {
+   font-family: 'CircularStd-Medium';
+   src: url('../styling/fonts/CircularStd/CircularStd-Medium.otf') format('opentype');
+}
+
+
+@font-face {
+   font-family: 'CircularStd-Black';
+   src: url('../styling/fonts/CircularStd/CircularStd-Black.otf') format('opentype');
+}
