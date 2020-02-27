@@ -69,29 +69,6 @@ const Phone = styled.div`
     width: 322px;
 `
 
-const Promo = styled.div`
-   display: flex;
-   justify-content: center;
-   div {
-      text-align: left;
-      margin: 0;
-   }
-
-   ${bp.sm`
-          margin-top: 0px;
-   `}
-
-${bp.lg`
-            align-self: flex-end;
-          padding-right: calc(20% - 100px);
-          margin-top: -60px;
-   `}
-
-   ${bp.xl`
-      margin-top: -100px;
-   `}
-`
-
 const Background = styled.div`
 display:none;
 background-color: rgba(255,255,255,0.0);
@@ -133,9 +110,6 @@ const SectionFour = () => {
                </Phone>
             </Column>
          </Content> 
-         <Promo>
-            <InvestPromo />
-         </Promo>
       </Container> 
    )
 }
