@@ -31,7 +31,7 @@ const Content = styled.div`
    align-items: center;
    justify-content: space-evenly;
    width: 100%;
-   max-width: 1000px;
+   max-width: 883px;
    font-family: 'CircularStd-Medium';
 
    ${bp.md`
@@ -62,7 +62,7 @@ const QuoteImg = styled.img`
    `} */
 `
 const QuoteTitle = styled.p`
-   font-family: 'CircularStd-Bold';
+   font-family: 'CircularStd-Black';
    font-size: 12px !important;
    margin: 0;
 
@@ -72,6 +72,7 @@ ${bp.sm`
 `
 
 const QuoteText = styled.div`
+   font-family: 'CircularStd-Book';
    font-weight: 400px;
    margin: 0;
    P { 
@@ -94,7 +95,7 @@ const Author = styled.div`
 
 
 
-const Title = styled.h2`
+const Title = styled.h2` 
  display: flex;
  justify-content: center;
  align-content: center;
@@ -110,6 +111,11 @@ const Title = styled.h2`
       display: none;
    }
  `}
+
+ ${bp.lg`
+      margin-bottom: 40px;
+      `
+   }
 `
 
 const Testimonials = () => {
