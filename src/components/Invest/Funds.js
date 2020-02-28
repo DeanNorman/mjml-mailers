@@ -95,21 +95,21 @@ const Content = styled.div`
 
 const Column = styled.div`
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: center;
       flex-direction: column;
       flex-wrap: wrap;
       height: 100%;
-      max-width: 800px;
+      max-width: 100%;
 
    ${bp.md`
       flex-direction: row;
       max-width: 800px;
    `}
 
-   ${bp.lg`
+   ${bp.xl`
       flex-direction: row;
-      max-width: auto;
+      max-width: 100%;
    `}
 
    a {
