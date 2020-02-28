@@ -181,7 +181,7 @@ const Privacy = () => {
                   <img src={umbrella} alt="finger click"/>
                </Aligner>
             </Circle>  
-            <p><strong>Insured</strong></p>
+            <p><strong>Insured.</strong></p>
             <p>You can feel reassured because we're insured
                   by Beazley.</p>
          </Benefit>
@@ -193,7 +193,7 @@ const Privacy = () => {
                </Aligner>
             </Circle>
             <p><strong>Backed by Old Mutual.</strong></p>
-               <p>One of the biggest, oldest and most trusted financial institutions of South Africa.</p>
+               <p>One of the biggest and most trusted financial institutions of South Africa.</p>
          </Benefit> 
       </Content> 
       <Content>

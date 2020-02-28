@@ -25,7 +25,7 @@ const Container = styled.div`
 
    a {
       text-decoration: none;
-      color: #4e4b6b;
+      color: #69668e;
       font-size: 15px;
    }
    a:hover {

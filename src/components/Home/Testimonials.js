@@ -20,7 +20,7 @@ const Container = styled.div`
    align-items: center;
    color: #4e4b6b;
    text-align: center;
-   padding-top:80px;
+   padding-top:60px;
    z-index: 1;
 
 `

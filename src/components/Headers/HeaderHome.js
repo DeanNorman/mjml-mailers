@@ -133,6 +133,7 @@ const SignUpBtn = styled.a`
    ${bp.md`
       display: inline-flex;
       width: 176px;
+      margin-bottom: 20px;
    `}
 `
 

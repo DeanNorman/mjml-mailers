@@ -12,6 +12,7 @@ import linkedin from '../images/iconlinkedin.svg';
 import instagram from '../images/invest-in-your-goals-iconinstagram.svg';
 import om from '../images/public-logo-om-mark.svg';
 
+import { breakpoints as bp } from '../styling/index';
 
 const Container = styled.div`
    display: flex;
@@ -89,9 +90,13 @@ a:hover {
 
 const OldMutualTag = styled.div`
    display: flex;
-   align-items: flex-end;
+   align-items: center;
    margin-top: 40px;
    margin-left: 25px;
+
+   ${bp.sm`
+      margin-top: 80px;
+   `}
 p {
    font-family: "CircularStd-Book", Helvetica, Arial, serif;
    font-size: 12px;

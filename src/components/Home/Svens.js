@@ -116,13 +116,13 @@ const Background = styled.div`
     `}
 
    ${bp.lg`
-      top: 4089px;
+      top: 4039px;
       left: calc(0.01% - 1400px);
     `}
 
 
    ${bp.xl`
-      top: 4089px;
+      top: 4039px;
       left: calc(0.01% - 1200px);
     `}
 `

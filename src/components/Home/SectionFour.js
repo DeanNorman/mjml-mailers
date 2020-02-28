@@ -26,10 +26,10 @@ ${bp.md`
       font-size: 15px;
    }
 
-      a:hover {
-   transition: all 0.2s ease-in-out;
-   margin-right: -5px;
- }   
+   a:hover {
+      transition: all 0.2s ease-in-out;
+      margin-right: -5px;
+   }   
 
    p {
       font-weight: 300;
@@ -78,7 +78,7 @@ const SectionFour = () => {
          <Content>
          <Column>
             <h2>Invest in your goals and<br />reach them sooner.</h2>
-            <p>Putting money towards your future can be a pain. But<br />the right planning can change that. Set, track and<br /> invest in your life goals from as little as R350.</p>
+            <p>Putting money towards your future can be a pain. But<br />the right planning can change that. Set, track and<br /> invest in your life goals from as little as R250.</p>
             <a href="/">
                100+ supported institutions 
                <Arrow src={linkArrow} alt="link" />

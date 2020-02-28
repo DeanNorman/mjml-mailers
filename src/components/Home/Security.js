@@ -101,10 +101,10 @@ const Security = () => {
    <Container>
       <Content>
          <Shield src={shield} alt=""/>         
-         <h2>We take security very seriously</h2>
+         <h2>We take security very seriously.</h2>
          <p>Your data is secure, private and insured.</p>
          <a href="/">
-            Over 300 000 South Africans trust us with their money stuff.
+            Over 300,000 South Africans trust us with their money stuff.
             <Arrow src={linkArrow} alt="link" />
          </a>
       </Content> 
@@ -125,7 +125,7 @@ const Security = () => {
                   <img src={fingerClick} alt="finger click"/>
                </Aligner>
             </Circle>  
-               <p>Get a personalised<br/>budget, automatically</p>
+               <p>Get a personalised<br/>budget, automatically.</p>
          </Benefit>
 
          <Benefit>
