@@ -18,7 +18,7 @@ const Container = styled.div`
    z-index: 1;
 
    ${bp.sm`
-   margin-top: 190px;
+   margin-top: 70px;
    `}
 `
 const Content = styled.div`
