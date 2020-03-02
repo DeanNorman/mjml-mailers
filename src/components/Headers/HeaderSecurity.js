@@ -55,7 +55,7 @@ const Title = styled.h1`
    
     color: #4e4b6b;
     text-align: center;
-    line-height: 56.04px
+    line-height: 56.04px;
 
 `
 

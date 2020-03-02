@@ -3,6 +3,7 @@ import Layout from '../components/Layout';
 import { Helmet } from 'react-helmet';
 
 import HeaderSecurity from '../components/Headers/HeaderSecurity';
+import SecurityBenefits from '../components/Security/SecurityBenefits';
 const security = () => {
    return (
       <Layout>
@@ -12,28 +13,8 @@ const security = () => {
             <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
       <HeaderSecurity /> 
-   <div>
-      <div>
-         <img src="building" alt=""/>
-         <p>We use the same security measures as your bank does</p>
-         <p>22seven adheres to the same procedures and standards used by banks, the military and governments around the world. Our security is also regularly, independently reviewed and audited by industry experts.</p>
-      </div>
-      <div>
-         <img src="entrust" alt=""/>
-         <p>Your information is always encrypted</p>
-         <p>256-bit encryption, certified by Entrust, keeps your information indecipherable and private, always</p>
-      </div>
-      <div>
-         <img src="umbrella" alt=""/>
-         <p>You can feel reassured because we’re insured</p>
-         <p>22seven is insured by Beazley. So if your information is compromised because of our negligence – which we never expect to happen – we’re covered and will refund you</p>
-      </div>
-      <div>
-         <img src="notouch" alt=""/>
-         <p>22seven is READ ONLY. No one can touch your money.</p>
-         <p>22seven adheres to the same procedures and standards used by banks, the military and governments around the world. Our security is also regularly, independently reviewed and audited by industry experts.</p>
-      </div>
-   </div>
+      <SecurityBenefits />
+   
 
    <div>
       <div>
