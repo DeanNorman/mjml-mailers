@@ -143,8 +143,8 @@ export default function Footer() {
       <Container>
          <Column>
             <p>Using 22sevens</p>
-            <NavItem to="/">Security</NavItem>
-            <NavItem to="/">Invest in your goals</NavItem>
+            <NavItem to="/security">Security</NavItem>
+            <NavItem to="/invest/">Invest in your goals</NavItem>
          </Column>
          <Column>
             <p>Resources</p>
@@ -160,7 +160,7 @@ export default function Footer() {
          </Column>
          <Column>
             <p>Company</p>
-            <NavItem to="/">About 22seven</NavItem>
+            <NavItem to="/about/">About 22seven</NavItem>
             <NavItem to="/">Jobs</NavItem>
             <NavItem to="/">Contact us</NavItem>
             <NavItem to="/">In the media</NavItem>
