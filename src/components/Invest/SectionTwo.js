@@ -34,16 +34,18 @@ const Content = styled.div`
       flex-direction: row;
    `}
 
-   h2 {
-         line-height: 35.0px;
-         font-size: 25px;
-      }
-
    p {
       font-weight: 300;
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+   }
+
+   br {
+         display: none;
+      ${bp.sm`
+         display: block;
+      `}
    }
 `
 
@@ -100,7 +102,7 @@ const SectionTwo = () => {
          <Content>
             <Column>
                <h2>Get a plan.</h2>
-               <p>Planning for your life goals and reaching them is actually pretty simple. Just tell 22seven how much you need and when you need it by. We’ll tell you how much to save. If that’s too much, you can always delay your target date a bit to make sure you can afford it.</p>
+               <p>Planning for your life goals and reaching them is actually<br/> pretty simple. Just tell 22seven how much you need and<br/> when you need it by. We’ll tell you how much to save. If<br/> that’s too much, you can always delay your target date a bit<br/> to make sure you can afford it.</p>
             </Column>
             <Column left>
                <Phone>

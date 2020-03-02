@@ -45,8 +45,8 @@ const Content = styled.div`
    }
 
    h2 {
-      line-height: 35.0px;
-      font-size: 25px;
+      /* line-height: 35.0px;
+      font-size: 25px; */
    }
 
    p {
@@ -54,6 +54,13 @@ const Content = styled.div`
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+   }
+
+      br {
+         display: none;
+      ${bp.sm`
+         display: block;
+      `}
    }
 `
 
@@ -112,11 +119,11 @@ const SectionOne = () => {
                </PhoneBackground>
             </Column>
             <Column>
-               <h2>Decide what matters to you.</h2>
+               <h2>Decide what<br/> matters to you.</h2>
                <p>
-               Finding the motivation to save can be tough. But it’s so much easier when you’re saving for the things that really matter to you.<br/><br/>
+               Finding the motivation to save can be tough. But it’s<br/>so much easier when you’re saving for the things that<br/> really matter to you.<br/><br/>
 
-               Deciding what you want from life is the first step to getting it. So start by creating your goals in 22seven.
+               Deciding what you want from life is the first step to<br/> getting it. So start by creating your goals in 22seven.
                </p>
             </Column>
          </Content>

@@ -1,7 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 
-import sectionTwo from '../../images/invest/sectionTwo.svg';
+import sectionTwo from '../../images/invest/sectionFour.svg';
 
 import background from '../../images/homepageCurves/blobTwo.png';
 import InvestPromo from './InvestPromo';
@@ -44,6 +44,13 @@ const Content = styled.div`
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+   }
+
+   br {
+         display: none;
+      ${bp.sm`
+         display: block;
+      `}
    }
 `
 
@@ -99,9 +106,9 @@ const SectionFour = () => {
             
          <Content>
             <Column>
-               <h2>Add money whenever you want.</h2>
+               <h2>Add money<br/> whenever you want.</h2>
                <p>
-               If you can’t commit to a monthly contribution right away, no sweat! You can invest in your goals monthly, once off, or both. Toggle debit orders on or off whenever you like, so you have the flexibility to adjust to life as it happens.
+               If you can’t commit to a monthly contribution right<br/> away, no sweat! You can invest in your goals<br/> monthly, once off, or both. Toggle debit orders on<br/> or off whenever you like, so you have the<br/> flexibility to adjust to life as it happens.
                </p>
             </Column>
             <Column left>

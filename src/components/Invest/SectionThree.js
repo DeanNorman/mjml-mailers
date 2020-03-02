@@ -49,6 +49,13 @@ const Content = styled.div`
       font-size: 14px;
       color: #69668e;
    }
+
+   br {
+         display: none;
+      ${bp.sm`
+         display: block;
+      `}
+   }
 `
 
 const PhoneBackground = styled.div`
@@ -120,9 +127,9 @@ const SectionThree = () => {
             <Column>
                <h2>Invest in your goals.</h2>
                <p>
-               Putting money in a savings account may be familiar. But investing in your goals can be way better.<br /><br />
+               Putting money in a savings account may be familiar. But<br/> investing in your goals can be way better.<br /><br />
 
-               22seven offers low cost funds from one of the most trusted names in the investment business - Old Mutual. So you know your money is safe and working towards your future just as hard as you are.
+               22seven offers low cost funds from one of the most<br/> trusted names in the investment business - Old Mutual.<br/> So you know your money is safe and working towards<br/> your future just as hard as you are.
                </p>
             </Column>
          </Content>

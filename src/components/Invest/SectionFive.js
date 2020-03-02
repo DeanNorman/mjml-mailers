@@ -38,16 +38,19 @@ const Content = styled.div`
       flex-direction: row;
    `}
 
-   h2 {
-      line-height: 35.0px;
-      font-size: 25px;
-   }
 
    p {
       font-weight: 300;
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+   }
+
+   br {
+         display: none;
+      ${bp.sm`
+         display: block;
+      `}
    }
 `
 
@@ -107,7 +110,7 @@ const SectionFive = () => {
             <Column>
                <h2>Track your progress.</h2>
                <p>
-               Sometimes life gets in the way of our plans despite our best intentions. So we’ve made sure you can track the progress of your goals. See how many days you have to go and if you’re going to reach them on time. Then make changes if you need to.
+               Sometimes life gets in the way of our plans despite our<br/> best intentions. So we’ve made sure you can track the<br/> progress of your goals. See how many days you have to<br/> go and if you’re going to reach them on<br/> time. Then make changes if you need to.
                </p>
             </Column>
          </Content>

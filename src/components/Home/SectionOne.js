@@ -36,9 +36,10 @@ const Container = styled.div`
    p {
       font-weight: 300;
       line-height: 20px;
-      font-size: 16px;
+      font-size: 14px;
       color: #69668e;
    }
+   
 `;
 
 const Background = styled.div`

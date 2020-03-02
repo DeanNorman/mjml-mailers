@@ -33,16 +33,19 @@ const Content = styled.div`
       flex-direction: row;
    `}
 
-   h2 {
-         line-height: 35.0px;
-         font-size: 25px;
-      }
 
    p {
       font-weight: 300;
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+   }
+
+   br {
+         display: none;
+      ${bp.sm`
+         display: block;
+      `}
    }
 `
 
@@ -100,7 +103,7 @@ const SectionSix = () => {
             <Column>
                <h2>Spend guilt-free.</h2>
                <p>
-               Once you reach your goals, give yourself a pat on the back! You get to spend guilt free, knowing you aren’t dipping into credit to enjoy the things you want. Say goodbye to debt repayment headaches and hello to living.
+               Once you reach your goals, give yourself a pat<br/> on the back! You get to spend guilt free,<br/> knowing you aren’t dipping into credit to enjoy<br/> the things you want. Say goodbye to debt<br/> repayment headaches and hello to living.
                </p>
             </Column>
             <Column left>

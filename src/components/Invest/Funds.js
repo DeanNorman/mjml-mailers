@@ -128,7 +128,7 @@ const Column = styled.div`
       `}
 
       ${bp.lg`
-         width: 300px;
+         width: 195px;
       `}
    }
    
