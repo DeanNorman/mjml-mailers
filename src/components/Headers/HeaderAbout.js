@@ -7,14 +7,17 @@ import { breakpoints as bp } from '../../styling/index'
 
 const Container = styled.div`
    display: flex;
-
    justify-content: center;
-   font-family: 'CircularStd';
-   color: #4e4b6b;
-   min-height: 320px;
+   min-height: 360px;
    background: url(${background}) no-repeat center center;
    background-size: cover;
    
+   br {
+      display: none;
+      ${bp.sm`
+         display: block;
+      `}
+   }
 `
 
 const Content = styled.div`
@@ -22,6 +25,10 @@ const Content = styled.div`
    justify-content: center;
    flex-direction: column;
    align-content: center;
+
+   font-family: 'CircularStd';
+   color: #4e4b6b;
+
    padding-left: 30px;
    padding-right: 30px;
 
@@ -31,7 +38,7 @@ const Content = styled.div`
 `
 
 const Title = styled.h1`
-    font-size: 28px;
+    font-size: 32px;
     line-height: 40.32px;
     text-align: center;
 
@@ -43,8 +50,9 @@ const Title = styled.h1`
 
 `
 const Description = styled.p`
+   font-family: 'CircularStd-Book';
    font-weight: 300;
-   font-size: 16px;
+   font-size: 15px;
    text-align: center;
 
    ${bp.md`
@@ -56,9 +64,9 @@ const HeaderAbout = () => {
    return (
       <Container>
          <Content>
-            <Title>A little bit about us.</Title>
+            <Title>A little bit<br/> about us.</Title>
             <Description>
-               We built 22seven because we think there's a new solution to an old problem.
+               We built 22seven because we think there's a new<br/> solution to an old problem.
             </Description>
          </Content>
       </Container> 
