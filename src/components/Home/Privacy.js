@@ -30,7 +30,10 @@ const Content = styled.div`
    p {
       font-weight: 300;
       margin-bottom: 10px;
-      font-size: 16px;
+      font-weight: 300;
+      line-height: 20px;
+      font-size: 14px;
+      color: #69668e;
     }
    a {
       text-decoration: none;
@@ -56,9 +59,10 @@ const Benefit = styled.div`
   align-items: center;
 
   p { 
-      line-height: 23px;
+   font-weight: 300;
+      line-height: 20px;
+      font-size: 14px;
       color: #69668e;
-      font-size: 15px;
    }
 `
 

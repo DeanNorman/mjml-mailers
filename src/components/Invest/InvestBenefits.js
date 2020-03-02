@@ -43,9 +43,10 @@ const Benefit = styled.div`
   align-items: center;
 
   p { 
-      line-height: 23px;
+   font-weight: 300;
+      line-height: 20px;
+      font-size: 14px;
       color: #69668e;
-      font-size: 15px;
    }
 `
 
