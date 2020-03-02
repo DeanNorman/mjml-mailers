@@ -1,13 +1,17 @@
 import React from 'react'
 import Layout from '../components/Layout';
+import { Helmet } from 'react-helmet';
 
+import HeaderSecurity from '../components/Headers/HeaderSecurity';
 const security = () => {
    return (
       <Layout>
-<div>
-      <h1>We take security very seriously.</h1>
-   </div>
-
+            <Helmet>
+            <meta charSet="utf-8" />
+            <title>22seven</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
+      <HeaderSecurity /> 
    <div>
       <div>
          <img src="building" alt=""/>
