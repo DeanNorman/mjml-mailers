@@ -1,6 +1,5 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
-import curve from '../../images/homepageCurves/public-header.svg';
 import playButton from '../../images/play-button.svg';
 import phone from '../../images/public-header.png';
 import appStore from '../../images/public-mobile-badgeappstore-1@2x.png';
@@ -28,33 +27,48 @@ const Content = styled.div`
    flex-wrap: wrap;
    align-items: center;
    justify-content: space-around;
-
+   text-align: center;
+   
    p {
       font-family: 'CircularStd';
       font-weight: 300;
       line-height: 20px;
    }
 
+   ${bp.sm`
+      text-align: left;
+   `}
+
    ${bp.lg`
       max-height: 425px;
+      max-width: 100%;
+   `}
+
+   ${bp.xl`
+      width: 100%;
+    max-width: 80%;
    `}
 `
 
 const Column = styled.div`
-   width: 50%;
+   /* width: 50%;
    display: ${props => props.right ? 'flex' : 'block'};
 
    ${props => props.right ? ''
       : css`
          padding-left: 20px;
       `
-   }
+   }*/
 
    ${props => !props.phone ? ''
       : css`
-         justify-content: center;
+         ${bp.md`
+             display: flex;
+         `}
+          display: flex;
+         
       `
-   }
+   } 
 `
 
 const Title = styled.h1`
@@ -190,6 +204,9 @@ const MobileColumn = styled.div`
    width: 75%;
    max-width: 320px;
 
+   ${bp.sm`
+      max-width: 330px;
+   `}
    ${bp.md`
       display: none;
    `}
