@@ -51,15 +51,6 @@ const Content = styled.div`
 `
 
 const Column = styled.div`
-   /* width: 50%;
-   display: ${props => props.right ? 'flex' : 'block'};
-
-   ${props => props.right ? ''
-      : css`
-         padding-left: 20px;
-      `
-   }*/
-
    ${props => !props.phone ? ''
       : css`
          ${bp.md`
