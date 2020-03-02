@@ -59,7 +59,7 @@ const Column = styled.div`
 
 const Title = styled.h1`
    font-size: 30px;
-
+   
    ${bp.sm`
       font-size: 50px;
    `}
@@ -67,7 +67,6 @@ const Title = styled.h1`
 
 const Description = styled.p`
    font-size: 13px;
-
    ${bp.sm`
       font-size: 16px;
    `}
@@ -195,19 +194,35 @@ const MobileColumn = styled.div`
       display: none;
    `}
 `
-const PlaystoreDesktop = styled.a`
+
+
+const LargeAppLinks = styled.div`
    display: none;
+   ${bp.lg`
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
 
-   ${bp.md` display: inline-block;`}
-`;
-const AppstoreDesktop = styled.a`
+   `
+   }
+`
+
+const MediumAppLinks = styled.div`
+   display: none;
+   ${bp.md`
+      display: flex;
+      a {
+       margin-right: 10px;
+      }
+   `
+   }
+      ${bp.lg`
       display: none;
-
-${bp.md`
-   display: inline-block;
-   margin-left: 15px;
-`}
-`;
+   `
+   }
+`
 
 const HeaderHome = () => {
    return (
@@ -215,7 +230,7 @@ const HeaderHome = () => {
          <Content>
              <Column>
                <Title>Boss your money.</Title>
-               <Description>Manage your money more easily and invest
+               <Description>Manage your money more easily and invest<br/>
                   in your goals with the free 22seven app.</Description>
                
                <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
@@ -226,18 +241,29 @@ const HeaderHome = () => {
                   <img src={playButton} alt="play" />
                   <p>Watch the video</p>
                </WatchVideo>
-              
-                  <PlaystoreDesktop href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
+
+               <MediumAppLinks>
+                  <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
                      <AppLink src={googlePlay} alt="Googleplay"/>
-                  </PlaystoreDesktop>
-                  <AppstoreDesktop href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
+                  </a>
+                  <a href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
                      <AppLink src={appStore} alt="appstore"/>
-                  </AppstoreDesktop>
+                  </a>
+               </MediumAppLinks>
+
             
             </Column> 
             
             <Column right phone>
                <Phone src={phone} alt="iphone" />
+               <LargeAppLinks>
+               <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" target="_blank>">
+                     <AppLink src={googlePlay} alt="Googleplay"/>
+                  </a>
+                  <a href="https://apps.apple.com/us/app/apple-store/id611120440" target="_blank>">
+                     <AppLink src={appStore} alt="appstore"/>
+                  </a>
+               </LargeAppLinks>
             </Column>
 
             <MobileColumn>
