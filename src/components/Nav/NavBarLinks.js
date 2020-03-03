@@ -1,8 +1,9 @@
 import React from "react"
-import styled from "styled-components"
+import styled, { css } from "styled-components"
 import appStore from '../../images/public-mobile-badgeappstore-1@2x.png';
 import googlePlay from '../../images/public-mobile-badgegoogle-play-1@2x.png';
 import { Link } from "gatsby"
+
 
 const NavItem = styled(Link)`
   font-family: "CircularStd";
@@ -17,34 +18,12 @@ const NavItem = styled(Link)`
   transition: all 200ms ease-in;
   position: relative;
 
-  /* :after {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 0%;
-    content: ".";
-    color: transparent;
-    background: goldenrod;
-    height: 1px;
-    transition: all 0.4s ease-in;
-  }
-
-  :hover {
-    color: goldenrod;
-    ::after {
-      width: 100%;
-    }
-  } */
-
-
   &:hover {
    transform: translate(0, -5px);
   }
 
   @media (max-width: 768px) {
     padding: 20px 0;
-    /* font-size: 1.5rem; */
     z-index: 6;
   }
 `
@@ -111,14 +90,14 @@ const AppBadge = styled.img`
 
 
 
-
 const NavbarLinks = () => {
   return (
     <>
+      {/* <NavItem to="/" >Home</NavItem> */}
       <NavItem to="/invest/"
-      activeStyle={{  borderBottom: "2px solid #ffffff52",  padding: "7px 0px" }}
-      
-      >Invest in your goals</NavItem>
+         activeStyle={{  borderBottom: "2px solid #ffffff52",  padding: "7px 0px" }}>
+         Invest in your goals
+      </NavItem>
       <NavItem to="/">Help Centre</NavItem>
       <NavItem to="/">Blog</NavItem>
       

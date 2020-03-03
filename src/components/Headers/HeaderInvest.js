@@ -75,6 +75,10 @@ const Column = styled.div`
 `
 const Title = styled.h1`
    font-size: 30px;
+
+   ${bp.sm`
+      font-size: 50px;
+   `}
 `
 const Description = styled.p`
    font-weight: 300;
@@ -115,9 +119,6 @@ const HeaderInvest = () => {
                <Description>
                   Invest in your goals and start living.
                </Description>
-               <SignUpBtn href="https://www.22seven.com/app/signup" target="_blank">
-               <p>Invest now.</p>
-            </SignUpBtn>
             </Column> 
          </Content>
       </Container> 

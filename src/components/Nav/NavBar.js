@@ -99,7 +99,7 @@ const Logo = styled(Link)`
 `
 const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
-
+   const home = "home";
   return (
     <Navigation>
       <Logo to="/">
@@ -113,7 +113,7 @@ const Navbar = () => {
       </Toggle>
       {navbarOpen ? (
         <Navbox>
-          <NavbarLinks />
+          <NavbarLinks location={home} />
         </Navbox>
       ) : (
         <Navbox open>
