@@ -499,8 +499,116 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
          <ContentTitle>19. Professional indemnity cover and fidelity insurance</ContentTitle>
          <p>22seven confirms that OMLACSA has the necessary professional indemnity and fidelity insurance in place to cover 22seven’s activities in terms of these Terms and Conditions.</p>
 
+         <ContentTitle>20. Fees and charges</ContentTitle>
+         <p>22seven will receive the following Intermediary Services fees and pay the following Charges in respect of your investment:
 
+         <ul>
+            <li>
+            <br/>
+               <p>
+               20.1. Intermediary Services Fees<br/>
+               Fees in respect of Intermediary Services rendered to you by 22seven are payable by Old Mutual Unit Trusts to OMLACSA. OMLACSA in turn pays its juristic representative, 22seven each month. These fees are already included in the single service fee that Old Mutual Unit Trusts discloses in your Investment’s Fund Fact Sheet. These fees are built into the daily unit price of your Investment and are not collected through the sale of units. The latest applicable fees are:
+               </p>
+               <ul>
+                  <li>
+                     <p>
+                     20.1.1.<br/><br/>
 
+                     OMLACSA’s Fee Paid to 22seven<br/>
+                     0.2% of your Investment market value, per annum for the following fund(s):<br/>
+                     Old Mutual Core Balanced Fund<br/>
+                     Old Mutual Top 40 Index Fund 100%
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.2.<br/><br/>
+
+                     OMLACSA’s Fee Paid to 22seven<br/>
+                     0.1% of your Investment market value, per annum for the following fund(s):<br/>
+                     Old Mutual FTSE RAFI® All World Index Feeder Fund<br/>
+                     Old Mutual Money Market Fund 100%
+                     </p>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <p>
+               20.2. Charges<br/>
+               There are other charges (in addition to the above Intermediary Services fees) that may be deducted from your Investment. These charges are included in the unit price of your Investment and will not show on your investment statement. They include the following:<br/><br/>
+               – bank charges<br/>
+               – trustee fees<br/>
+               – audit fees<br/>
+               – securities transfer tax<br/>
+               – value added tax<br/>
+               – brokerage fees
+               </p>
+            </li>
+            <li>
+               <p>
+               20.3. Value added tax (VAT)<br/>
+               All fees and charges are shown exclusive of value added tax (VAT), unless stated otherwise.
+               </p>
+            </li>
+         </ul>
+         </p>
+
+         <ContentTitle>21. Changes to these terms and conditions, fees and charges</ContentTitle>
+         <p>These Terms and Conditions, and the fees and charges applicable to this Investment, may change from time to time. If required by law, 22seven will give you written notice of changes to these Terms and Conditions or the fees and charges relating to your Investment.</p>
+
+         <ContentTitle>22. Laws that apply to your investment</ContentTitle>
+         <p>Your Investment is governed by the laws of South Africa. The most important laws that apply are detailed below.</p>
+         <p>Financial Intelligence Centre Act (38 of 2001 and any amendments thereto)<br/>
+            This Act aims to prevent money laundering and terrorist financing. It requires 22seven to establish and prove your identity and source of funds before accepting your investment application.</p>
+         <p>The Collective Investment Schemes Control Act (45 of 2002 and any amendments thereto)<br/>
+            This Act regulates the administration and management of collective investment schemes.</p>
+         <p>Exchange Control Regulations<br/>
+            Certain collective investment scheme portfolios are subject to exchange control regulations.</p>
+         <p>Financial Advisory and Intermediary Services Act (FAIS) (37 of 2002 and any amendments thereto)<br/>
+            This Act regulates the activities of those who give advice or provide intermediary services to investors regarding financial products. It requires such persons be licensed and enforces professional behaviour through codes of conduct.</p>
+         <p>Income Tax Act (52 of 1962 and any amendments thereto)<br/>
+            This Act applies to taxation.</p>
+         <p>Consumer Protection Act (68 of 2008 and any amendments thereto)<br/>
+            This Act promotes a fair, accessible and sustainable market place for consumer products and services.</p>
+         <p>The Protection of Personal Information Act</p>
+         <p>22seven may use your information or obtain information about you for the following purposes:</p>
+         <p>
+         – Credit searches and/or verification<br/>
+         – Fraud prevention and detection<br/>
+         – Market research and statistical analysis<br/>
+         – Audit & record keeping purposes<br/>
+         – Compliance with legal & regulatory requirements<br/>
+         – Verifying your identity<br/>
+         – Sharing information with service providers we engage to process such information on our behalf or who render services to us.<br/>
+         – Sharing information with OMLACSA and Old Mutual Unit Trusts on behalf of OMLACSA as Financial Services Provider where you are invested in an Old Mutual Unit Trusts Fund. 
+         </p>
+
+         <p>You may access the personal information that 22seven holds and view our full privacy notice by logging on to our website at 22seven.com. You may request that 22seven delete this information by e-mailing thesvens@22seven.com.</p>
+
+         <ContentTitle>23. Contact details and domicile</ContentTitle>
+         <p>22seven can be contacted at:</p>
+         <p>
+         Registered Address<br/>
+         Mutual Park<br/>
+         Jan Smuts Drive<br/>
+         Pinelands<br/>
+         7405<br/><br/>
+
+         Postal Address<br/>
+         P.O. Box 50128<br/>
+         Waterfront<br/>
+         Cape Town<br/>
+         8002<br/><br/>
+
+         Tel: (021) 4265771<br/>
+         Email: thesvens@22seven.com<br/>
+         </p>
+
+         <p>
+         22seven has chosen the above registered address as its domicilium citandi et executandi for the purposes of receiving notices and legal proceedings in connection with your Investment.
+You nominate the physical address inserted by you in the 22seven Application as your domicilium citandi et executandi for the purposes of receiving notices and legal proceedings in connection with your Investment
+         </p>
+         <hr />
          </Content>
       </Container> 
    )
