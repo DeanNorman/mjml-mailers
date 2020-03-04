@@ -19,7 +19,7 @@ const FaisDisclosures = () => {
             title="Here are our FAIS disclosures."
             text="This is legal stuff and has to be worded in Legalish, but we’d be happier if you read it anyway. Luckily, it's short."
          />
-         <FaisDisclosures />
+         <FaisDisclosuresContent />
       </Layout>
    )
 }
