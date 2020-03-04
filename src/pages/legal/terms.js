@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../../components/Layout'
 
 import HeaderLegal from '../../components/Headers/HeaderLegal'
+import TermsContent from '../../components/legal/TermsContent'
 
 const Terms = () => {
    return (
@@ -17,6 +18,7 @@ const Terms = () => {
             title="These are our terms."
             text="When you use 22seven, this is what you agree to. We know it’s legal stuff, but please read it. We’d like you to understand it."
          />
+         <TermsContent />
       </Layout>
    )
 }

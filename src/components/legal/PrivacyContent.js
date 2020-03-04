@@ -79,6 +79,7 @@ const SubTitle = styled.p`
 
 const ContentTitle = styled.p`
    font-family: "CircularStd-Bold", Helvetica, Arial, serif;
+   font-weight: 600 !important;
    margin-bottom: 10px;
 `
 
@@ -98,7 +99,7 @@ const PrivacyContent = () => {
    return (
       <Container>
          <TitleContent>
-            <Title>FAIS disclosures.</Title>
+            <Title>Privacy Policy</Title>
             <SubTitle>Version 2.3, 9 February 2018</SubTitle>
          </TitleContent>
          <Content>
