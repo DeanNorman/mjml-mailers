@@ -43,9 +43,17 @@ const Title = styled.h1`
     text-align: center;
 
     ${bp.sm`
-      font-size: 37.531px;
+      font-size: 50px;
       line-height: 54.045px;
     `}
+
+
+br {
+      display: none;
+      ${bp.sm`
+         display: block;
+      `}
+   }
 
 
 `
