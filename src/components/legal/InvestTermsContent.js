@@ -609,6 +609,232 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
 You nominate the physical address inserted by you in the 22seven Application as your domicilium citandi et executandi for the purposes of receiving notices and legal proceedings in connection with your Investment
          </p>
          <hr />
+
+         <ContentTitle>
+         Old Mutual Unit Trusts Managers (RF) PTY LTD<br/>
+         (Registration no. 65/008471/07)<br/>
+         Collective Investment Scheme Portfolios<br/>
+         Terms and conditions
+         </ContentTitle>
+         <hr />
+
+         <ContentTitle>1. Information about your investment</ContentTitle>
+
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  a. The investment that you have made is the purchase of participatory interests (“Units”) in Collective Investment Scheme portfolios (“Unit Trusts”).
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  b. Two types of portfolios are being made available by Old Mutual Unit Trusts, namely:
+                  </p>
+               </li>
+               <ul>
+                  <li>
+                     <p>
+                     i. Taxable Investments
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     ii. Tax-free Investments
+                     </p>
+                  </li>
+               </ul>
+               <li>
+                  <p>
+                  c. Should you have invested in a Tax-free Investment then:
+                  </p>
+                  <ul>
+                     <li>
+                        <p>
+                        i. The Tax-free Investment is offered to individual people only (i.e. not for Trusts, companies, etc.) by Old Mutual Unit Trust (“we” or “us” or “our”) through 22seven Digital (Pty) Ltd’s (“22seven”) digital application (“22seven Application”).
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        ii. “Tax-free” means that you will not pay income tax on the interest earned in the portfolio, or dividend withholding tax on the dividends earned in the portfolio, and when you eventually sell, you will pay no capital gains tax on the growth of the value in your portfolio.
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        iii. You can invest up to R33,000 each year, until your total investment reaches R500,000 which is the lifetime limit that you are allowed to save in a tax-free investment or savings account. If you go over these limits you will be taxed at 40% of the extra amount by SARS.
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        iv. Your Tax-free Investment account will be opened when we have received your application form and supporting documents through the 22seven Application, your debit order has been actioned and your money reflects in our bank account.
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        v. You can withdraw money from your portfolio at any time, but remember that should you withdraw from your Tax-free Investment then the amount you withdraw remains part of your maximum lifetime investment amount and cannot be reinvested at a later stage. This means withdrawals permanently reduce your total amount of allowable tax-free savings.
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        vi. You may switch into a Tax-free Investment and between unit trusts in the Tax-free Investment but you may not switch out of this portfolio.
+                        </p>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <p>
+                  d. Should you have invested in a Taxable Savings Investment then the capital growth and returns accruing to your investment will be subject to the tax laws prescribed in the Income Tax Act 58 of 1962 and may be subject to income tax.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  e. In order to withdraw money from your portfolio, you need to sell your units using the 22seven Application and the money must be paid into the same bank account that we have on record for you.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>2. Bank details for investments</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  a. This is the bank account that you provided to Old Mutual Unit Trusts through the 22seven Application.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  b. You agree to fund your investment and all future payments from this account or the account that you later provide to us through the 22seven Application.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  c. Please note:
+                  </p>
+                  <ul>
+                     <li>
+                        <p>
+                        i. Deductions cannot be made from credit cards.
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        ii. Payments can only be made to your own bank account
+                        </p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>3. Administrative arrangements</ContentTitle>
+         <p>If all our requirements are met by 15h00 you will receive the same day’s price. Otherwise the first working day’s price will apply once all requirements have been met, with the same cut-off times applying.</p>
+
+         <ContentTitle>4. Minimum investment amounts</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  a. We may specify minimum investment amounts from time to time.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  b. We are under no obligation to accept below minimum investments and reserve the right not to debit or to cease debiting your account under certain circumstances.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>5. Reinvestment of distributions</ContentTitle>
+         <p>Distributions are automatically reinvested.</p>
+
+         <ContentTitle>6. Financial intelligence centre act</ContentTitle>
+         <p>Certain buying and selling requests require at least proof of identity (e.g. bar-coded ID/passport) and residential address (e.g. recent utility bill), unless we have your current documents on record or you have made them available to 22seven through the 22seven Application.</p>
+
+         <ContentTitle>7. Statutory disclosure</ContentTitle>
+         <p>Unit trusts are generally medium- to long-term investments. Past performance is no indication of future performance. Shorter term fluctuations can occur as your investment moves in line with the markets. Fluctuations or movements in exchange rates may cause the value of underlying international investments to go up or down. Unit trusts can engage in borrowing and scrip lending. The fund’s TER reflects the percentage of the average Net Asset Value of the portfolio that was incurred as charges, levies and fees related to the management of the portfolio. A higher TER does not necessarily imply a poor return, nor does a low TER imply a good return. The current TER cannot be regarded as an indication of future TERs. A schedule of fees, charges and maximum commissions is available from Old Mutual Unit Trust Managers (RF) (Pty) Ltd. You may sell your investment at the ruling price of the day (calculated at 15h00 on a forward pricing basis). Certain funds may be capped to be managed in accordance with their mandates. Old Mutual is a member of the Association for Savings and Investment South Africa (ASISA).</p>
+
+         <ContentTitle>8. Declaration</ContentTitle>
+         <p>By using the 22seven Application you declare that:
+
+            <ul>
+               <li>
+                  <br/>
+                  <p>
+                  a. you accept the number of units sold to you by virtue of the 22seven Application and you warrant that you have full power and authority to enter into and conclude this transaction, with the necessary assistance where such assistance is a legal requirement.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  b. you are aware that this product offers no cooling-off rights.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  c. you know that the cost of buying units may include an initial charge plus VAT, depending on the amount invested, and that there are no guarantees on your capital.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  d. you acknowledge that there are further allowable deductions from the unit trust (e.g. an annual service fee) that impact on the value of your investment.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  e. you are satisfied that the facts you provided through the 22seven Application are accurate and complete.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  f. you are aware of the unit trust’s/unit trusts’ objectives, risk factors, the charges and income distributions, as set out in the unit trust fund fact sheet/s.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  g. you acknowledge that we may borrow up to 10% of the portfolio to bridge insufficient liquidity.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  h. you have read and fully understood all the pages of these terms and conditions together with all information contained in the 22seven Application.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  i. you hereby authorise us to debit the account mentioned above with the monthly amount/lump sum specified.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  j. you further authorise us to accept instructions from you via the 22seven Application.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>9. Contact details</ContentTitle>
+         <p>
+         Old Mutual Unit Trust Managers (RF) (Pty) Ltd (Registration no. 65/08471/07)<br/>
+         Mutualpark, Jan Smuts Drive, Pinelands 7405, South Africa<br/>
+         PO Box 207, Cape Town 8000, South Africa<br/>
+         Telephone no.: +27(0)21 503 1770<br/>
+         Helpline: 0860 234 234<br/>
+         Fax no.: +27(0)21 509 7100<br/>
+         Internet address: www.omut.co.za<br/>
+         Email: unittrusts@oldmutual.com<br/>
+         Complaints: Write to our Client Services Manager at the above address or call 0860 234 234.<br/>
+         Compliance Department: +27(0)21 503 1770
+         </p>
+         <p>
+         Old Mutual Investment Administrators (Pty) Ltd (Registration no. 1988/003478/07)<br/>
+         Mutualpark, Jan Smuts Drive, Pinelands 7405, South Africa<br/>
+         PO Box 5408, Cape Town 8000, South Africa<br/>
+         Telephone no.: +27(0)21 503 1770<br/>
+         Fax no.: +27(0)21 509 7100<br/>
+         Compliance Department: +27(0)21 503 1770<br/>
+         Professional indemnity cover and fidelity insurance cover are in place. Old Mutual Investment Administrators (Pty) Ltd is a third party administration and service provider to Old Mutual Unit Trust Managers (RF) (Pty) Limited and is a licensed financial services provider.
+         </p>
          </Content>
       </Container> 
    )
