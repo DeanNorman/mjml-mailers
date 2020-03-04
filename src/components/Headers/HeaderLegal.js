@@ -20,9 +20,6 @@ const Container = styled.div`
 
    background-color: #f1f2f3;
 
-   ${bp.md`
-      height: 417px;
-   `} 
    br {
       display: none;
       ${bp.sm`
@@ -39,9 +36,14 @@ const Content = styled.div`
    align-content: center;
    width: 85%;
 
+   ${bp.xl`
+      width: 50%;
+   `}
+
 `
 
 const Title = styled.h1`
+   font-family: 'CircularStd';
     font-size: 32px;
     line-height: 38px;
     text-align: center;
@@ -50,9 +52,13 @@ const Title = styled.h1`
       font-size: 50.0px;
       line-height: 54.045px;
     `}
+     ${bp.lg`
+       margin-bottom: 40px;
+    `}
 `
 
 const Text = styled.p`
+   font-family: 'CircularStd';
    font-size: 15px;
    line-height: 19px;
    text-align: center;

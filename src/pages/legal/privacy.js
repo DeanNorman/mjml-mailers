@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../../components/Layout'
 
 import HeaderLegal from '../../components/Headers/HeaderLegal'
+import PrivacyContent from '../../components/legal/PrivacyContent'
 
 const Privacy = () => {
    return (
@@ -18,6 +19,7 @@ const Privacy = () => {
             text="Our Privacy Policy confirms that your information belongs to you: we won’t sell it to anyone, nor will we use it to spam you. Here is our Privacy Policy in full."
             icon
          />
+         <PrivacyContent />
       </Layout>
    )
 }

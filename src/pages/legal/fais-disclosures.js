@@ -1,10 +1,12 @@
 import React from 'react'
 import { Helmet } from 'react-helmet';
+
 import Layout from '../../components/Layout'
 
 import HeaderLegal from '../../components/Headers/HeaderLegal'
+import FaisDisclosuresContent from '../../components/legal/FaisDisclosuresContent'
 
-const faisDisclosures = () => {
+const FaisDisclosures = () => {
    return (
       <Layout>
          <Helmet>
@@ -17,8 +19,9 @@ const faisDisclosures = () => {
             title="Here are our FAIS disclosures."
             text="This is legal stuff and has to be worded in Legalish, but we’d be happier if you read it anyway. Luckily, it's short."
          />
+         <FaisDisclosures />
       </Layout>
    )
 }
 
-export default faisDisclosures;
+export default FaisDisclosures;
