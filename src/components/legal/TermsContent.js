@@ -466,6 +466,264 @@ const TermsContent = () => {
                </li>
             </ul>
          </p>
+
+         <ContentTitle>20. Our and your liability is limited.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  20.1 Neither we nor our directors will be liable for any liability or damage (other than arising from our fraudulent actions or gross negligence) of any nature which may be caused by or attributable, directly or indirectly, to
+                  </p>
+               </li>
+               <ul>
+                  <li>
+                     <p>
+                     20.1.1 your use of or reliance on the Service;
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.2 the Service Channels; your use of or reliance on any information offered on or via the Service Channels;
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.3 your acts or omissions;
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.4 a breach by you of the Terms;
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.5 the fact that we act on your instructions or instructions purported to emanate from you;
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.6 any unlawful access or monitoring of information transmitted to us;
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.7 any error or omission in respect of information submitted to us (including Registration Information and Account Information).
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     20.1.8 any error or omission in respect of information submitted to us (including Registration Information and Account Information).
+                     </p>
+                  </li>
+               </ul>
+               <li>
+                  <p>
+                  20.2 You must not construe any information we release (including any information contained in any reports or alerts) or any information you obtain through use of the Service as an opinion on your solvency, financial standing or creditworthiness. You are solely responsible for all actions and decisions you take in reliance on this information.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  20.3 You will not be liable for any liability or damage (other than arising from your fraudulent actions or gross negligence) of any nature which may be caused by or attributable, directly or indirectly, to
+                  </p>
+                  <ul>
+                     <li>
+                        <p>20.3.1 our acts or omissions;</p>
+                     </li>
+                     <li>
+                        <p>20.3.2 a breach by us of the Terms</p>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <p>
+                  20.4 Neither of us will be liable for any indirect or consequential loss or damage of whatever nature and however it may arise.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>21. You indemnify us.</ContentTitle>
+         <p>You indemnify us, Yodlee and our other authorised service providers and their affiliates against any third party claims, damages or costs (including reasonable attorney's fees) caused by or attributable to your -</p>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  21.1 acts or omissions;
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  21.2 use of the Service and the Service Channels;
+                  </p>
+               </li>
+               <li>
+                  <p>
+                     21.3 breach of these Terms.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>22. Address for Legal Notices.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  22.1 You agree to accept any notice or legal process relating to these Terms at the email address provided during the registration process.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  22.2 You must send any notice or legal process relating to these Terms to our address set out in clause 31.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  22.3 We can change our physical address (to any other physical address in South Africa), our telephone number and facsimile number and we will give you notice of such change.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>23. This is the only agreement between you and us.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  23.1 These Terms are the sole record of the agreement between you and us in relation to the Service. Neither of us are bound by any express, tacit or implied representation or warranty not recorded in these Terms.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  23.2 These Terms replace all prior written and verbal communications between us about the Service.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  23.3 If either one of us gives the other an indulgence or extension of time, doing so will not waive or limit any of our rights, unless we expressly agree in writing to waive or limit them.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>24. We can assign our rights on notice to you.</ContentTitle>
+         <p>
+         If we merge, sell or otherwise assign our assets and this involves transferring our rights and obligations under these Terms to a third party, we will let you know before we do this. If you do not agree to the transfer of our rights and obligations, you may terminate your use of the Service with effect from the date of transfer or assignment.
+         </p>
+
+         <ContentTitle>25. Each term is severable.</ContentTitle>
+         <p>If any provision of these Terms is or becomes unenforceable in any jurisdiction, the unenforceable aspect of that provision will be treated in such jurisdiction as if it had not been included in the Terms. The remaining provisions of the Terms will remain valid.</p>
+
+         <ContentTitle>26. Cross-border transfer of your information.</ContentTitle>
+         <p>Yodlee and some of our other authorised service providers are situated outside South Africa. You consent to your personal information (including Account Information and Security Credentials) being transferred cross-border so that we can render the Service to you. We will ensure that all such authorised service providers have security and privacy policies and procedures providing at least the same level of protection as our Terms</p>
+
+         <ContentTitle>27. Children can only use the Service with consent.</ContentTitle>
+         <p>If you are under 18, you may only use the Service with the consent and involvement of a parent or other legally competent person. We reserve the right to ask you for such information as is necessary to prove that you are 18 years or older, or that you are using the Service with the consent and involvement of a parent or legally competent person.</p>
+
+         <ContentTitle>28. Events or circumstances beyond our control.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  28.1 If events or circumstances beyond our reasonable control (“force majeure”) prevent either of us (“Affected Party”) from fulfilling any of our obligations, those obligations will be suspended to the extent that and for as long as the Affected Party is so prevented.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  23.2 These Terms replace all prior written and verbal communications between us about the Service.
+
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  28.3 Force majeure includes an unavoidable natural catastrophe (“vis major”), an uncontrollable accident (“casus fortuitus”), any act of nature, strike, theft, riots, explosion, insurrection, war (whether declared or not), military operations, the downtime of any external telecommunications line, power failure, international restrictions, any requirement of any international authority, any requirement of any government or other competent local authority or any court order.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>29. Your queries and complaints. </ContentTitle>
+         <p>Please email any queries or complaints to our customer support team at thesvens@22seven.com.</p>
+         <ExternalLink href="mailto:thesvens@22seven.com" target="_blank">
+               Contact thesvens@22seven.com
+               <Arrow src={linkArrow} alt="link" />
+         </ExternalLink><br/>
+
+         <ContentTitle>30. The law that applies to these Terms.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  30.1 If there is any conflict between these Terms and the CPA, the CPA will apply.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  30.2 These Terms are governed by and interpreted in accordance with the laws of the Republic of South Africa without giving effect to any principles of conflict of law.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  30.3 You consent to the exclusive jurisdiction of the courts of the Republic of South Africa over any dispute about the Services or the Terms.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>31. 22seven’s details.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  31.1 Full name: 22seven Digital (Pty) Ltd), (Reg No. 2010/011767/07) trading as 22seven
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  31.2 Physical address (including for receipt of legal service): 60 Hout Street, Cape Town, 8001
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  31.3 Telephone number: +27 87 550 4331
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  31.4 Website address: www.22seven.com
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  31.5 Email address: thesvens@22seven.com
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>32. Proof of date of publication and version of terms.</ContentTitle>
+         <p>A certificate signed by our Directors will, unless the contrary is proven, be sufficient evidence of</p>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  32.1 the date of publication and the content of the Terms and new Terms;
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  32.2 the date of publication and the content of earlier versions of the Terms;
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  32.3 the date and content of any communication and notifications sent in terms of the Terms.
+                  </p>
+               </li>
+            </ul>
+         </p>
+         <p>Copyright in these Terms vests with 22seven Digital (Pty) Ltd</p>
          </Content>
       </Container> 
    )
