@@ -153,10 +153,10 @@ export default function Footer() {
          </Column>
          <Column>
             <p>Legal</p>
-            <NavItem to="/">Privacy Policy</NavItem>
-            <NavItem to="/">Terms of Service</NavItem>
-            <NavItem to="/">Investing T&Cs</NavItem>
-            <NavItem to="/">FAIS Disclosures</NavItem>
+            <NavItem to="/legal/privacy">Privacy Policy</NavItem>
+            <NavItem to="/legal/terms">Terms of Service</NavItem>
+            <NavItem to="/legal/terms-and-conditions">Investing T&Cs</NavItem>
+            <NavItem to="/legal/fais-disclosures">FAIS Disclosures</NavItem>
          </Column>
          <Column>
             <p>Company</p>
