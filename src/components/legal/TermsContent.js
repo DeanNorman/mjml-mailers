@@ -230,11 +230,242 @@ const TermsContent = () => {
                </li>
                <li>
                   <p>
-                  9.3 By using the Service, you grant us, Yodlee and other authorised service providers who assist us to provide the Service to you the right to use any information, data, materials or other content (collectively, “Content”) you provide through or to the Service, SOLELY for the purpose of providing the Service. Such use will always be in accordance with our Privacy Policy. By providing Content, you agree and warrant that the owner of such Content has expressly agreed that, without any particular time limit, we, Yodlee and our authorised service providers may use the Content ONLY for the purposes set out above. To be clear, when we talk about “Content” we are not referring to your security credentials, which are only ever used by ourselves and Yodlee and always in accordance with our Privacy Policy.
+                  9.3 By using the Service, you grant us, Yodlee and other authorised service providers who assist us to provide the Service to you the right to use any information, data, materials or other content (collectively, “Content”) you provide through or to the Service, SOLELY for the purpose of providing the Service. Such use will always be in accordance with our Privacy Policy. By providing Content, you agree and warrant that the owner of such Content has expressly agreed that, without any particular time limit, we, Yodlee and our authorised service providers may use the Content ONLY for the purposes set out above. To be clear, when we talk about “Content” we are not referring to your security credentials, which are only ever used by ourselves and Yodlee and always in accordance with our Privacy Policy.<br/><br/>
+                  <InternalLink to="/legal/privacy/">
+                        Read our Privacy Policy
+                        <Arrow src={linkArrow} alt="link" />
+                  </InternalLink>
                   </p>
                </li>
             </ul>
-         </p>        
+         </p>
+
+         <ContentTitle>10. Communications that originate from you.</ContentTitle>
+         <p>We may assume that all electronic communications which reasonably appear to originate from you or a person you have told us is authorised to act on your behalf (collectively “the originator”) are in fact from you and the form in which we receive the communication is the same as when it was first sent.</p>
+
+         <ContentTitle>11. The Service may not always be available.</ContentTitle>        
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  11.1 We do not guarantee that the Service will always be available.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  11.2 We are also not responsible for the accuracy of any Account Information, communications or personalisation settings. For example, Account Information displayed through the Service is only as up to date as the time shown which reflects when the information was last collected on your behalf from your Product/Service Provider’s system. Your Product/Service Providers may have more up-to-date information.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>12. To protect the integrity of our Service Channels and Proprietary Information. </ContentTitle>
+         <p>You may not –</p>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  12.1 use any robot, spider, scraper, deep link or other similar automated data gathering or extraction tools, program, algorithm or methodology for any unlawful purpose, including the unlawful access to, acquisition of, control over, copying or monitoring of the Service Channels;
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  12.2 use or attempt to use any engine, software, tool, agent, or other device or mechanism (including browsers, spiders, robots, avatars or intelligent agents) to unlawfully and without our knowledge navigate or search the Service Channels, other than the search engines and search agents available through the Service and generally available third-party web browsers;
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  12.3 post or transmit any file which contains viruses, worms, Trojan horses or any other contaminating or destructive features, or that otherwise interferes with the Service Channels or the Service; and/or
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  12.4 attempt to decipher, decompile, disassemble, or reverse-engineer any of the software comprising the Service Channels or the Service.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>13. Unlawful activity and user forums.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  13.1 You may not use the Service to post any message or material that is unlawful, defamatory, abusive, indecent, threatening, harmful, obscene, racially offensive, or pornographic. We will remove any posting or message that infringes this prohibition and, if you continue posting messages or material of this kind, we may terminate your use of the Service.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  13.2 Please be aware that postings and messages are displayed under your registered name and will remain visible even after you terminate your use of the Service, unless you specifically request this be removed as set out in the Privacy Policy.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>14. Termination of use of the Service by You or Us.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  14.1 You may terminate your use of the Service at any time by following the termination procedure on the Service Channels or as set out in clause 3 (i.e. We will let you know if the Terms change) of the Terms.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  14.2 We may terminate your subscription to the Service –
+                  </p>
+                  <ul>
+                     <li><p>
+                     14.2.1 at any time by giving you notice; and
+                     </p></li>
+                     <li><p>
+                     14.2.2 in the event of you breaching these Terms.
+                     </p></li>
+                  </ul>
+               </li>
+               <li>
+                  <p>
+                  14.3 On termination –
+                  </p>
+                  <ul>
+                     <li><p>
+                     14.3.1 all your rights under these Terms end immediately;
+                     </p></li>
+                     <li><p>
+                     14.3.2 we will close your account and deactivate your Login Details;
+                     </p></li>
+                     <li>
+                        <p>14.3.3 we will remove from our records all your information in our possession other than information and data which we are obliged by law to retain.</p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>15. Breach of these Terms.</ContentTitle>
+         <p>
+         Should either of us (“the Defaulting Party”) breach these Terms and fail to remedy the breach within fourteen days of receiving written notice from the other party (“the Aggrieved Party”), the Aggrieved Party may, without prejudice to its other rights in law, terminate the Service agreement or claim immediate specific performance of all of the defaulting party’s obligations whether or not due for performance.
+         </p>
+
+         <ContentTitle>16. Our intellectual property.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  16.1 We own or are licensed to use all intellectual property rights in all materials, text, drawings and data (collectively “the Materials”) made available on the Service Channels. This does not include your Account Information and other Personal Information which will always belong to you and will only be used by us in accordance with our Privacy Policy.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  16.2 Any unauthorised reproduction, distribution, derivative creation, sale, broadcast or other circulation or exploitation of the whole or any part of the Materials is an infringement of our rights.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  16.3 We own or are licensed to use the 22seven Trademarks, names, logos and service marks (collectively “Trademarks”) displayed on the Service Channel whether registered or unregistered. You must get our permission in writing if you want to use any Trademark.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  16.4 You may use the Materials only to the extent necessary to enable you to use the Service.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>17. External websites and linking to our Service Channels.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  17.1 Your use or reliance on external links is at your own risk.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  17.2 We grant you a limited, nonexclusive right, revocable by us at any time, to create a hyperlink to our Service Channels, provided such link does not portray us or our Service in a false, misleading, derogatory or defamatory manner and/or does not misrepresent the relationship between the third party website and us.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>18. We may send you alerts and notifications.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  18.1 We may send alerts, notifications and other communications to you by way of email, SMS or other electronic delivery mechanisms and you consent to receive communications from us in any such manner.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  18.2 We will send electronic alerts to the address (email or other) you have provided to us. If your details change, please update them via the Service
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  18.3 You can switch account alerts that we send on or off.
+                  </p>
+               </li>
+            </ul>
+         </p>
+
+         <ContentTitle>19. Warranties.</ContentTitle>
+         <p>
+            <ul>
+               <li>
+                  <p>
+                  19.1 Although we will always try to ensure the Service Channels are available, the Service and Service Channels are provided “as is”. Subject to the Consumer Protection Act 68 of 2008 as read with any of its Regulations (collectively “the CPA”), we make no warranties, representations, statements or guarantees (whether express, implied in law or residual) in this regard.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  19.2 Subject to the CPA, we do not warrant that the Service, the Service Channels and the information they contain, or any output generated by your use of the Service, or any alert, will –
+                  </p>
+                  <ul>
+                     <li><p>19.2.1 meet your requirements or expectations;
+                     </p></li>
+                     <li><p>19.2.2 be uninterrupted, timely, secure or error free;
+                     </p></li>
+                     <li>
+                        <p>19.2.3 meet any particular measure of accuracy, completeness or reliability, performance or quality;
+                        </p>
+                     </li>
+                     <li>
+                        <p>19.2.4 be free of viruses or any other data or code which has the ability to corrupt or adversely affect the operation of your computer, data or network.
+                        </p>
+                     </li>
+                  </ul>
+               </li>
+               <li>
+                  <p>
+                  19.3 No information obtained by you from us and/or our authorised service providers through or from the Service will create any warranty by us or the service provider in question.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                  19.4 You warrant that -
+                  </p>
+                  <ul>
+                     <li>
+                        <p>
+                        19.4.1 you are legally entitled to access the Service Channels and use the Service;
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        19.4.2 you have, and will continue to have for the duration of the Terms, all necessary consents to use the Service;
+                        </p>
+                     </li>
+                     <li>
+                        <p>
+                        19.4.3 you have capacity to be bound by the Terms.
+                        </p>
+                     </li>
+                  </ul>
+               </li>
+            </ul>
+         </p>
          </Content>
       </Container> 
    )
