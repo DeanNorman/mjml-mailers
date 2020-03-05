@@ -8,9 +8,16 @@ import noTouch from '../../images/security/noTouch.svg'
 import umbrella from '../../images/security/umbrella.svg'
 
 
-const Container = styled.div``
-const Content = styled.div``
-const Column = styled.div``
+const Container = styled.div`
+   font-family: 'CircularStd';
+`
+const Content = styled.div`
+   display:flex;
+   justify-content: center;
+   padding: 20px 0;
+   flex-wrap:wrap;
+   transition: all 0.2s ease-in-out;
+`
 
 const Benefit = styled.div`
   display: flex;
@@ -22,11 +29,20 @@ const Benefit = styled.div`
   margin: 10px 30px;
   align-items: center;
 
+  ${bp.md`
+         text-align: left;
+      `}
+
   p { 
    font-weight: 300;
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+      text-align: center;
+
+      ${bp.md`
+         text-align: left;
+      `}
    }
 `
 
@@ -40,6 +56,11 @@ const Circle = styled.div`
    margin: 0.5em;
    box-shadow: 0px 0px 230px 3px rgba(112,112,112,0.5);
    margin-bottom: 20px;
+  
+
+   ${bp.md`
+       align-self: flex-start;
+   `}
 `
 
 const Aligner = styled.div`
