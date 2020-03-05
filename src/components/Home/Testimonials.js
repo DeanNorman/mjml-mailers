@@ -48,8 +48,7 @@ const Card = styled.div`
    border-radius: 9px;
    padding: 10px 18px 0px 18px;
    margin: 20px 0;
-   height: 450px;
-    max-height: 530px;
+
    background: white;
 
 

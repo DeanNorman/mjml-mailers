@@ -1,24 +1,40 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { breakpoints as bp } from '../../styling/index'
 
 
-
 const Container = styled.div`
-   display:flex;
+   display: flex;
    flex-direction: column;
+   align-items: center;
+   position: relative;
   
 `
 const Content = styled.div`
- font-family: 'CircularStd';
-   display:flex;
+   display: flex;
+   flex-direction: center;
    justify-content: center;
-   padding: 20px 0;
-   flex-wrap:wrap;
-   transition: all 0.2s ease-in-out;
+   text-align: left;
+   flex-wrap: wrap;
+   padding: 0 20px;
+
+   font-family: "CircularStd-Book", Helvetica, Arial, serif;
+   color: #4e4b6b;
+
+   ${bp.md`
+      justify-content: space-around;
+      max-width: 900px;
+      text-align: left;
+   `}
 `
 const Card = styled.div`
- font-family: 'CircularStd';
+      display: flex;
+   flex-direction: column;
+   background: #f1f2f3;
+   padding: 40px 30px;
+   margin: 15px 15px;
+   max-width: 400px;
+
 `
 
 
@@ -27,7 +43,7 @@ const SecurityInformation = () => {
       <Container>
          <Content>
             <Card>
-               <h3>How your account login details are kept safe.a</h3>
+               <h3>How your account login details are kept safe.</h3>
                <p>The usernames, passwords and other authentication information you provide to us are passed, in encrypted format, directly through to Yodlee – our information aggregation partner. 22seven never stores them. Yodlee stores them in encrypted format and only the system that actually collects your information is able to decrypt them when required to do so. At no time can 22seven or Yodlee staff access your credentials. Yodlee’s security overview provides more information on their security.</p>
                <a href="#">
                   More about our Yodlee Security

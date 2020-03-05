@@ -98,7 +98,7 @@ const Arrow = styled.img`
 
 
 
-const Security = () => {
+const SectionSecurity = () => {
    return (
    <Container>
       <Content>
@@ -153,4 +153,4 @@ const Security = () => {
    )
 }
 
-export default Security;
+export default SectionSecurity;

@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
 
 import HeaderHome from '../components/Headers/HeaderHome';
-import Security from '../components/Home/Security';
+import SectionSecurity from '../components/Home/SectionSecurity';
 import SectionOne from '../components/Home/SectionOne';
 import SectionTwo from '../components/Home/SectionTwo';
 import SectionThree from '../components/Home/SectionThree';
@@ -23,7 +23,7 @@ const index = () => {
          </Helmet>
 
          <HeaderHome />
-         <Security />
+         <SectionSecurity />
          <SectionOne />
          <SectionTwo />
          <SectionThree />
