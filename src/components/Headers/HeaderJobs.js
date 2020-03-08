@@ -1,25 +1,23 @@
 import React from 'react';
 import styled from 'styled-components'
 
-import background from '../../images/security/background.png';
+import background from '../../images/jobs/background.png';
 
 import { breakpoints as bp } from '../../styling/index'
 
 const Container = styled.div`
    display: flex;
    justify-content: center;
-   min-height: 360px;
+   min-height: 288px;
    background: url(${background}) no-repeat center center;
+   background-color: #f1f2f3;
    background-size: cover;
-   background-color: rgb(255, 255, 255);
-    background-position: center center;
     background-repeat: no-repeat;
     padding: 70px 30px 250px;
-    background-size: cover;
     
    br {
       display: none;
-      ${bp.sm`
+      ${bp.md`
          display: block;
       `}
    }
@@ -43,8 +41,9 @@ const Content = styled.div`
 `
 
 const Title = styled.h1`
+   font-family: "CircularStd", Helvetica, Arial, serif;
     font-size: 32px;
-    line-height: 40.32px;
+    line-height: 35px;
     text-align: center;
 
     ${bp.sm`
@@ -54,19 +53,17 @@ const Title = styled.h1`
 
    
     color: #4e4b6b;
-    text-align: center;
-    line-height: 56.04px;
 
 `
 
-const HeaderSecurity = () => {
+const HeaderJobs = () => {
    return (
       <Container>
          <Content>
-            <Title>We take security very<br/> seriously.</Title>
+            <Title>Nobody's job here<br/> is just a job.</Title>
          </Content>
       </Container> 
    )
 }
 
-export default HeaderSecurity;
+export default HeaderJobs;

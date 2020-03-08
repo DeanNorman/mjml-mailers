@@ -12,7 +12,7 @@ const security = () => {
       <Layout>
             <Helmet>
             <meta charSet="utf-8" />
-            <title>22seven</title>
+            <title>22seven | Budgeting and Investing App</title>
             <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
       <HeaderSecurity /> 

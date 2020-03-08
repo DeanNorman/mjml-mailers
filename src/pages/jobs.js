@@ -1,55 +1,37 @@
 import React from 'react'
 import Layout from '../components/Layout';
+import { Helmet } from 'react-helmet';
 
+import HeaderJobs from '../components/Headers/HeaderJobs'
+import OurCulture from '../components/jobs/OurCulture'
+import GeneralContent from '../components/jobs/GeneralContent'
+import JobCard from '../components/jobs/JobCard'
+import ApplyJobs from '../components/jobs/ApplyJob'
 const jobs = () => {
    return (
       <Layout>
-         <div>
-            <h1>Nobody's job here is just a job.</h1>
-         </div> 
-
-         <div>
-            <div>
-               <h1> Our culture. </h1>
-               <p>We come to do beautiful, epic, awe-inspiring work. More than that, we want our work to contribute something positive to the world.</p>
-            </div>
-            <div> 
-               <img src="shakinghand-icon.jpg" alt=""/>
-            </div>
-            <div>
-               <p>Build awesome experiences.</p>
-               <p>We work tirelessly at exploring human behaviour to design and build awesome experiences. We do this to help people become more aware of their money decisions and start making better ones so they can do more of the things that matter most to them.</p>
-            </div>
-
-            <div>
-               <img src="smileyfaces-icon.jpg" alt=""/>
-            </div>
-
-            <div>
-               <p>Having fun while doing it.</p>
-               <p>Creating something extraordinary doesn’t come easily, but we believe that the best ideas come from people who are having fun. So you’ll be challenged. You’ll laugh. Hopefully you won’t cry much. And you’ll have the opportunity to make a difference in people’s lives.</p>
-            </div>
-         </div>
-         <div>
-            <h1>What we're looking for.</h1>
-            <p>If you think you can do amazing things with our team at our offices, we’d love to hear from you.</p>
-            <div>
-               <p>22seven from Old Mutual is a money management tool helping South Africans to show their money who’s boss. Our customers are our superheroes and like Yoda, Gandalf and Dumbledore, 22seven helps our superheroes with the tools to make better financial decisions.</p>
-               <a href="#">"Quality Assurance Analyst"</a>
-               <br />
-            
-               <a href="#">"DevOps Engineer"</a>
-            </div>
-         </div>
-         <div>
-            <h1> The Office.</h1>
-            <p>Our HQ is in one of the oldest theatres in South Africa, right in the middle of the Cape Town City Bowl. Imagine if you smashed a temple of amazingness into a really comfortable lounge with great art on the walls. That still wouldn’t be as awesome as our offices. Needless to say, anyone who wants to work with us should be in Cape Town, or plan to be.</p>
-
-            <img src="Team.jpg" alt="" />
-            <p>If you think you can see yourself as part of the 22seven tribe, then email us. Please include a brief motivation on why you would be a fit, your CV and if applicable a portfolio of work you have done. If we’d like to chat more, someone at 22seven will be in direct contact with you.</p>
-
-            <button>Email awesomejobs@22seven.com</button>
-         </div>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>22seven | Budgeting and Investing App</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
+         <HeaderJobs />
+         <GeneralContent
+            title="Our culture."
+            text="We come to do beautiful, epic, awe-inspiring work. More than that, we want our work to contribute something positive to the world."
+         />
+         <OurCulture />
+         <GeneralContent
+            title="What we’re looking for."
+            text="If you think you can do amazing things with our team at our offices, we’d love to hear from you."
+         />
+         <JobCard />
+         <GeneralContent
+            title="The Office."
+            text="Our HQ is in one of the oldest theatres in South Africa, right in the middle of the Cape Town City Bowl. Imagine if you smashed a temple of amazingness into a really comfortable lounge with great art on the walls. That still wouldn’t be as awesome as our offices. Needless to say, anyone who wants to work with us should be in Cape Town, or plan to be."
+            officeImage
+         />
+         <ApplyJobs />
       </Layout>
    )
 }

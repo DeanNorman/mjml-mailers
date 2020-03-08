@@ -161,10 +161,9 @@ export default function Footer() {
          <Column>
             <p>Company</p>
             <NavItem to="/about/">About 22seven</NavItem>
-            <NavItem to="/">Jobs</NavItem>
-            <NavItem to="/">Contact us</NavItem>
-            <NavItem to="/">In the media</NavItem>
-            <NavItem to="/">Partners</NavItem>
+            <NavItem to="/jobs/">Jobs</NavItem>
+            <NavItem to="/contact/">Contact us</NavItem>
+            <NavItem to="/partners/">Partners</NavItem>
          </Column>
          <Column social>
             <SocialContainer>
