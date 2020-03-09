@@ -45,16 +45,24 @@ const Content = styled.div`
    display: flex;
    flex-direction: column;
    padding: 0 15px;
+   max-width: 1000px;
 `
 
 
 const Card = styled.div`
    display: flex;
    flex-direction: column;
-   flex-wrap: wrap;
+   
    margin: 20px 0;
    background: #f1f2f3;
    padding: 0 20px;
+
+   ${bp.sm`
+      flex-wrap: wrap;
+      flex-direction: row;
+      flex-basis: 30%;
+
+   `}
 `
 
 const Column = styled.div`
@@ -62,16 +70,18 @@ const Column = styled.div`
    flex-direction: column;
    padding: 40px 0;
 
-   h3 {
-      font-family: "CircularStd-Bold", Helvetica, Arial, serif;
+   h2 {
+      font-family: "CircularStd-Medium", Helvetica, Arial, serif;
       font-size: 30px;
       line-height: 35px;
+      color: #4e4b6b;
    }
 
    p {
       font-family: "CircularStd-Book", Helvetica, Arial, serif;
       font-size: 14.0px;
       line-height: 22px;
+      color: #69668e;
    }
 
    a {
@@ -86,19 +96,11 @@ const Column = styled.div`
       transition: all 0.2s ease-in-out;
    }
 
-  
 
-   a {
-      font-family: "CircularStd-Medium", Helvetica, Arial, serif;
-      text-decoration: none;
-      color: #69668e;
-      font-size: 16px;
-   }
+   ${bp.md`
+      flex-basis: 75%;
+   `}
 
-   a:hover {
-      padding-left: 5px;
-      transition: all 0.2s ease-in-out;
-   }
 `
 
 const LogoContainer = styled.div`
@@ -109,6 +111,10 @@ const LogoContainer = styled.div`
       width:120px;
       height: 120px;
    }
+
+   ${bp.md`
+       flex-basis: 17%;
+   `}
 `
 
 const Arrow = styled.img`
@@ -147,14 +153,14 @@ const PartnersCards = () => {
                   <h2>TaxTim</h2>
                   <p>With TaxTim, completing your tax return is as easy as answering a few questions. And, as a 22seven customer, you get a 25% discount off the already affordable price.</p> 
                   <p>But first, here are a few of our favourite reasons to use TaxTim:</p>
-                  <p><strong>You’ll have a new tax buddy.</strong>
+                  <p><strong>You’ll have a new tax buddy.</strong><br></br>
                      He’ll guide you through your income and expenses with ease by asking you simple questions in plain English.
                   </p>
-                  <p><strong>Find new deductions.</strong>
+                  <p><strong>Find new deductions.</strong><br></br>
                      Deductions help reduce your overall tax liability, which means you’re more likely to receive a refund. TaxTim will make sure you claim for all deductions available to you based on your personal tax profile.
                   </p>
 
-                  <p><strong>Automatically file returns.</strong>
+                  <p><strong>Automatically file returns.</strong><br></br>
                      completed return is automatically filed at the touch of a button. No more blue blocked forms for you!
                   </p>
 
