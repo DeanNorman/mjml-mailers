@@ -57,7 +57,7 @@ const Circle = styled.div`
    
   
 
-   ${bp.sm`
+   ${bp.md`
        align-self: flex-start;
    `}
 `
