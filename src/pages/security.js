@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/Layout';
 import { Helmet } from 'react-helmet';
 
-import HeaderSecurity from '../components/Headers/HeaderSecurity';
+import HeaderSecurityAnimated from '../components/Headers/HeaderSecurityAnimated';
 import SecurityBenefits from '../components/Security/SecurityBenefits';
 import SecurityInformation from '../components/Security/SecurityInformation';
 import SecurityQuestions from '../components/Security/SecurityQuestions'
@@ -15,7 +15,7 @@ const security = () => {
             <title>22seven | Budgeting and Investing App</title>
             <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
-      <HeaderSecurity /> 
+      <HeaderSecurityAnimated /> 
       <SecurityBenefits />
       <SecurityInformation />
       <SecurityQuestions />

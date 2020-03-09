@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 import { breakpoints as bp } from '../../styling/index'
 
 import officeImg from '../../images/jobs/office.png'
@@ -9,6 +9,22 @@ const Container = styled.div`
    flex-wrap: wrap;
    justify-content: center;
    margin: 0 auto;
+   padding: 0 20px;
+
+   ${bp.sm`
+      padding: 0px;
+   `}
+   ${props => !props.officeImage ? ''
+      : css`
+         ${bp.md`
+            flex-direction: column;
+            align-items: center;
+         `}
+         
+      `
+   } 
+
+
 `
 const Content = styled.div`
    font-family: 'CircularStd';
@@ -47,7 +63,7 @@ const Office = styled.img`
 
 const GeneralContent = ({ title, text, officeImage }) => {
    return (
-      <Container>
+      <Container officeImage>
          <Content>
             <h2>{title}</h2>
             <p>{text}</p>

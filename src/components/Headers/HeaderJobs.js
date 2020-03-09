@@ -13,8 +13,12 @@ const Container = styled.div`
    background-color: #f1f2f3;
    background-size: cover;
     background-repeat: no-repeat;
-    padding: 70px 30px 250px;
-    
+    padding: 40px 21px 250px;
+    background-position-x: -600px;
+    ${bp.sm`
+        padding: 58px 30px 250px;
+        background-position-x: center;
+    `}
    br {
       display: none;
       ${bp.md`

@@ -81,7 +81,7 @@ const SecurityBenefits = () => {
                   <img src={bank} alt="eye"/>
                </Aligner>
             </Circle>            
-               <p><strong>We use the same security measures as your bank does,</strong></p>
+               <p><strong>We use the same security measures as your bank does.</strong></p>
                <p>22seven adheres to the same procedures and standards used by banks, the military and governments around the world. Our security is also regularly, independently reviewed and audited by industry experts.</p>
          </Benefit>
          <Benefit>
@@ -90,7 +90,7 @@ const SecurityBenefits = () => {
                   <img src={entrust} alt="eye"/>
                </Aligner>
             </Circle>            
-               <p><strong>Your information is always encrypted</strong></p>
+               <p><strong>Your information is always encrypted.</strong></p>
                <p>256-bit encryption, certified by Entrust, keeps your information indecipherable and private, always.</p>
          </Benefit>
          <Benefit>
