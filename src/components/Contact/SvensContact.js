@@ -94,49 +94,9 @@ const Icon = styled.img`
 `
 
 
-const Background = styled.div`
-   top: 7333px;
-    height: 1030px;
-    width: 2399px;
-    position: absolute;
-    margin: 0;
-    left: -2085px;
-    transform: rotate(-2deg);
-    z-index: -1;
-
-   ${bp.xs`
-       top: 7043px;
-       left: -2080px;
-   `}
-
-   ${bp.sm`
-       top: 6603px;
-       left: calc(0.01% - 1900px);
-   `}
-
-    ${bp.md`
-      top: 4089px;
-      left: calc(0.01% - 1650px);
-    `}
-
-   ${bp.lg`
-      top: 4039px;
-      left: calc(0.01% - 1400px);
-    `}
-
-
-   ${bp.xl`
-      top: 4039px;
-      left: calc(0.01% - 1200px);
-    `}
-`
-
 const SvensContact = () => {
    return (
       <Container>
-         <Background>
-            <img src={background} alt="22seven Service Providers"/>
-         </Background>
          <Content>
             <SvenTeam src={svens} alt="Svens"/>
             <h2>Get really good support from real, live people.</h2>
