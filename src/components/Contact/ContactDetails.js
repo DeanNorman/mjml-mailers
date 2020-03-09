@@ -38,7 +38,6 @@ const Title = styled.p`
 
    ${bp.md`
       align-self: end;
-   
    `}
 
 `
