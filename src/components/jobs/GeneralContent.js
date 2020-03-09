@@ -35,12 +35,12 @@ const Content = styled.div`
 
 const ImageContainer = styled.div`
    display: flex;
-   flex-basis: 100%;
-    justify-content: center;
-    margin-top: 60px;
+   justify-content: center;
+   margin-top: 60px;
+   max-width: 850px;
 `
 const Office = styled.img`
-   max-width: 850px;
+   width: 95%;
 `
 
 

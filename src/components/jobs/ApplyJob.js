@@ -23,11 +23,16 @@ const Content = styled.div`
    font-weight: 300;
    max-width: 660px;
    p {
+    margin: 0 30px;
     font-family: "CircularStd", Helvetica, Arial, serif;
     font-size: 14px;
     color: #69668e;
     text-align: center;
     line-height: 20.74px;
+
+      ${bp.md`
+         margin: 0;
+      `}
    }
 `
 

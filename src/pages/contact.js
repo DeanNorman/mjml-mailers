@@ -1,15 +1,21 @@
 import React from 'react'
+import { Helmet } from 'react-helmet';
 import Layout from '../components/Layout';
+import HeaderContact from '../components/Headers/HeaderContact'
+import SvensContact from '../components/Contact/SvensContact'
+import ContactDetails from '../components/Contact/ContactDetails'
 
 const contact = () => {
    return (
       <Layout>
-         <div>
-            <h1> Get in touch with us.</h1>
-         </div>
-         <div>
-            <img src="lama.animation.jpg" alt="" />
-         </div>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>22seven | Budgeting and Investing App</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
+         <HeaderContact />
+         <ContactDetails />
+
 
          <div> 
             <img src="mail-icon.jpg" alt=""/>
@@ -51,15 +57,7 @@ const contact = () => {
             <a href="#">"Get directions"</a><br/>
          </div>
 
-         <div> 
-            <img src="contact-team.jpg" alt=""/>
-            <h2>Get really good support from real, live people.</h2>
-            <p>The Svens, our support team, are available from 8am and 8pm</p>
-            <img src="mail-icon.jpg" alt=""/>
-            <a href="#">"thesvens@22seven.com"</a><br/>
-            <img src="phone-icon.jpg" alt=""/>
-            <a href="#">"+27 87 550 4331"</a><br/>
-         </div>
+         <SvensContact />
       </Layout>
    )
 }

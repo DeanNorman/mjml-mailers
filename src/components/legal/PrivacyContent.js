@@ -116,7 +116,7 @@ const PrivacyContent = () => {
          <p>We only collect Personal Information that is reasonably necessary for us to provide the Service to you.</p>
          <p>
             <ul>
-               <li>Your name and email address
+               <li>Registration Information
                   <p>Name, email address and password you provide when you register to use the Service so that we know who you are, can authenticate your use of the Service and are able to contact you about Service related matters.</p>
                </li>
                <li>Security Credentials

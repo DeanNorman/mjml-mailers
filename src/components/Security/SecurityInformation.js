@@ -75,7 +75,7 @@ const SecurityInformation = () => {
                <a href="https://www.yodlee.com/legal/yodlee-security" target="_blank">
                   More about our Yodlee Security
                   <Arrow src={linkArrow} alt="link" />
-               </a>
+               </a><br/>
                <a href="https://conversations.22seven.com/hc/en-us/articles/360016980233" target="_blank">
                FNB client? Set up an FNB  “view-only” profile    
                </a>

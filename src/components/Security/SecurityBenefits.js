@@ -112,7 +112,7 @@ const SecurityBenefits = () => {
            
             </Circle>          
             <p><strong>22seven is READ ONLY. No one can touch your money.</strong></p>
-               <p>22seven adheres to the same procedures and standards used by banks, the military and governments around the world. Our security is also regularly, independently reviewed and audited by industry experts.</p>     
+               <p>When you link accounts to 22seven, you give us “read-only” access. That means we can only fetch your information to show it to you. No one can move money from your linked accounts - not even you.</p>     
              
          </Benefit>
 

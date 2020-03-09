@@ -17,7 +17,7 @@ const FaisDisclosures = () => {
 
          <HeaderLegal
             title="Here are our FAIS disclosures."
-            text="This is legal stuff and has to be worded in Legalish, but we’d be happier if you read it anyway. Luckily, it's short."
+            text="This is legal stuff and has to be worded in Legalese, but we’d be happier if you read it anyway. Luckily, it's short."
          />
          <FaisDisclosuresContent />
       </Layout>
