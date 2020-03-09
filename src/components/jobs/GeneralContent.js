@@ -56,10 +56,8 @@ const ImageContainer = styled.div`
    max-width: 850px;
 `
 const Office = styled.img`
-   width: 95%;
+   padding: 20px;
 `
-
-
 
 const GeneralContent = ({ title, text, officeImage }) => {
    return (
