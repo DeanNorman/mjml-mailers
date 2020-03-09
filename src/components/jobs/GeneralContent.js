@@ -56,6 +56,7 @@ const ImageContainer = styled.div`
    max-width: 850px;
 `
 const Office = styled.img`
+   width: 100%;
    padding: 20px;
 `
 
