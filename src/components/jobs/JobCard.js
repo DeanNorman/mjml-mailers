@@ -70,6 +70,7 @@ const JobCard = () => {
                   Product Owner/Manager
                   <Arrow src={linkArrow} alt="link" />
                </a>
+               <br/>
                <a href="#" target="_blank">
                   DevOps Engineer
                   <Arrow src={linkArrow} alt="link" />

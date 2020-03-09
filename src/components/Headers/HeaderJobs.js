@@ -8,14 +8,16 @@ import { breakpoints as bp } from '../../styling/index'
 const Container = styled.div`
    display: flex;
    justify-content: center;
-   min-height: 288px;
-   background: url(${background}) no-repeat center center;
+
+   background: url(${background}) no-repeat bottom;
    background-color: #f1f2f3;
-   background-size: cover;
+   background-size: 200%;
     background-repeat: no-repeat;
-    padding: 40px 21px 250px;
-    background-position-x: -600px;
+    padding: 40px 21px 114px;
+   
     ${bp.sm`
+
+         background-size: cover;
         padding: 58px 30px 250px;
         background-position-x: center;
     `}

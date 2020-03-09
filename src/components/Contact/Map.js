@@ -123,7 +123,7 @@ const Map = () => {
             </MapText>
             <MapEmbed>
             <iframe 
-               frameborder="0" 
+               frameBorder="0" 
                width="100%"
                height="100%"
                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d827.6918846276827!2d18.42018!3d-33.921382!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67669e2e43e9%3A0x3509d20df38736d5!2s60+Hout+St%2C+Cape+Town+City+Centre%2C+Cape+Town%2C+8000!5e0!3m2!1sen!2sza!4v1547897126239" >
