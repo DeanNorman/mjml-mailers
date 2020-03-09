@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import { breakpoints as bp } from '../../styling/index'
 
 import mail from '../../images/contact/mail.svg'
-import phone from '../../images/contact/phone.svg'
+import phone from '../../images/contact/phoneIcon.svg'
 
 import linkArrow from '../../images/linkArrow.png';
 
