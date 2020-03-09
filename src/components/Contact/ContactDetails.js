@@ -49,7 +49,7 @@ const Circle = styled.div`
    background-color: #fff;
    width: 80px;
    height: 80px;
-   border-radius: 1000px; 
+   border-radius: 1000px;
 
    box-shadow: 0px 0px 230px 3px rgba(112,112,112,0.5);
    margin-bottom: 20px;
