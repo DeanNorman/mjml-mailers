@@ -15,7 +15,7 @@ const Container = styled.div`
     background-repeat: no-repeat;
     padding: 40px 21px 114px;
    
-    ${bp.sm`
+    ${bp.md`
 
          background-size: cover;
         padding: 58px 30px 250px;
@@ -52,7 +52,7 @@ const Title = styled.h1`
     line-height: 35px;
     text-align: center;
 
-    ${bp.sm`
+    ${bp.md`
       font-size: 50.0px;
       line-height: 54.045px;
     `}

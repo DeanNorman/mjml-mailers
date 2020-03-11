@@ -6,7 +6,7 @@ import { breakpoints as bp } from '../../styling/index'
 const Container = styled.div`
    display: flex;
    justify-content: center;
-   margin-top: 70px;
+   margin-top: 50px;
    margin-bottom: 100px;
    br {
       display: none;

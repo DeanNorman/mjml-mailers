@@ -8,14 +8,19 @@ import { breakpoints as bp } from '../../styling/index'
 const Container = styled.div`
    display: flex;
    justify-content: center;
-   min-height: 360px;
-   background: url(${background}) no-repeat center center;
+   background: url(${background}) no-repeat bottom;
+
+   background-color: #f1f2f3;
+   
+   padding: 40px 30px 86px;
+    background-size: 180%;
+
+    ${bp.md`
+
    background-size: cover;
-   background-color: rgb(255, 255, 255);
-    background-position: center center;
-    background-repeat: no-repeat;
-    padding: 70px 30px 250px;
-    background-size: cover;
+   padding: 58px 30px 250px;
+   background-position-x: center;
+`}
     
    br {
       display: none;
@@ -44,18 +49,17 @@ const Content = styled.div`
 
 const Title = styled.h1`
     font-size: 32px;
-    line-height: 40.32px;
+    line-height: 35px;
     text-align: center;
 
-    ${bp.sm`
+    ${bp.md`
       font-size: 50.0px;
       line-height: 54.045px;
     `}
 
    
     color: #4e4b6b;
-    text-align: center;
-    line-height: 56.04px;
+
 
 `
 

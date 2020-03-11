@@ -9,7 +9,7 @@ const Container = styled.div`
    flex-wrap: wrap;
    justify-content: center;
    margin: 0 auto;
-   padding: 0 20px;
+   padding: 0 23px;
 
    ${bp.sm`
       padding: 0px;
@@ -33,6 +33,7 @@ const Content = styled.div`
    justify-content: center;
    flex-direction: column;
    text-align: center;
+   max-width: 457px;
 
    h2 {
       font-size: 30px;
@@ -52,7 +53,7 @@ const Content = styled.div`
 const ImageContainer = styled.div`
    display: flex;
    justify-content: center;
-   margin-top: 60px;
+   margin-top: 30px;
    max-width: 850px;
 `
 const Office = styled.img`
