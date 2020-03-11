@@ -120,6 +120,8 @@ const LogoContainer = styled.div`
 
    ${bp.md`
        flex-basis: 17%;
+       margin-right: 15px;
+    max-width: 122px;
    `}
 `
 
