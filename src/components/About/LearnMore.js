@@ -8,7 +8,7 @@ import hiring from '../../images/about/hiring.svg'
 import hand from '../../images/about/wavingHand.svg'
 import testPilot from '../../images/about/testPilot.svg'
 import arrow from '../../images/about/arrow.png'
-
+import { Link } from "gatsby"
 
 
 const Container = styled.div`
@@ -75,6 +75,19 @@ const Content = styled.div`
    }
 `
 
+const ContentLink = styled(Link)`
+         text-decoration: none;
+      font-family: "CircularStd-Medium", Helvetica, Arial, serif;
+      font-size: 11.9px;
+      line-height: 15.0px;
+      color: #4e4b6b;
+
+      &:hover {
+         transform: translate(5px, 0);
+         transition: all 0.2s ease-in-out;
+      }
+`
+
 const Title = styled.h2`
    font-size: 30.0px;
    line-height: 35.0px;
@@ -123,10 +136,10 @@ const LearnMore = () => {
          <Content>
             <Card>
                <Icon src={megaphone} alt="megaphone" />
-               <h3>In the media</h3>
-               <p>Check out what people have been saying about 22seven in the media.</p>
-               <a href="/">
-                  See what people are saying
+               <h3>On the blog</h3>
+               <p>Check out what we have to saying about everything money related.</p>
+               <a href="https://blog.22seven.com/" target="_blank">
+                  See what we are saying
                   <Arrow src={arrow} alt="arrow" />
                </a>
             </Card>
@@ -134,25 +147,25 @@ const LearnMore = () => {
                <Icon src={hiring} alt="22seven hiring" />
                <h3>Jobs</h3>
                <p>Find out a little more about what we do, why and how we do it, and how you might be able to do it with us.</p>
-               <a href="/">
+               <ContentLink to="/jobs/">
                   Careers at 22seven
                   <Arrow src={arrow} alt="arrow" />
-               </a>
+               </ContentLink>
             </Card>
             <Card>
                <Icon src={hand} alt="hand" />
                <h3>Get in touch</h3>
                <p>If you have questions, however simple or technical, we’d like to answer them. Or visit us at the office.</p>
-               <a href="/">
+               <ContentLink href="/contact/">
                   Contact us
                   <Arrow src={arrow} alt="arrow" />
-               </a>
+               </ContentLink>
             </Card>
             <Card>
                <Icon src={testPilot} alt="test pilot" />
                <h3>Test Pilot community</h3>
                <p>There’s lots happening at 22seven and we want you to be a part of it. So we’d like to invite you to join our Test Pilot community.</p>
-               <a href="/">
+               <a href="https://blog.22seven.com/2018/06/join-our-test-pilot-community/" target="_blank">
                   Learn More
                   <Arrow src={arrow} alt="arrow" />
                </a>

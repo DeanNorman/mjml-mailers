@@ -76,6 +76,7 @@ const SubTitle = styled.p`
     text-align: center;
     line-height: 20.74px;
     font-weight: 300;
+    max-width: 350px;
 `
 
 const ContentTitle = styled.p`
