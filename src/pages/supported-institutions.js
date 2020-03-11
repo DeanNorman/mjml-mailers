@@ -5,35 +5,53 @@ import { breakpoints as bp } from '../styling/index'
 
 const Container = styled.div`
    display: flex;
-   background-color: rgba(106, 102, 143, 1.0);
+   background-color: #6a668f;
    flex-direction: column;
+   align-items: center;
+   height: -webkit-fill-available;
+
 `
 
 const Content = styled.div`
    display: flex;
    flex-direction: column;
-   align-items: center;
-   padding: 0 30px;
+   padding: 20px 30px;
    ${bp.lg`
       flex-direction: row;
+
    `}
 `
 const Title = styled.h1`
    font-family: "CircularStd-Bold", Helvetica, Arial, serif;
    font-size: 30.0px;
-   color: rgba(78, 75, 107, 1.0);
+   color: #4e4b6b;
    text-align: center;
    line-height: 40.0px;
    padding: 40px 40px 10px 40px;
+   max-width: 300px;
+   align-self: center;
+
+   ${bp.md`
+      align-self: auto;
+      width: 100%;
+      max-width: 80%;
+   `}
 `
 
 const Column = styled.div`
+    display: flex;
+    align-self: center;
     font-family: "CircularStd-Book", Helvetica, Arial, serif;
     font-size: 14.0px;
-    color: rgba(255, 255, 255, 1.0);
-    text-align: left;
+    color:#ffffff;
+    width: 100%;
     line-height: 21.0px;
 
+
+    ${bp.md`
+      align-self: auto;
+      max-width: auto;
+   `}
 `
 const SupportedInstitutions = () => {
    return (
