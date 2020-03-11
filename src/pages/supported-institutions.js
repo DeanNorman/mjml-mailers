@@ -51,6 +51,7 @@ const Column = styled.div`
     ${bp.md`
       align-self: auto;
       max-width: auto;
+      padding: 0 20px;
    `}
 `
 const SupportedInstitutions = () => {
