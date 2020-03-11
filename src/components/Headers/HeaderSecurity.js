@@ -17,7 +17,7 @@ const Container = styled.div`
 
 
    ${bp.sm`
-         padding:  40px 30px 140px;
+         padding: 40px 30px 140px;
    `}
 
     ${bp.md`

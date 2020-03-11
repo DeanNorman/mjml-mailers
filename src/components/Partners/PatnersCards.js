@@ -10,6 +10,8 @@ const Container = styled.div`
    display: flex;
    flex-wrap: wrap;
    justify-content: center;
+   flex-direction: column;
+   align-items: center;
 
 `
 const SubHeader = styled.div`
@@ -35,6 +37,10 @@ const SubHeader = styled.div`
       max-width: 330px;
       
       color: #69668e;
+
+      ${bp.xs`
+         max-width: 350px;
+      `}
 
       ${bp.sm`
          max-width: 530px;
