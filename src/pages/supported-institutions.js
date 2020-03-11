@@ -1,0 +1,66 @@
+import React from 'react'
+import styled from 'styled-components'
+import { Helmet } from 'react-helmet';
+import { breakpoints as bp } from '../styling/index'
+
+const Container = styled.div`
+   display: flex;
+   background-color: rgba(106, 102, 143, 1.0);
+   flex-direction: column;
+`
+
+const Content = styled.div`
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 30px;
+   ${bp.lg`
+      flex-direction: row;
+   `}
+`
+const Title = styled.h1`
+   font-family: "CircularStd-Bold", Helvetica, Arial, serif;
+   font-size: 30.0px;
+   color: rgba(78, 75, 107, 1.0);
+   text-align: center;
+   line-height: 40.0px;
+   padding: 40px 40px 10px 40px;
+`
+
+const Column = styled.div`
+    font-family: "CircularStd-Book", Helvetica, Arial, serif;
+    font-size: 14.0px;
+    color: rgba(255, 255, 255, 1.0);
+    text-align: left;
+    line-height: 21.0px;
+
+`
+const SupportedInstitutions = () => {
+   return (
+      <>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>22seven | Budgeting and Investing App</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
+         <Container>
+               <Title>
+                  All financial institutions you can link accounts from 🙌
+               </Title>
+            <Content>
+               <Column>
+                10X Investments<br/>Absa Bank<br/>ABSA Wealth and Investment Management<br/>ABSA Capital<br/>ABSA Online Share Trading<br/>ABSA Retirement Funds<br/>Ackermans<br/>African Bank<br/>Alexander Forbes<br/>Allan Gray<br/>Audi Financial Services<br/>Ashburton Investments<br/>Avios<br/>British Airways<br/>BMW Financial Services<br/>Boutique Collective Investments<br/>Cadiz<br/>Capitec<br/>Clicks Clubcard<br/>Computershare<br/>Coronation<br/>Deutsche Asset and Wealth Management<br/>Diners Club<br/>Dis-Chem Rewards<br/>Discovery<br/>Easy Equities<br/>Edgars<br/>ETF SA<br/>ETF RA<br/>Exclus1ves<br/>FNB<br/>FNB Securities<br/>Fairbairn Capital<br/>Ford Credit<br/>Ford
+            </Column>
+            <Column>
+                Game<br/>GT247.com<br/>Imara<br/>Investec Asset Management<br/>Investec Wealth &amp; Investment<br/>Investec Private Bank<br/>Ip Management Company<br/>Kulula.com<br/>Kulula Travelbank<br/>Liberty<br/>Link Market Services<br/>Luno<br/>Makro<br/>Marriott<br/>Metropolitan<br/>MFC<br/>Momentum<br/>Momentum Collective Investments<br/>Momentum FundsAtWork<br/>Momentum Retirement Administrators<br/>Mr Price Money<br/>Nedbank<br/>Nedbank Greenbacks<br/>Nedbank Private Wealth<br/>Nedbank Private Wealth Online Share Trading<br/>Nedgroup Investments<br/>Nedbank Online Share Trading<br/>NMG Benefits<br/>NMG Smart Fund<br/>Old Mutual<br/>Old Mutual Money Account<br/>PayPal<br/>Pick n Pay Smart Shopper<br/>PPS Investments<br/>Prudential
+            </Column>
+            <Column>
+                PSG Asset Management<br/>PSG Online<br/>MyPSG<br/>RECM<br/>RMB<br/>RCS<br/>RSA Retail Savings Bonds<br/>SA Home Loans<br/>Sanlam<br/>Sanlam iTrade<br/>Sanlam Private Wealth<br/>Sasfin<br/>Satrix<br/>SatrixNOW<br/>Standard Bank<br/>Standard Bank Rewards<br/>Standard Bank Online Share Trading<br/>Standard Bank uCount Rewards<br/>Stanlib<br/>Sygnia Alchemy<br/>The Foschini Group (TFG)<br/>The Body Shop<br/>Truworths<br/>Volkswagen Financial Services<br/>Virgin Money<br/>Wellness Warehouse<br/>WesBank<br/>Woolworths<br/>Woolworths Financial Services
+            </Column>
+            </Content>
+         </Container>
+      </>
+   )
+}
+
+export default SupportedInstitutions;
