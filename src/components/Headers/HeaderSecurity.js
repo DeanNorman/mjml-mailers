@@ -13,10 +13,14 @@ const Container = styled.div`
    background-color: #f1f2f3;
    
    padding: 40px 30px 86px;
-    background-size: 180%;
+   background-size: 180%;
+
+
+   ${bp.sm`
+         padding:  40px 30px 140px;
+   `}
 
     ${bp.md`
-
    background-size: cover;
    padding: 58px 30px 250px;
    background-position-x: center;

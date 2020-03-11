@@ -14,12 +14,15 @@ const Container = styled.div`
    background-size: 200%;
     background-repeat: no-repeat;
     padding: 40px 21px 114px;
+
+    ${bp.sm`
+         padding: 40px 30px 170px;
+   `}
    
     ${bp.md`
-
-         background-size: cover;
-        padding: 58px 30px 250px;
-        background-position-x: center;
+      background-size: cover;
+      padding: 58px 30px 250px;
+      background-position-x: center;
     `}
    br {
       display: none;
