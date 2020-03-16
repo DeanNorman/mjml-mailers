@@ -493,17 +493,17 @@ const TermsContent = () => {
                   </li>
                   <li>
                      <p>
-                     20.1.4 a breach by you of the Terms;
+                     20.1.4 your acts or omissions;
                      </p>
                   </li>
                   <li>
                      <p>
-                     20.1.5 the fact that we act on your instructions or instructions purported to emanate from you;
+                     20.1.5 a breach by you of the Terms; 
                      </p>
                   </li>
                   <li>
                      <p>
-                     20.1.6 any unlawful access or monitoring of information transmitted to us;
+                     20.1.6 the fact that we act on your instructions or instructions purported to emanate from you;
                      </p>
                   </li>
                   <li>
