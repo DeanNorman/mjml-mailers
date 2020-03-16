@@ -142,8 +142,8 @@ const ContactDetails = () => {
                   </ContactItem>
                   <ContactItem>
                      <p>Jobs</p>
-                     <a href="mailto:jobs@22seven.com" target="_blank">
-                           jobs@22seven.com
+                     <a href="mailto:awesomejobs@22seven.com" target="_blank">
+                           awesomejobs@22seven.com
                         <Arrow src={linkArrow} alt="link" />
                      </a>
                   </ContactItem>

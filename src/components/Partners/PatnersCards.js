@@ -141,20 +141,6 @@ const PartnersCards = () => {
          <Content>    
             <Card>
                <LogoContainer>
-                  <img src={uber} alt="uber"/>
-               </LogoContainer>
-               <Column>
-                  <h2>Uber</h2>
-                  <p>We’ve team up with Uber to help their drivers better navigate the financial world. Using custom-built nudges that feature insights uniquely relevant to them, and workshops designed around their specific cash flow, Uber drivers will now be more confident with their money and have better financial know-how.</p>
-
-                  <a href="https://www.22seven.com/app/signup" target="_blank">
-                     Signup to 22seven
-                     <Arrow src={linkArrow} alt="link" />
-                  </a>
-               </Column>
-            </Card>
-            <Card>
-               <LogoContainer>
                   <img src={taxTim} alt="taxtim"/>
                </LogoContainer>
                <Column>
@@ -162,14 +148,14 @@ const PartnersCards = () => {
                   <p>With TaxTim, completing your tax return is as easy as answering a few questions. And, as a 22seven customer, you get a 25% discount off the already affordable price.</p> 
                   <p>But first, here are a few of our favourite reasons to use TaxTim:</p>
                   <p><strong>You’ll have a new tax buddy.</strong><br></br>
-                     He’ll guide you through your income and expenses with ease by asking you simple questions in plain English.
+                  And your new tax buddy, Tim, knows all the right tax-related questions to ask. He’ll guide you through your income and expenses with ease by asking you simple questions in plain English.
                   </p>
                   <p><strong>Find new deductions.</strong><br></br>
                      Deductions help reduce your overall tax liability, which means you’re more likely to receive a refund. TaxTim will make sure you claim for all deductions available to you based on your personal tax profile.
                   </p>
 
                   <p><strong>Automatically file returns.</strong><br></br>
-                     completed return is automatically filed at the touch of a button. No more blue blocked forms for you!
+                     Thanks to a direct integration with SARS eFiling, your IRP5 data can be imported into TaxTim and your completed return is automatically filed at the touch of a button. No more blue blocked forms for you!
                   </p>
 
                   <a href="https://www.taxtim.com/za/?193" target="_blank">

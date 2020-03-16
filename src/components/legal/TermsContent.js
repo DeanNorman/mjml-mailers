@@ -178,7 +178,7 @@ const TermsContent = () => {
                </li>
                <li>
                   <p>
-                  7.4 When you email us we will immediately block access and let you know if we discover any actual or suspected unauthorised access. change your Login Details, or email us on thesvens@22seven.com instructing us to block access.
+                  7.4 When you email us we will immediately block access and let you know if we discover any actual or suspected unauthorised access.
                   </p>
                </li>
             </ul>
@@ -225,7 +225,7 @@ const TermsContent = () => {
                </li>
                <li>
                   <p>
-                  9.2 You warrant that you are authorised to submit the Personal Information and Security Credential
+                  9.2 You warrant that you are authorised to submit the Personal Information and Security Credentials to us.
                   </p>
                </li>
                <li>
@@ -399,7 +399,7 @@ const TermsContent = () => {
                </li>
                <li>
                   <p>
-                  18.2 We will send electronic alerts to the address (email or other) you have provided to us. If your details change, please update them via the Service
+                  18.2 We will send electronic alerts to the address (email or other) you have provided to us. If your details change, please update them via the Service.
                   </p>
                </li>
                <li>
@@ -483,12 +483,12 @@ const TermsContent = () => {
                   </li>
                   <li>
                      <p>
-                     20.1.2 the Service Channels; your use of or reliance on any information offered on or via the Service Channels;
+                     20.1.2 the Service Channels; 
                      </p>
                   </li>
                   <li>
                      <p>
-                     20.1.3 your acts or omissions;
+                     20.1.3 your use of or reliance on any information offered on or via the Service Channels;
                      </p>
                   </li>
                   <li>
@@ -508,7 +508,7 @@ const TermsContent = () => {
                   </li>
                   <li>
                      <p>
-                     20.1.7 any error or omission in respect of information submitted to us (including Registration Information and Account Information).
+                     20.1.7 any unlawful access or monitoring of information transmitted to us;
                      </p>
                   </li>
                   <li>
@@ -531,7 +531,7 @@ const TermsContent = () => {
                         <p>20.3.1 our acts or omissions;</p>
                      </li>
                      <li>
-                        <p>20.3.2 a breach by us of the Terms</p>
+                        <p>20.3.2 a breach by us of the Terms.</p>
                      </li>
                   </ul>
                </li>
@@ -616,7 +616,7 @@ const TermsContent = () => {
          <p>If any provision of these Terms is or becomes unenforceable in any jurisdiction, the unenforceable aspect of that provision will be treated in such jurisdiction as if it had not been included in the Terms. The remaining provisions of the Terms will remain valid.</p>
 
          <ContentTitle>26. Cross-border transfer of your information.</ContentTitle>
-         <p>Yodlee and some of our other authorised service providers are situated outside South Africa. You consent to your personal information (including Account Information and Security Credentials) being transferred cross-border so that we can render the Service to you. We will ensure that all such authorised service providers have security and privacy policies and procedures providing at least the same level of protection as our Terms</p>
+         <p>Yodlee and some of our other authorised service providers are situated outside South Africa. You consent to your personal information (including Account Information and Security Credentials) being transferred cross-border so that we can render the Service to you. We will ensure that all such authorised service providers have security and privacy policies and procedures providing at least the same level of protection as our Terms.</p>
 
          <ContentTitle>27. Children can only use the Service with consent.</ContentTitle>
          <p>If you are under 18, you may only use the Service with the consent and involvement of a parent or other legally competent person. We reserve the right to ask you for such information as is necessary to prove that you are 18 years or older, or that you are using the Service with the consent and involvement of a parent or legally competent person.</p>
@@ -686,17 +686,29 @@ const TermsContent = () => {
                </li>
                <li>
                   <p>
-                  31.3 Telephone number: +27 87 550 4331
+                  31.3 Telephone number:&nbsp;
+                     <ExternalLink>
+                        +27 87 550 4331
+                        <Arrow src={linkArrow} alt="link" />
+                     </ExternalLink>
                   </p>
                </li>
                <li>
                   <p>
-                  31.4 Website address: www.22seven.com
+                  31.4 Website address:&nbsp;
+                     <InternalLink href="mailto:thesvens@22seven.com">
+                        www.22seven.com
+                        <Arrow src={linkArrow} alt="link" />
+                     </InternalLink>
                   </p>
                </li>
                <li>
                   <p>
-                  31.5 Email address: thesvens@22seven.com
+                  31.5 Email address:&nbsp;
+                     <ExternalLink href="mailto:thesvens@22seven.com">
+                        thesvens@22seven.com
+                        <Arrow src={linkArrow} alt="link" />
+                     </ExternalLink>
                   </p>
                </li>
             </ul>

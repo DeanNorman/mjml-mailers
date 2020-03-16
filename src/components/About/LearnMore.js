@@ -137,7 +137,7 @@ const LearnMore = () => {
             <Card>
                <Icon src={megaphone} alt="megaphone" />
                <h3>On the blog</h3>
-               <p>Check out what we have to saying about everything money related.</p>
+               <p>Check out what we have to say about everything money related.</p>
                <a href="https://blog.22seven.com/" target="_blank">
                   See what we are saying
                   <Arrow src={arrow} alt="arrow" />
