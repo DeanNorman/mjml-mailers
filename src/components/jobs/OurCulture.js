@@ -56,7 +56,7 @@ const Circle = styled.div`
    height: 80px;
    border-radius: 1000px; 
    margin: 0.5em;
-   box-shadow: 0px 0px 230px 3px rgba(112,112,112,0.5);
+   box-shadow: 0px 6px 29px -13px rgba(0,0,0,0.49);
    margin-bottom: 20px;
   
 

@@ -34,6 +34,8 @@ p {
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+      max-width: 300px;
+
 }
 
 a {
@@ -41,6 +43,13 @@ a {
    display: inline-block;
    align-self: initial;
    text-decoration: underline;
+}
+
+br {
+   
+   ${bp.sm`
+      display: none;
+   `}
 }
 `
 
@@ -100,7 +109,7 @@ const SvensContact = () => {
          <Content>
             <SvenTeam src={svens} alt="Svens"/>
             <h2>Get really good support from real, live people.</h2>
-            <p>The Svens, our support team, are available from 8am to 8pm.</p>
+            <p>The Svens, our support team, are<br/> available from 8am to 8pm.</p>
             <Contact>
             <a href="mailto:thzesvens@22seven.com">
                <Icon src={email} />
