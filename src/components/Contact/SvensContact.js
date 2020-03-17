@@ -68,6 +68,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 justify-content: space-evenly;
+align-items: center;
 
 ${bp.md`
      flex-direction: row;
