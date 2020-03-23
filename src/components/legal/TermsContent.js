@@ -47,6 +47,7 @@ const Content = styled.div`
    ul {
       margin-top: 0;
       margin-bottom: 0;
+      padding-left: 9px;
 
    }
 
@@ -149,7 +150,7 @@ const TermsContent = () => {
          <p>Each time you access a Service Channel, you agree to be bound by the Terms. We can change the Terms at any time and will publish the amended Terms (“the New Terms”) on the Service Channels. We will alert you to the fact that the Terms have changed and give you an opportunity to review the New Terms. If you don’t agree to the New Terms, you can terminate your use of the Service by following the online process provided for this purpose.</p>
 
          <ContentTitle>4. We will keep your personal information private.</ContentTitle>
-         <p>We will protect any personal information we receive when you use the Service Channels and the Service and only use it as set out in our Privacy Policy.</p>
+         <p style={{ marginBottom : "10px" }}>We will protect any personal information we receive when you use the Service Channels and the Service and only use it as set out in our Privacy Policy.</p>
          <InternalLink to="/legal/privacy/">
                Read our Privacy Policy
                <Arrow src={linkArrow} alt="link" />
@@ -288,8 +289,8 @@ const TermsContent = () => {
             <Subsection>
                <p>9.3</p>
                <p>
-                  By using the Service, you grant us, Yodlee and other authorised service providers who assist us to provide the Service to you the right to use any information, data, materials or other content (collectively, “Content”) you provide through or to the Service, SOLELY for the purpose of providing the Service. Such use will always be in accordance with our Privacy Policy. By providing Content, you agree and warrant that the owner of such Content has expressly agreed that, without any particular time limit, we, Yodlee and our authorised service providers may use the Content ONLY for the purposes set out above. To be clear, when we talk about “Content” we are not referring to your security credentials, which are only ever used by ourselves and Yodlee and always in accordance with our Privacy Policy.<br/><br/>
-               <InternalLink to="/legal/privacy/">
+                  By using the Service, you grant us, Yodlee and other authorised service providers who assist us to provide the Service to you the right to use any information, data, materials or other content (collectively, “Content”) you provide through or to the Service, SOLELY for the purpose of providing the Service. Such use will always be in accordance with our Privacy Policy. By providing Content, you agree and warrant that the owner of such Content has expressly agreed that, without any particular time limit, we, Yodlee and our authorised service providers may use the Content ONLY for the purposes set out above. To be clear, when we talk about “Content” we are not referring to your security credentials, which are only ever used by ourselves and Yodlee and always in accordance with our Privacy Policy.<br/>
+               <InternalLink to="/legal/privacy/" style={{ paddingTop : "10px", display : "block" }}>
                   Read our Privacy Policy
                   <Arrow src={linkArrow} alt="link" />
                </InternalLink>
@@ -317,7 +318,7 @@ const TermsContent = () => {
          </ul>
 
          <ContentTitle>12. To protect the integrity of our Service Channels and Proprietary Information. </ContentTitle>
-         <p>You may not –</p>
+         <p style={{ marginBottom : "5px" }}>You may not –</p>
             <ul>
                <Subsection>
                   <p>12.1</p>
@@ -679,7 +680,7 @@ const TermsContent = () => {
          </ul>
 
          <ContentTitle>21. You indemnify us.</ContentTitle>
-         <p>You indemnify us, Yodlee and our other authorised service providers and their affiliates against any third party claims, damages or costs (including reasonable attorney's fees) caused by or attributable to your -</p>
+         <p style={{ marginBottom : "10px" }}>You indemnify us, Yodlee and our other authorised service providers and their affiliates against any third party claims, damages or costs (including reasonable attorney's fees) caused by or attributable to your -</p>
          <ul>
             <Subsection>
                <p>21.1</p>
@@ -862,7 +863,7 @@ const TermsContent = () => {
          </ul>
 
          <ContentTitle>32. Proof of date of publication and version of terms.</ContentTitle>
-         <p>A certificate signed by our Directors will, unless the contrary is proven, be sufficient evidence of</p>
+         <p style={{ marginBottom : "10px" }}>A certificate signed by our Directors will, unless the contrary is proven, be sufficient evidence of</p>
 
             <ul>
                <Subsection>
