@@ -44,6 +44,13 @@ const Content = styled.div`
       font-weight: 300;
    }
 
+   ul {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-left: 9px;
+
+   }
+
    li {
       margin: 0;
       font-weight: 400;
@@ -85,6 +92,17 @@ const ContentTitle = styled.p`
    margin-bottom: 10px;
 `
 
+const ContentBreak = styled.div`
+P {
+   font-size: 20px;
+    text-align: center;
+    color: #4e4b6b;
+    font-weight: 300;
+}
+     
+
+`
+
 const Arrow = styled.img`
        height: 7px;
     width: 4px;
@@ -96,6 +114,20 @@ const InternalLink = styled(Link)`
 const ExternalLink = styled.a`
    ${baseLinkStyles}
 `
+
+const Subsection = styled.li`
+   display: flex;
+
+   p { 
+      margin-right: 10px;
+   }
+`
+
+const NestedSection = styled.div`
+   display: flex;
+   flex-wrap: wrap;
+`
+
 
 const InvestTermsContent = () => {
    return (
@@ -140,362 +172,405 @@ const InvestTermsContent = () => {
          <p>Means the tax-free investment or savings account introduced into South African law by section 12T of the Income Tax Act 58 of 1962 and provided to you by Old Mutual Unit Trusts through the 22seven Application and as more fully described to you in the Old Mutual Unit Trusts terms and conditions (below).</p>
 
          <ContentTitle>3. The legal basis of your relationship with 22seven</ContentTitle>
-         <p>
             <ul>
-               <li>
+               <Subsection>
+                  <p>3.1</p>
                   <p>
-                  3.1. 22seven has entered into a juristic representative agreement with OMLACSA in terms whereof 22seven is mandated by OMLACSA to provide Intermediary Services on OMLACSA’s license to you.
+                  2seven has entered into a juristic representative agreement with OMLACSA in terms whereof 22seven is mandated by OMLACSA to provide Intermediary Services on OMLACSA’s license to you.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>3.2</p>
                   <p>
-                  3.2. OMLACSA and 22seven have agreed in the juristic representative agreement that the Intermediary Services referred to in paragraph 3.1 above will be provided to you through the 22seven Application.
+                     OMLACSA and 22seven have agreed in the juristic representative agreement that the Intermediary Services referred to in paragraph 3.1 above will be provided to you through the 22seven Application.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>3.3</p>
                   <p>
-                  3.3. Consequently you agree with 22seven that you will only access the Intermediary Services and associated Investments through the 22seven Application.
+                  Consequently you agree with 22seven that you will only access the Intermediary Services and associated Investments through the 22seven Application.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>3.4</p>
                   <p>
-                  3.4. You further acknowledge and authorise 22seven to enter into all necessary third party relationships and to make all necessary and reasonable enquiries in order to comply with applicable legislation or to give effect to your instructions.
+                  You further acknowledge and authorise 22seven to enter into all necessary third party relationships and to make all necessary and reasonable enquiries in order to comply with applicable legislation or to give effect to your instructions.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>3.5</p>
                   <p>
-                  3.5. The Intermediary Services provided by 22seven to you are based on the above regulatory framework together with:
+                     The Intermediary Services provided by 22seven to you are based on the above regulatory framework together with:
                   </p>
-               </li>
+               </Subsection>
+               <NestedSection>
                <ul>
-                  <li>
+                  <Subsection>
+                     <p>3.5.1</p>
                      <p>
-                     3.5.1. the information that you provided to 22seven in the 22seven Application.
+                     the information that you provided to 22seven in the 22seven Application.
                      </p>
-                  </li>
-                  <li>
+                  </Subsection>
+                  <Subsection>
+                     <p>3.5.2</p>
                      <p>
-                     3.5.2. the relevant supporting documents that you provided to 22seven during the application process.
+                        the relevant supporting documents that you provided to 22seven during the application process.
                      </p>
-                  </li>
-                  <li>
+                  </Subsection>
+                  <Subsection>
+                     <p>3.5.3</p>
                      <p>
-                     3.5.3. any subsequent valid instructions that you give to 22seven through the 22seven Application.
+                        any subsequent valid instructions that you give to 22seven through the 22seven Application.
                      </p>
-                  </li>
+                  </Subsection>
                </ul>
+               </NestedSection>
             </ul>
-         </p>
+
 
          <ContentTitle>4. Your investment(s)</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  4.1. 22seven has entered into an agreement with OMLACSA to render intermediary services in respect of the Investments made available by Old Mutual Unit Trusts to you through the 22seven Application.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  4.2. These Investments are collective investment schemes portfolios registered by Old Mutual Unit Trusts and regulated by the Registrar for Collective Investment Schemes in terms of CISCA.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  4.3. Your Investment is divided into identical units. Each unit represents the pro rata ownership of the assets in the Investment. The size of a contribution and the unit price at the time when an investment is made determine the number of units that are bought by you.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  4.4. You may access two types of Investments through the 22seven Application, namely, tax-free Investment(s) or taxable Investment(s).
-                  </p>
-               </li>
-            </ul>
-         </p>
+         <ul>
+            <Subsection>
+               <p>4.1</p>
+               <p>
+                  22seven has entered into an agreement with OMLACSA to render intermediary services in respect of the Investments made available by Old Mutual Unit Trusts to you through the 22seven Application.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>4.2</p>
+               <p>
+                These Investments are collective investment schemes portfolios registered by Old Mutual Unit Trusts and regulated by the Registrar for Collective Investment Schemes in terms of CISCA.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>4.3</p>
+               <p>
+               Your Investment is divided into identical units. Each unit represents the pro rata ownership of the assets in the Investment. The size of a contribution and the unit price at the time when an investment is made determine the number of units that are bought by you.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>4.4</p>
+               <p>
+                  You may access two types of Investments through the 22seven Application, namely, tax-free Investment(s) or taxable Investment(s).
+               </p>
+            </Subsection>
+         </ul>
 
          <ContentTitle>5. Administering payments into Investment(s)</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  5.1. You confirm that you may pay amounts that exceed R33,000 in a particular tax-year or R500,000 over your lifetime into Old Mutual Unit Trusts’ bank account using the 22seven Application.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  5.2. In the event that you have chosen the tax-free investment and your payment(s) exceed the limits stated in paragraph 5.1 above then you instruct 22seven to:
-                  </p>
-                  <ul>
-                     <li>
-                        <p>
-                        5.2.1. invest the first R33,000 as your contribution into your selected tax-free Investment.
-                        </p>
-                     </li>
-                     <li>
-                        <p>
-                        5.2.2. invest any amount that exceeds R33,000 in a particular tax-year into your selected taxable Investment.
-                        </p>
-                     </li>
-                     <li>
-                        <p>
-                        5.2.3. invest any payment that exceeds R500,000 over your lifetime into your selected taxable Investment.
-                        </p>
-                     </li>
-                  </ul>
-               </li>
-               <li>
-                  <p>
-                  5.3. 22seven does not have access to tax-free savings accounts or investments that you hold/may hold with other providers or any information relating thereto. Consequently, it is your responsibility to ensure that your total investments into tax-free savings and investments across providers do not exceed the legislated investment limits. You indemnify and hold 22seven harmless of all claims that may arise in respect of you exceeding your investment limits by investing with other providers.
-                  </p>
-               </li>
-            </ul>
-         </p>
+        
+         <ul>
+            <Subsection>
+               <p>5.1</p>
+               <p>
+               You confirm that you may pay amounts that exceed R33,000 in a particular tax-year or R500,000 over your lifetime into Old Mutual Unit Trusts’ bank account using the 22seven Application.
+               </p>
+            </Subsection>
+            <NestedSection>
+            <Subsection>
+               <p>5.2</p>
+               <p>
+               In the event that you have chosen the tax-free investment and your payment(s) exceed the limits stated in paragraph 5.1 above then you instruct 22seven to:
+               </p>
+            </Subsection>
+               <ul>
+                  <Subsection>
+                     <p>5.2.1</p>
+                     <p>
+                        invest the first R33,000 as your contribution into your selected tax-free Investment.
+                     </p>
+                  </Subsection>
+                  <Subsection>
+                     <p>5.2.2</p>
+                     <p>
+                        invest any amount that exceeds R33,000 in a particular tax-year into your selected taxable Investment.
+                     </p>
+                  </Subsection>
+                  <Subsection>
+                     <p>5.2.3</p>
+                     <p>
+                        invest any payment that exceeds R500,000 over your lifetime into your selected taxable Investment.
+                     </p>
+                  </Subsection>
+               </ul>
+            </NestedSection>
+            <Subsection>
+               <p>5.3</p>
+               <p>
+               22seven does not have access to tax-free savings accounts or investments that you hold/may hold with other providers or any information relating thereto. Consequently, it is your responsibility to ensure that your total investments into tax-free savings and investments across providers do not exceed the legislated investment limits. You indemnify and hold 22seven harmless of all claims that may arise in respect of you exceeding your investment limits by investing with other providers.
+               </p>
+            </Subsection>
+         </ul>
+
 
          <ContentTitle>6. Choosing your Investment</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  6.1. 22seven may not give you advice (as defined in FAIS) on whether any Investment is suitable for your needs.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  6.2. Please ensure that you understand these implications, costs and consequences before you invest.
-                  </p>
-               </li>
-            </ul>
-         </p>
+         <ul>
+            <Subsection>
+               <p>6.1</p>
+               <p>
+                  22seven may not give you advice (as defined in FAIS) on whether any Investment is suitable for your needs.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>6.2</p>
+               <p>
+                  Please ensure that you understand these implications, costs and consequences before you invest.
+               </p>
+            </Subsection>
+         </ul>
+
 
          <ContentTitle>7. Conditions relating to purchases</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  7.1. All purchases of Investments are subject to a 10 day clearance period.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  7.2. All purchases are subject to Investments being made available to members of the public for investment by Old Mutual Unit Trusts.
-                  </p>
-               </li>
-            </ul>
-         </p>
+
+         <ul>
+            <Subsection>
+               <p>7.1</p>
+               <p>
+                  All purchases of Investments are subject to a 10 day clearance period.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>7.2</p>
+               <p>
+               All purchases are subject to Investments being made available to members of the public for investment by Old Mutual Unit Trusts.
+               </p>
+            </Subsection>
+         </ul>
+
 
          <ContentTitle>8. Valid instructions</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  8.1. All instructions to 22seven must be submitted by you through the 22seven Application in order for them to constitute valid instructions.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  8.2. Instructions to 22seven will only be valid instructions where you have satisfied all 22seven’s requirements, including but not limited to the provision of required supporting documents, where applicable.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  8.3. You agree that only valid instructions are legally binding on 22seven and Old Mutual Unit Trusts.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  8.4. You agree that it is solely your responsibility to ensure that no person provides instructions to 22seven by gaining unauthorised access to your account.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  8.5. You indemnify 22seven and Old Mutual Unit Trusts and hold them harmless against any claims of whatsoever nature arising out of any person submitting instructions to 22seven or Old Mutual Unit Trusts through gaining unauthorised access to your account.
-                  </p>
-               </li>
-            </ul>
-         </p>
+         <ul>
+            <Subsection>
+               <p>8.1</p>
+               <p>
+               All instructions to 22seven must be submitted by you through the 22seven Application in order for them to constitute valid instructions.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>8.2</p>
+               <p>
+                  Instructions to 22seven will only be valid instructions where you have satisfied all 22seven’s requirements, including but not limited to the provision of required supporting documents, where applicable.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>8.3</p>
+               <p>
+                  You agree that only valid instructions are legally binding on 22seven and Old Mutual Unit Trusts.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>8.4</p>
+               <p>
+               You agree that it is solely your responsibility to ensure that no person provides instructions to 22seven by gaining unauthorised access to your account.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>8.5</p>
+               <p>
+                  You indemnify 22seven and Old Mutual Unit Trusts and hold them harmless against any claims of whatsoever nature arising out of any person submitting instructions to 22seven or Old Mutual Unit Trusts through gaining unauthorised access to your account.
+               </p>
+            </Subsection>
+         </ul>
 
          <ContentTitle>9. Complete and accurate information</ContentTitle>
          <p>You agree to ensure that all the instructions and supporting documents you give to 22seven are accurate, clear and complete.</p>
 
          <ContentTitle>10. Administration rules</ContentTitle>
-         <p>
+         
             <ul>
-               <li>
+               <NestedSection>
+               <Subsection>
+                  <p>10.1</p>
                   <p>
-                  10.1. You agree that the rules specified in the 22seven Application and the Old Mutual Unit Trusts Terms and Conditions (as specified by Old Mutual Unit Trusts from time to time) shall apply in respect of the following:
+                  You agree that the rules specified in the 22seven Application and the Old Mutual Unit Trusts Terms and Conditions (as specified by Old Mutual Unit Trusts from time to time) shall apply in respect of the following:
                   </p>
+               </Subsection>
                   <ul>
-                     <li>
+                     <Subsection>
+                        <p>10.1.1</p>
                         <p>
-                        10.1.1. Cut-off times for transactions (including withdrawals, switch instructions and any other changes to your Investment) to be processed
+                        Cut-off times for transactions (including withdrawals, switch instructions and any other changes to your Investment) to be processed
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>10.1.2</p>
                         <p>
-                        10.1.2. Turnaround times for transactions to be processed
+                           Turnaround times for transactions to be processed
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>10.1.3</p>
                         <p>
-                        10.1.3. Required supporting documents
+                           Required supporting documents
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>10.1.4</p>
                         <p>
-                        10.1.4. Updating your details
+                           Updating your details
                         </p>
-                     </li>
+                     </Subsection>
                   </ul>
-               </li>
-               <li>
+                  </NestedSection>
+               <Subsection>
+                  <p>10.2</p>
                   <p>
-                  10.2. 22seven may decide whether to accept or reject instructions received from you through the 22seven Application. Where appropriate 22seven may also reverse transactions.
+                  22seven may decide whether to accept or reject instructions received from you through the 22seven Application. Where appropriate 22seven may also reverse transactions.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>10.3</p>
                   <p>
-                  10.3. 22seven will endeavour to action instructions at the earliest reasonable opportunity. Any instructions received will be subject to prevailing law, 22seven’s administrative procedures and Old Mutual Unit Trusts administrative procedures.
+                     22seven will endeavour to action instructions at the earliest reasonable opportunity. Any instructions received will be subject to prevailing law, 22seven’s administrative procedures and Old Mutual Unit Trusts administrative procedures.
                   </p>
-               </li>
+               </Subsection>
             </ul>
-         </p>
 
          <ContentTitle>11. Tax</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  11.1. Should you have invested in a taxable Investment you are liable for tax on the interest earned in your Investment.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  11.2. Please note that a withdrawal of your Investment from a taxable Investment may result in you being liable for capital gains tax.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  11.3. No tax is payable in respect of a tax-free Investment but you may have to satisfy some SARS reporting requirements.
-                  </p>
-               </li>
-            </ul>
-         </p>
+         <ul>
+            <Subsection>
+               <p>11.1</p>
+               <p>
+               Should you have invested in a taxable Investment you are liable for tax on the interest earned in your Investment.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>11.2</p>
+               <p>
+                  Please note that a withdrawal of your Investment from a taxable Investment may result in you being liable for capital gains tax.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>11.3</p>
+               <p>
+               No tax is payable in respect of a tax-free Investment but you may have to satisfy some SARS reporting requirements.
+               </p>
+            </Subsection>
+         </ul>
 
          <ContentTitle>12. Death</ContentTitle>
          <p>In the event of your death, the amount available in your Investment will be paid according to your executor’s instructions once all processing requirements have been met.</p>
 
          <ContentTitle>13. Tax certificates</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  13.1. After each tax year, 22seven will provide you with an income tax certificate reflecting any interest and dividends (Income Distributions) you earned within your Investment over the relevant tax year and the capital gains tax that you may be liable for.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  13.2. You are responsible for informing the South African Revenue Service (SARS) of the interest and dividends you earned during the relevant tax year and, if required, for submitting the certificate to SARS.
-                  </p>
-               </li>
-            </ul>
-         </p>
+         <ul>
+            <Subsection>
+               <p>13.1</p>
+               <p>
+                  After each tax year, 22seven will provide you with an income tax certificate reflecting any interest and dividends (Income Distributions) you earned within your Investment over the relevant tax year and the capital gains tax that you may be liable for.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>13.2</p>
+               <p>
+                  You are responsible for informing the South African Revenue Service (SARS) of the interest and dividends you earned during the relevant tax year and, if required, for submitting the certificate to SARS.
+               </p>
+            </Subsection>
+         </ul>
 
          <ContentTitle>14. Keeping your personal information confidential</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  14.1. 22seven will keep your personal information relating to your Investment confidential unless the sharing of your personal information is required to give effect to these terms and conditions or by law.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  14.2. 22seven may share your personal information with OMLACSA and Old Mutual Unit Trusts from time to time.
-                  </p>
-               </li>
-            </ul>
-         </p>
+  
+         <ul>
+            <Subsection>
+               <p>14.1</p>
+               <p>
+                  22seven will keep your personal information relating to your Investment confidential unless the sharing of your personal information is required to give effect to these terms and conditions or by law.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>14.2</p>
+               <p>
+               22seven may share your personal information with OMLACSA and Old Mutual Unit Trusts from time to time.
+               </p>
+            </Subsection>
+         </ul>
+
 
          <ContentTitle>15. Accept, suspend, delay or withdraw your instructions</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  15.1. 22seven will only accept instructions that are valid.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  15.2. 22seven may accept, suspend, delay, reverse or withdraw your instructions or transactions where it believes that there is a good reason to do so.
-                  </p>
-               </li>
-            </ul>
-         </p>
+         <ul>
+            <Subsection>
+               <p>15.1</p>
+               <p>
+                  22seven will only accept instructions that are valid.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>15.2</p>
+               <p>
+               22seven may accept, suspend, delay, reverse or withdraw your instructions or transactions where it believes that there is a good reason to do so.
+               </p>
+            </Subsection>
+         </ul>
+   
 
 
          <ContentTitle>16. Communicate with you</ContentTitle>
          <p>You agree that 22seven may, in circumstances permitted in law, communicate with you (from time to time) on behalf of Old Mutual Unit Trusts.</p>
 
          <ContentTitle>17. Exclusions from this investment contract</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  17.1. Investment guarantees<br/>
+
+         <ul>
+            <li>
+               <p>
+               17.1. Investment guarantees<br/>
 The value of your Investment is not guaranteed and will fluctuate in line with market movements.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  17.2. Financial advice<br/>
+               </p>
+            </li>
+            <li>
+               <p>
+               17.2. Financial advice<br/>
 22seven and Old Mutual Unit Trusts do not give any financial advice and will only give you factual information. Please contact your financial planner if you require financial advice.
-                  </p>
-               </li>
-            </ul>
-         </p>
+               </p>
+            </li>
+         </ul>
+
 
 
          <ContentTitle>18. Certain losses suffered</ContentTitle>
          <p>22seven is not responsible for any losses suffered if, for example, but not limited to:</p>
-         <p>
+ 
             <ul>
-               <li>
+               <Subsection>
+                  <p>18.1</p>
                   <p>
-                  18.1. there is a delay in processing your instructions or if your instructions are rejected for reasons beyond our control e.g. regulatory requirements, etc.
+                  there is a delay in processing your instructions or if your instructions are rejected for reasons beyond our control e.g. regulatory requirements, etc.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>18.2</p>
                   <p>
-                  18.2. you provide the 22seven with incorrect information.
+                  you provide the 22seven with incorrect information.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>18.3</p>
                   <p>
-                  18.3. a third party does something illegal, invalid or does not do something that it should have done
+                  a third party does something illegal, invalid or does not do something that it should have done
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>18.4</p>
                   <p>
-                  18.4. 22seven cannot verify the bank account details you provide
+                     22seven cannot verify the bank account details you provide
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>18.5</p>
                   <p>
-                  18.5. changes in tax or other laws affect the performance of your investment
+                     changes in tax or other laws affect the performance of your investment
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>18.6</p>
                   <p>
-                  18.6. there is a failure or delay with any networks, electronic or mechanical devices, or any other form of communication used to process your instructions
+                     there is a failure or delay with any networks, electronic or mechanical devices, or any other form of communication used to process your instructions
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>18.7</p>
                   <p>
-                  18.6. there is a failure or delay with any networks, electronic or mechanical devices, or any other form of communication used to process your instructions
+                  there is a delay in the sale of units in your Investment due to ring-fencing (when a large amount of units are sold in an Investment, Old Mutual Unit Trusts may apply the process of ring-fencing to protect Investments and investors remaining in the Investment. Ring-fencing may result in the separation and delay of the sale of your units).
                   </p>
-               </li>
+               </Subsection>
             </ul>
-         </p>
 
          <ContentTitle>19. Professional indemnity cover and fidelity insurance</ContentTitle>
          <p>22seven confirms that OMLACSA has the necessary professional indemnity and fidelity insurance in place to cover 22seven’s activities in terms of these Terms and Conditions.</p>
@@ -530,6 +605,7 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
                      Old Mutual FTSE RAFI® All World Index Feeder Fund<br/>
                      Old Mutual Money Market Fund 100%
                      </p>
+                     <br/>
                   </li>
                </ul>
             </li>
@@ -542,8 +618,9 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
                – audit fees<br/>
                – securities transfer tax<br/>
                – value added tax<br/>
-               – brokerage fees
+               – brokerage fees<br/>
                </p>
+               <br/>
             </li>
             <li>
                <p>
@@ -584,7 +661,10 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
          – Sharing information with OMLACSA and Old Mutual Unit Trusts on behalf of OMLACSA as Financial Services Provider where you are invested in an Old Mutual Unit Trusts Fund. 
          </p>
 
-         <p>You may access the personal information that 22seven holds and view our full privacy notice by logging on to our website at 22seven.com. You may request that 22seven delete this information by e-mailing thesvens@22seven.com.</p>
+         <p>You may access the personal information that 22seven holds and view our full privacy notice by logging on to our website at 22seven.com. You may request that 22seven delete this information by e-mailing &nbsp;
+         <ExternalLink href="mailto:thesvens@22seven.com">
+               thesvens@22seven.com
+         </ExternalLink>.</p>
 
          <ContentTitle>23. Contact details and domicile</ContentTitle>
          <p>22seven can be contacted at:</p>
@@ -601,8 +681,13 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
          Cape Town<br/>
          8002<br/><br/>
 
-         Tel: (021) 4265771<br/>
-         Email: thesvens@22seven.com<br/>
+         Tel: &nbsp;   <ExternalLink href="tel:+27214265771">
+         (021) 4265771
+                     
+                  </ExternalLink> <br/>
+         Email: &nbsp;      <ExternalLink href="mailto:thesvens@22seven.com">
+               thesvens@22seven.com
+         </ExternalLink><br/>
          </p>
 
          <p>
@@ -611,17 +696,20 @@ You nominate the physical address inserted by you in the 22seven Application as 
          </p>
          <hr />
 
-         <ContentTitle>
-         Old Mutual Unit Trusts Managers (RF) PTY LTD<br/>
-         (Registration no. 65/008471/07)<br/>
-         Collective Investment Scheme Portfolios<br/>
-         Terms and conditions
-         </ContentTitle>
+      
+            <ContentBreak>
+               <p>Old Mutual Unit Trusts Managers (RF) PTY LTD</p>
+               <p><span style={{ fontSize : "13px" }}>(Registration no. 65/008471/07)</span></p>
+               <p>Collective Investment Scheme Portfolios</p>
+               <p>Terms and conditions</p>
+            </ContentBreak>
+
+
          <hr />
 
          <ContentTitle>1. Information about your investment</ContentTitle>
 
-         <p>
+
             <ul>
                <li>
                   <p>
@@ -650,102 +738,112 @@ You nominate the physical address inserted by you in the 22seven Application as 
                   c. Should you have invested in a Tax-free Investment then:
                   </p>
                   <ul>
-                     <li>
+                     <Subsection>
+                        <p>i. </p>
                         <p>
-                        i. The Tax-free Investment is offered to individual people only (i.e. not for Trusts, companies, etc.) by Old Mutual Unit Trust (“we” or “us” or “our”) through 22seven Digital (Pty) Ltd’s (“22seven”) digital application (“22seven Application”).
+                        The Tax-free Investment is offered to individual people only (i.e. not for Trusts, companies, etc.) by Old Mutual Unit Trust (“we” or “us” or “our”) through 22seven Digital (Pty) Ltd’s (“22seven”) digital application (“22seven Application”).
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>ii. </p>
                         <p>
-                        ii. “Tax-free” means that you will not pay income tax on the interest earned in the portfolio, or dividend withholding tax on the dividends earned in the portfolio, and when you eventually sell, you will pay no capital gains tax on the growth of the value in your portfolio.
+                        “Tax-free” means that you will not pay income tax on the interest earned in the portfolio, or dividend withholding tax on the dividends earned in the portfolio, and when you eventually sell, you will pay no capital gains tax on the growth of the value in your portfolio.
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>iii. </p>
                         <p>
-                        iii. You can invest up to R33,000 each year, until your total investment reaches R500,000 which is the lifetime limit that you are allowed to save in a tax-free investment or savings account. If you go over these limits you will be taxed at 40% of the extra amount by SARS.
+                        You can invest up to R33,000 each year, until your total investment reaches R500,000 which is the lifetime limit that you are allowed to save in a tax-free investment or savings account. If you go over these limits you will be taxed at 40% of the extra amount by SARS.
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>iv. </p>
                         <p>
-                        iv. Your Tax-free Investment account will be opened when we have received your application form and supporting documents through the 22seven Application, your debit order has been actioned and your money reflects in our bank account.
+                        Your Tax-free Investment account will be opened when we have received your application form and supporting documents through the 22seven Application, your debit order has been actioned and your money reflects in our bank account.
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>v. </p>
                         <p>
-                        v. You can withdraw money from your portfolio at any time, but remember that should you withdraw from your Tax-free Investment then the amount you withdraw remains part of your maximum lifetime investment amount and cannot be reinvested at a later stage. This means withdrawals permanently reduce your total amount of allowable tax-free savings.
+                        You can withdraw money from your portfolio at any time, but remember that should you withdraw from your Tax-free Investment then the amount you withdraw remains part of your maximum lifetime investment amount and cannot be reinvested at a later stage. This means withdrawals permanently reduce your total amount of allowable tax-free savings.
                         </p>
-                     </li>
-                     <li>
+                     </Subsection>
+                     <Subsection>
+                        <p>vi.</p>
                         <p>
-                        vi. You may switch into a Tax-free Investment and between unit trusts in the Tax-free Investment but you may not switch out of this portfolio.
+                        You may switch into a Tax-free Investment and between unit trusts in the Tax-free Investment but you may not switch out of this portfolio.
                         </p>
-                     </li>
+                     </Subsection>
                   </ul>
                </li>
-               <li>
+               <Subsection>
+                  <p>d.</p>
                   <p>
-                  d. Should you have invested in a Taxable Savings Investment then the capital growth and returns accruing to your investment will be subject to the tax laws prescribed in the Income Tax Act 58 of 1962 and may be subject to income tax.
+                  Should you have invested in a Taxable Savings Investment then the capital growth and returns accruing to your investment will be subject to the tax laws prescribed in the Income Tax Act 58 of 1962 and may be subject to income tax.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>e.</p>
                   <p>
-                  e. In order to withdraw money from your portfolio, you need to sell your units using the 22seven Application and the money must be paid into the same bank account that we have on record for you.
+                  In order to withdraw money from your portfolio, you need to sell your units using the 22seven Application and the money must be paid into the same bank account that we have on record for you.
                   </p>
-               </li>
+               </Subsection>
             </ul>
-         </p>
+
 
          <ContentTitle>2. Bank details for investments</ContentTitle>
-         <p>
-            <ul>
-               <li>
-                  <p>
-                  a. This is the bank account that you provided to Old Mutual Unit Trusts through the 22seven Application.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  b. You agree to fund your investment and all future payments from this account or the account that you later provide to us through the 22seven Application.
-                  </p>
-               </li>
-               <li>
-                  <p>
-                  c. Please note:
-                  </p>
-                  <ul>
-                     <li>
-                        <p>
-                        i. Deductions cannot be made from credit cards.
-                        </p>
-                     </li>
-                     <li>
-                        <p>
-                        ii. Payments can only be made to your own bank account
-                        </p>
-                     </li>
-                  </ul>
-               </li>
-            </ul>
-         </p>
+     
+         <ul>
+            <Subsection>
+               <p>a.</p>
+               <p>
+               This is the bank account that you provided to Old Mutual Unit Trusts through the 22seven Application.
+               </p>
+            </Subsection>
+            <Subsection>
+               <p>b.</p>
+               <p>
+               You agree to fund your investment and all future payments from this account or the account that you later provide to us through the 22seven Application.
+               </p>
+            </Subsection>
+            <li>
+               <p>
+               c. Please note:
+               </p>
+               <ul>
+                  <li>
+                     <p>
+                     i. Deductions cannot be made from credit cards.
+                     </p>
+                  </li>
+                  <li>
+                     <p>
+                     ii. Payments can only be made to your own bank account
+                     </p>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+         
 
          <ContentTitle>3. Administrative arrangements</ContentTitle>
          <p>If all our requirements are met by 15h00 you will receive the same day’s price. Otherwise the first working day’s price will apply once all requirements have been met, with the same cut-off times applying.</p>
 
          <ContentTitle>4. Minimum investment amounts</ContentTitle>
-         <p>
+ 
             <ul>
                <li>
                   <p>
                   a. We may specify minimum investment amounts from time to time.
                   </p>
                </li>
-               <li>
+               <Subsection>
+                  <p>b.</p>
                   <p>
-                  b. We are under no obligation to accept below minimum investments and reserve the right not to debit or to cease debiting your account under certain circumstances.
+                  We are under no obligation to accept below minimum investments and reserve the right not to debit or to cease debiting your account under certain circumstances.
                   </p>
-               </li>
+               </Subsection>
             </ul>
-         </p>
 
          <ContentTitle>5. Reinvestment of distributions</ContentTitle>
          <p>Distributions are automatically reinvested.</p>
@@ -757,83 +855,121 @@ You nominate the physical address inserted by you in the 22seven Application as 
          <p>Unit trusts are generally medium- to long-term investments. Past performance is no indication of future performance. Shorter term fluctuations can occur as your investment moves in line with the markets. Fluctuations or movements in exchange rates may cause the value of underlying international investments to go up or down. Unit trusts can engage in borrowing and scrip lending. The fund’s TER reflects the percentage of the average Net Asset Value of the portfolio that was incurred as charges, levies and fees related to the management of the portfolio. A higher TER does not necessarily imply a poor return, nor does a low TER imply a good return. The current TER cannot be regarded as an indication of future TERs. A schedule of fees, charges and maximum commissions is available from Old Mutual Unit Trust Managers (RF) (Pty) Ltd. You may sell your investment at the ruling price of the day (calculated at 15h00 on a forward pricing basis). Certain funds may be capped to be managed in accordance with their mandates. Old Mutual is a member of the Association for Savings and Investment South Africa (ASISA).</p>
 
          <ContentTitle>8. Declaration</ContentTitle>
-         <p>By using the 22seven Application you declare that:
+         <p style={{marginBottom : "10px"}}>By using the 22seven Application you declare that:</p>
 
             <ul>
-               <li>
-                  <br/>
+               <Subsection>
+                 <p>a.</p>
                   <p>
-                  a. you accept the number of units sold to you by virtue of the 22seven Application and you warrant that you have full power and authority to enter into and conclude this transaction, with the necessary assistance where such assistance is a legal requirement.
+                  you accept the number of units sold to you by virtue of the 22seven Application and you warrant that you have full power and authority to enter into and conclude this transaction, with the necessary assistance where such assistance is a legal requirement.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>b.</p>
                   <p>
-                  b. you are aware that this product offers no cooling-off rights.
+                  you are aware that this product offers no cooling-off rights.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>c.</p>
                   <p>
-                  c. you know that the cost of buying units may include an initial charge plus VAT, depending on the amount invested, and that there are no guarantees on your capital.
+                     you know that the cost of buying units may include an initial charge plus VAT, depending on the amount invested, and that there are no guarantees on your capital.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>d.</p>
                   <p>
-                  d. you acknowledge that there are further allowable deductions from the unit trust (e.g. an annual service fee) that impact on the value of your investment.
+                     you acknowledge that there are further allowable deductions from the unit trust (e.g. an annual service fee) that impact on the value of your investment.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>e.</p>
                   <p>
-                  e. you are satisfied that the facts you provided through the 22seven Application are accurate and complete.
+                  you are satisfied that the facts you provided through the 22seven Application are accurate and complete.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>f.</p>
                   <p>
-                  f. you are aware of the unit trust’s/unit trusts’ objectives, risk factors, the charges and income distributions, as set out in the unit trust fund fact sheet/s.
+                     you are aware of the unit trust’s/unit trusts’ objectives, risk factors, the charges and income distributions, as set out in the unit trust fund fact sheet/s.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>g.</p>
                   <p>
-                  g. you acknowledge that we may borrow up to 10% of the portfolio to bridge insufficient liquidity.
+                     you acknowledge that we may borrow up to 10% of the portfolio to bridge insufficient liquidity.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>h.</p>
                   <p>
-                  h. you have read and fully understood all the pages of these terms and conditions together with all information contained in the 22seven Application.
+                  you have read and fully understood all the pages of these terms and conditions together with all information contained in the 22seven Application.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>i.</p>
                   <p>
-                  i. you hereby authorise us to debit the account mentioned above with the monthly amount/lump sum specified.
+                     you hereby authorise us to debit the account mentioned above with the monthly amount/lump sum specified.
                   </p>
-               </li>
-               <li>
+               </Subsection>
+               <Subsection>
+                  <p>j.</p>
                   <p>
-                  j. you further authorise us to accept instructions from you via the 22seven Application.
+                  you further authorise us to accept instructions from you via the 22seven Application.
                   </p>
-               </li>
+               </Subsection>
             </ul>
-         </p>
 
          <ContentTitle>9. Contact details</ContentTitle>
          <p>
          Old Mutual Unit Trust Managers (RF) (Pty) Ltd (Registration no. 65/08471/07)<br/>
          Mutualpark, Jan Smuts Drive, Pinelands 7405, South Africa<br/>
          PO Box 207, Cape Town 8000, South Africa<br/>
-         Telephone no.: +27(0)21 503 1770<br/>
-         Helpline: 0860 234 234<br/>
+         Telephone no.: &nbsp;
+         <ExternalLink href="tel:+270215031770">
+                  +27(0)21 503 1770
+         </ExternalLink>   
+         
+         <br/>
+         Helpline: &nbsp;
+         <ExternalLink href="tel:0860234234">
+                  0860 234 234
+         </ExternalLink>   
+         <br/>
          Fax no.: +27(0)21 509 7100<br/>
-         Internet address: www.omut.co.za<br/>
-         Email: unittrusts@oldmutual.com<br/>
-         Complaints: Write to our Client Services Manager at the above address or call 0860 234 234.<br/>
-         Compliance Department: +27(0)21 503 1770
+         Internet address: &nbsp;
+         <ExternalLink href="www.omut.co.za" target="_blank">
+         www.omut.co.za
+         </ExternalLink>   
+         <br/>
+         Email: &nbsp;
+         <ExternalLink href="mailto:unittrusts@oldmutual.com">
+               unittrusts@oldmutual.com
+         </ExternalLink>   
+         <br/>
+         Complaints: Write to our Client Services Manager at the above address or call &nbsp;
+         <ExternalLink href="tel:0860234234">
+         0860 234 234
+         </ExternalLink>   
+         .<br/>
+         Compliance Department: &nbsp;
+         <ExternalLink href="tel:+270215031770">
+                  +27(0)21 503 1770
+         </ExternalLink>   
          </p>
          <p>
          Old Mutual Investment Administrators (Pty) Ltd (Registration no. 1988/003478/07)<br/>
          Mutualpark, Jan Smuts Drive, Pinelands 7405, South Africa<br/>
          PO Box 5408, Cape Town 8000, South Africa<br/>
-         Telephone no.: +27(0)21 503 1770<br/>
+         Telephone no.: &nbsp;
+         <ExternalLink href="tel:+270215031770">
+                  +27(0)21 503 1770
+         </ExternalLink>   <br/>
          Fax no.: +27(0)21 509 7100<br/>
-         Compliance Department: +27(0)21 503 1770<br/>
+         Compliance Department:        &nbsp;
+         <ExternalLink href="tel:+270215031770">
+                  +27(0)21 503 1770
+         </ExternalLink>  <br/>
          Professional indemnity cover and fidelity insurance cover are in place. Old Mutual Investment Administrators (Pty) Ltd is a third party administration and service provider to Old Mutual Unit Trust Managers (RF) (Pty) Limited and is a licensed financial services provider.
          </p>
          </Content>
