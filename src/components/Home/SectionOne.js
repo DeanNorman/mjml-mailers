@@ -103,7 +103,7 @@ const SectionOne = () => {
             <Column>
                <h2>See all your money<br/>in one place.</h2>
                <p>All your accounts. All your transactions. All<br/>together. Link bank accounts, credit and store<br /> cards, investments, loans and rewards.</p>
-               <a href="/">
+               <a href="/supported-institutions/">
                   100+ supported institutions 
                   <Arrow src={linkArrow} alt="link" />
                </a>

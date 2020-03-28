@@ -2,13 +2,16 @@ import React from 'react'
 import styled from 'styled-components'
 import { Helmet } from 'react-helmet';
 import { breakpoints as bp } from '../styling/index'
+import closeImg from '../images/close.png'
+
+import { Link } from 'gatsby';
 
 const Container = styled.div`
    display: flex;
    background-color: #6a668f;
    flex-direction: column;
    align-items: center;
-   height: -webkit-fill-available;
+   height:100%;
 
 `
 
@@ -16,6 +19,7 @@ const Content = styled.div`
    display: flex;
    flex-direction: column;
    padding: 20px 30px;
+   height: 100%; 
    ${bp.lg`
       flex-direction: row;
 
@@ -54,6 +58,24 @@ const Column = styled.div`
       padding: 0 20px;
    `}
 `
+
+const Close = styled.div`
+
+    position: absolute;
+    right: 0px;
+   img {
+      background-color: rgba(255,255,255,0.0);
+    top: 25px;
+    height: 23px;
+    width: 23px;
+    position: relative;
+    margin: 0;
+    right: 25px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+   }
+`
 const SupportedInstitutions = () => {
    return (
       <>
@@ -63,6 +85,11 @@ const SupportedInstitutions = () => {
             <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
          <Container>
+               <Close>
+               <Link to="/">
+                  <img src={closeImg} />
+               </Link>
+               </Close>
                <Title>
                   All financial institutions you can link accounts from 🙌
                </Title>
