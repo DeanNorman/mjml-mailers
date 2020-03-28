@@ -3,10 +3,12 @@ import Layout from '../components/Layout';
 import { Helmet } from 'react-helmet';
 
 import HeaderJobs from '../components/Headers/HeaderJobs'
-import OurCulture from '../components/jobs/OurCulture'
-import GeneralContent from '../components/jobs/GeneralContent'
-import JobCard from '../components/jobs/JobCard'
-import ApplyJobs from '../components/jobs/ApplyJob'
+import OurCulture from '../components/Jobs/OurCulture'
+import GeneralContent from '../components/Jobs/GeneralContent'
+import JobCard from '../components/Jobs/JobCard'
+import ApplyJobs from '../components/Jobs/ApplyJob'
+import NoJobs from '../components/Jobs/NoJobs'
+
 const jobs = () => {
    return (
       <Layout>
@@ -21,11 +23,14 @@ const jobs = () => {
             text="We come to do beautiful, epic, awe-inspiring work. More than that, we want our work to contribute something positive to the world."
          />
          <OurCulture />
-         <GeneralContent
+         {/* <GeneralContent
             title="What we’re looking for."
-            text="If you think you can do amazing things with our team at our offices, we’d love to hear from you."
-         />
-         <JobCard />
+            text="If you think you can do amazing things with our  team at our offices, we’d love to hear from you."
+         /> */}
+     
+         <NoJobs />
+         {/* <JobCard /> */}
+             <br/><br/>
          <GeneralContent
             title="The Office."
             text="Our HQ is in one of the oldest theatres in South Africa, right in the middle of the Cape Town City Bowl. Imagine if you smashed a temple of amazingness into a really comfortable lounge with great art on the walls. That still wouldn’t be as awesome as our offices. Needless to say, anyone who wants to work with us should be in Cape Town, or plan to be."
