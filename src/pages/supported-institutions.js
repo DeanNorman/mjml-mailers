@@ -6,6 +6,22 @@ import closeImg from '../images/close.png'
 
 import { Link } from 'gatsby';
 
+const Background = styled.div`
+      width: 100%;
+    min-width: 320px;
+    height: 100vh;
+    min-height: 2309px;
+    position: relative;
+    /* overflow: hidden; */
+    margin: 0px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(106, 102, 143, 1.0);
+
+
+
+
+`
 const Container = styled.div`
    display: flex;
    background-color: #6a668f;
@@ -18,9 +34,9 @@ const Container = styled.div`
 const Content = styled.div`
    display: flex;
    flex-direction: column;
-   padding: 20px 30px;
+   padding: 10px 30px;
    height: 100%; 
-   ${bp.lg`
+   ${bp.md`
       flex-direction: row;
 
    `}
@@ -31,14 +47,15 @@ const Title = styled.h1`
    color: #4e4b6b;
    text-align: center;
    line-height: 40.0px;
-   padding: 40px 40px 10px 40px;
+   padding: 70px 40px 0px 40px;
    max-width: 300px;
    align-self: center;
 
    ${bp.md`
       align-self: auto;
+      padding: 70px 40px 10px 9px;
       width: 100%;
-      max-width: 80%;
+      max-width: 90%;
    `}
 `
 
@@ -65,12 +82,12 @@ const Close = styled.div`
     right: 0px;
    img {
       background-color: rgba(255,255,255,0.0);
-    top: 25px;
+    top: 40px;
     height: 23px;
     width: 23px;
     position: relative;
     margin: 0;
-    right: 25px;
+    right: 40px;
     -ms-transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
     transform: rotate(45deg);
@@ -84,6 +101,7 @@ const SupportedInstitutions = () => {
             <title>22seven | Budgeting and Investing App</title>
             <link rel="canonical" href="http://mysite.com/example" />
          </Helmet>
+         <Background>
          <Container>
                <Close>
                <Link to="/">
@@ -91,7 +109,7 @@ const SupportedInstitutions = () => {
                </Link>
                </Close>
                <Title>
-                  All financial institutions you can link accounts from 🙌
+                  All financial institutions you can link accounts from  &nbsp;🙌
                </Title>
             <Content>
                <Column>
@@ -105,6 +123,7 @@ const SupportedInstitutions = () => {
             </Column>
             </Content>
          </Container>
+         </Background>
       </>
    )
 }
