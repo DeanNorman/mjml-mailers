@@ -26,6 +26,12 @@ module.exports = {
         trackingId: "UA-XXXXXXXXX-X",
       },
     },
+    {
+      resolve: 'gatsby-plugin-zendesk-chat',
+      options: {
+        zendeskKey: '2PHAosPEgH4M1GJs0dYKQzKz8ilTtAbL',
+      },
+    },
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-styled-components`,
