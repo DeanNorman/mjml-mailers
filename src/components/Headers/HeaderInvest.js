@@ -75,7 +75,7 @@ const Column = styled.div`
 `
 const Title = styled.h1`
    font-size: 30px;
-
+   font-family: 'CircularStd';
    ${bp.sm`
       font-size: 50px;
    `}

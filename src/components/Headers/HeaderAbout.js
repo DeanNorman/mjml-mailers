@@ -41,7 +41,7 @@ const Title = styled.h1`
     font-size: 32px;
     line-height: 40.32px;
     text-align: center;
-
+    font-family: 'CircularStd';
     ${bp.sm`
       font-size: 50px;
       line-height: 54.045px;
