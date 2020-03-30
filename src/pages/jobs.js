@@ -5,7 +5,6 @@ import { Helmet } from 'react-helmet';
 import HeaderJobs from '../components/Headers/HeaderJobs'
 import OurCulture from '../components/Jobs/OurCulture'
 import GeneralContent from '../components/Jobs/GeneralContent'
-import JobCard from '../components/Jobs/JobCard'
 import ApplyJobs from '../components/Jobs/ApplyJob'
 import NoJobs from '../components/Jobs/NoJobs'
 
@@ -23,13 +22,8 @@ const jobs = () => {
             text="We come to do beautiful, epic, awe-inspiring work. More than that, we want our work to contribute something positive to the world."
          />
          <OurCulture />
-         {/* <GeneralContent
-            title="What we’re looking for."
-            text="If you think you can do amazing things with our  team at our offices, we’d love to hear from you."
-         /> */}
      
          <NoJobs />
-         {/* <JobCard /> */}
              <br/><br/>
          <GeneralContent
             title="The Office."

@@ -176,7 +176,7 @@ const InvestTermsContent = () => {
                <Subsection>
                   <p>3.1</p>
                   <p>
-                  2seven has entered into a juristic representative agreement with OMLACSA in terms whereof 22seven is mandated by OMLACSA to provide Intermediary Services on OMLACSA’s license to you.
+                  22seven has entered into a juristic representative agreement with OMLACSA in terms whereof 22seven is mandated by OMLACSA to provide Intermediary Services on OMLACSA’s license to you.
                   </p>
                </Subsection>
                <Subsection>
