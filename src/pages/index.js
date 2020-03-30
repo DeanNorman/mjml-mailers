@@ -20,6 +20,7 @@ const index = () => {
                <meta charSet="utf-8" />
                <title>22seven | Budgeting and Investing App</title>
                <link rel="canonical" href="http://mysite.com/example" />
+               <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=2PHAosPEgH4M1GJs0dYKQzKz8ilTtAbL"> </script>
          </Helmet>
 
          <HeaderHome />

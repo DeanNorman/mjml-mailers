@@ -30,6 +30,7 @@ module.exports = {
       resolve: 'gatsby-plugin-zendesk-chat',
       options: {
         zendeskKey: '2PHAosPEgH4M1GJs0dYKQzKz8ilTtAbL',
+        enableDuringDevelop: false,
       },
     },
     `gatsby-plugin-sharp`,

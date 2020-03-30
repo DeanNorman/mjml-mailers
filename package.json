@@ -14,6 +14,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@inlightmedia/react-zendesk-chat": "^1.3.0",
     "@nfront/global-styles": "^1.2.1",
     "babel-plugin-styled-components": "^1.10.7",
     "gatsby": "^2.20.8",

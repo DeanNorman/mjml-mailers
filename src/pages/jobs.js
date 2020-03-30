@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet';
 import HeaderJobs from '../components/Headers/HeaderJobs'
 import OurCulture from '../components/jobs/OurCulture'
 import GeneralContent from '../components/jobs/GeneralContent'
+import ApplyJobs from '../components/jobs/ApplyJobs'
 import NoJobs from '../components/jobs/NoJobs'
 
 const jobs = () => {
@@ -29,6 +30,7 @@ const jobs = () => {
             text="Our HQ is in one of the oldest theatres in South Africa, right in the middle of the Cape Town City Bowl. Imagine if you smashed a temple of amazingness into a really comfortable lounge with great art on the walls. That still wouldn’t be as awesome as our offices. Needless to say, anyone who wants to work with us should be in Cape Town, or plan to be."
             officeImage
          />
+         <ApplyJobs />
       </Layout>
    )
 }

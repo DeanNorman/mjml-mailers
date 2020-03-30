@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby"
+import ReactZenDeskChat from '@inlightmedia/react-zendesk-chat';
 import appStore from '../images/public-mobile-badgeappstore-1@2x.png';
 import googlePlay from '../images/public-mobile-badgegoogle-play-1@2x.png';
 import styled from 'styled-components';
@@ -197,7 +198,7 @@ export default function Footer() {
       <Foot>
          <p>© 2019 22seven All Rights Reserved. <strong>Old Mutual is a Licensed Financial Services Provider. 22seven is a juristic representative of Old Mutual.</strong></p>
       </Foot>
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=639c5c41-135b-4f1f-8c95-38e573f7a6b1"> </script>
+      <ReactZenDeskChat appID="2PHAosPEgH4M1GJs0dYKQzKz8ilTtAbL" />
    </>
    )
 }
