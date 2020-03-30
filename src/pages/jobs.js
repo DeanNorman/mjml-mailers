@@ -3,9 +3,9 @@ import Layout from '../components/Layout';
 import { Helmet } from 'react-helmet';
 
 import HeaderJobs from '../components/Headers/HeaderJobs'
-import OurCulture from '../components/Jobs/OurCulture'
-import GeneralContent from '../components/Jobs/GeneralContent'
-import NoJobs from '../components/Jobs/NoJobs'
+import OurCulture from '../components/jobs/OurCulture'
+import GeneralContent from '../components/jobs/GeneralContent'
+import NoJobs from '../components/jobs/NoJobs'
 
 const jobs = () => {
    return (
