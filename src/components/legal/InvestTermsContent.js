@@ -648,6 +648,7 @@ The value of your Investment is not guaranteed and will fluctuate in line with m
             This Act applies to taxation.</p>
          <p>Consumer Protection Act (68 of 2008 and any amendments thereto)<br/>
             This Act promotes a fair, accessible and sustainable market place for consumer products and services.</p>
+         <p>Please note that changes or additions to, or replacements of, any applicable law may change the terms and conditions of your Investment.</p>
          <p>The Protection of Personal Information Act</p>
          <p>22seven may use your information or obtain information about you for the following purposes:</p>
          <p>
@@ -711,11 +712,12 @@ You nominate the physical address inserted by you in the 22seven Application as 
 
 
             <ul>
-               <li>
+               <Subsection>
+                  <p>a.</p>
                   <p>
-                  a. The investment that you have made is the purchase of participatory interests (“Units”) in Collective Investment Scheme portfolios (“Unit Trusts”).
+                  The investment that you have made is the purchase of participatory interests (“Units”) in Collective Investment Scheme portfolios (“Unit Trusts”).
                   </p>
-               </li>
+               </Subsection>
                <li>
                   <p>
                   b. Two types of portfolios are being made available by Old Mutual Unit Trusts, namely:
@@ -808,7 +810,7 @@ You nominate the physical address inserted by you in the 22seven Application as 
             </Subsection>
             <li>
                <p>
-               c. Please note:
+               c. &nbsp;Please note:
                </p>
                <ul>
                   <li>
@@ -834,7 +836,7 @@ You nominate the physical address inserted by you in the 22seven Application as 
             <ul>
                <li>
                   <p>
-                  a. We may specify minimum investment amounts from time to time.
+                  a. &nbsp;We may specify minimum investment amounts from time to time.
                   </p>
                </li>
                <Subsection>
