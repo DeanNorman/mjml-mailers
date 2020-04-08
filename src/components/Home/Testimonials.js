@@ -50,7 +50,7 @@ const Card = styled.div`
    margin: 20px 0;
 
    background: white;
-
+   min-height: 430px;
 
 
 `;
@@ -62,9 +62,9 @@ const QuoteImg = styled.img`
 `
 const QuoteTitle = styled.p`
    font-family: 'CircularStd-Black';
-   font-size: 12px !important;
+   font-size: 11.74px !important;
    margin: 0;
-
+   line-height: 18.81px;
 ${bp.sm`
    font-size: 14px;
 `}
@@ -127,9 +127,8 @@ const Testimonials = () => {
       <Content>
          <Card>
                <QuoteImg src={yellowQuote} alt="quote"/>
-               <QuoteText>
-                  <QuoteTitle>I love it, it helped me detect when my insurance charged me twice</QuoteTitle>
-                  <br />
+               <QuoteTitle>I love it, it helped me detect when my insurance charged me twice</QuoteTitle>
+               <QuoteText>                  
                   <p>It’s my 3rd day using this app and I love it already; an insurance company deducted money twice from my account; I was not aware of it and the app could pick that up for me so I was able to get my money and the app could pick that up for me so I was to get my money back; thank you very much.</p>
                </QuoteText>
                <Author>
@@ -140,9 +139,8 @@ const Testimonials = () => {
 
             <Card>
                <QuoteImg src={greenQuote} alt="quote" />
-               <QuoteText>
                <QuoteTitle>Thanks to 22seven I’m debt free</QuoteTitle>
-               <br />
+               <QuoteText>
                <p>Yay!! When I made a decision 6 months ago to turn my financial life around, I started doing research and came across 22seven. You’ve certainly made sticking to that decision a lot easier. Today I’m debt free. From a debt of R40 000 6 months ago… may you keep nudging me as I move from debt to building an emergency fund and eventually growing my wealth through savings and investments.</p>
                </QuoteText>   
                <Author>
@@ -153,9 +151,8 @@ const Testimonials = () => {
 
             <Card>
              <QuoteImg src={redQuote} alt="quote"/> 
+             <QuoteTitle>The best app I have used in 2018</QuoteTitle>
              <QuoteText>
-               <QuoteTitle>The best app I have used in 2018</QuoteTitle>
-               <br />
                <p>This is by far the best app I have used in 2018. Why did it take me so long to get it?!
                   It helps me keep track of all my spending- to the cent. I am more aware of my spending habits as all my accounts are linked to the app. If you need budgeting tools and a reality check about your spending, this is the best app for you. If you have a goal you are saving towards, this is for you - as the app tells you how much you need to save per month to reach your goal. It’s WONDERFULL!!!!!</p>      
             </QuoteText>
