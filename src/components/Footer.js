@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "gatsby"
-import ReactZenDeskChat from '@inlightmedia/react-zendesk-chat';
+// import ReactZenDeskChat from '@inlightmedia/react-zendesk-chat';
 import appStore from '../images/public-mobile-badgeappstore-1@2x.png';
 import googlePlay from '../images/public-mobile-badgegoogle-play-1@2x.png';
 import styled from 'styled-components';
