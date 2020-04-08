@@ -198,7 +198,7 @@ export default function Footer() {
       <Foot>
          <p>© 2019 22seven All Rights Reserved. <strong>Old Mutual is a Licensed Financial Services Provider. 22seven is a juristic representative of Old Mutual.</strong></p>
       </Foot>
-      <ReactZenDeskChat appID="2PHAosPEgH4M1GJs0dYKQzKz8ilTtAbL" />
+      {/* <ReactZenDeskChat appID="2PHAosPEgH4M1GJs0dYKQzKz8ilTtAbL" /> */}
    </>
    )
 }
