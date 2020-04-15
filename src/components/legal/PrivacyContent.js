@@ -56,6 +56,7 @@ const Content = styled.div`
    ${bp.md`
       width: 70%;
       padding: 50px;
+      max-width: 900px;
    `}
 `
 
@@ -81,6 +82,7 @@ const ContentTitle = styled.p`
    font-family: "CircularStd-Bold", Helvetica, Arial, serif;
    font-weight: 600 !important;
    margin-bottom: 10px;
+   font-size: 15px !important;
 `
 
 const Arrow = styled.img`
@@ -172,7 +174,7 @@ const PrivacyContent = () => {
          <p>No. We collect and use your Personal Information only to provide the Service to you and as set out in this Policy. Your Personal Information remains exactly that – yours.</p>
 
          <ContentTitle>How does 22seven protect my information?</ContentTitle>
-         <p>We use a combination of technical, procedural and operational measures to keep your information safe and secure.</p>
+         <p style={{marginBottom : "10px"}}>We use a combination of technical, procedural and operational measures to keep your information safe and secure.</p>
          <InternalLink to="/security/">
                Please read more about our security
                <Arrow src={linkArrow} alt="link" />
@@ -182,7 +184,7 @@ const PrivacyContent = () => {
          <p>Unless you have disabled Cookies in your Internet browser, we will store Cookies on your computer/device when you visit our website. These Cookies (small text files containing a string of characters) enable us to recognise you as a returning visitor, track your usage behaviour, as well as store your user preferences and other information. We do this to remember information so that you will not have to re-enter it during your visit or the next time you visit the Website. Cookies also allow us to provide custom, personalised content and information, monitor the effectiveness of our marketing campaigns, monitor aggregate metrics such as total number of visitors and pages viewed.</p>
 
          <ContentTitle>What Personal Information can 22seven staff see?</ContentTitle>
-         <p>22seven staff are bound by comprehensive confidentiality obligations. Our staff are given access only to information they are required to see in order for them to fulfil their responsibilities. In all cases we provide access to the minimum amount of information. Given their role, our customer support team has access to the most amount of Personal Information – to enable them to answer your support questions. In addition to Service usage information, our internal systems provide them with secure access to:</p>
+         <p style={{marginBottom : "10px"}}>22seven staff are bound by comprehensive confidentiality obligations. Our staff are given access only to information they are required to see in order for them to fulfil their responsibilities. In all cases we provide access to the minimum amount of information. Given their role, our customer support team has access to the most amount of Personal Information – to enable them to answer your support questions. In addition to Service usage information, our internal systems provide them with secure access to:</p>
          <p>
             <ul>
                <li>Your name and email address</li>
@@ -193,7 +195,7 @@ const PrivacyContent = () => {
          </p>
 
          <ContentTitle>Can I correct my Personal Information?</ContentTitle>
-         <p>Yes. You are able to correct inaccurate Personal Information via the Service once you have successfully logged in. Alternatively, you may request us to correct inaccurate information via email at thesvens@22seven.com. We will require that you verify you are in fact the owner of such Personal Information. Once the changes are made we will notify you by email at your nominated email address. If there is any Personal Information not accessible via the Service that you wish to have access to for purposes of correcting.</p>
+         <p style={{marginBottom : "10px"}}>Yes. You are able to correct inaccurate Personal Information via the Service once you have successfully logged in. Alternatively, you may request us to correct inaccurate information via email at thesvens@22seven.com. We will require that you verify you are in fact the owner of such Personal Information. Once the changes are made we will notify you by email at your nominated email address. If there is any Personal Information not accessible via the Service that you wish to have access to for purposes of correcting.</p>
          <ExternalLink href="mailto:thesvens@22seven.com" target="_blank">
                Contact thesvens@22seven.com
                <Arrow src={linkArrow} alt="link" />
@@ -215,14 +217,14 @@ const PrivacyContent = () => {
          <p>If we become involved in any merger, consolidation, or sale of our assets and this involves the sharing in any way of your Personal Information, we will ensure the confidentiality of such information and let you know before your Personal Information is transferred and becomes subject to a different Privacy Policy. Should you not wish for your Personal Information to be so transferred, you may terminate your use of the Service by closing your account, which will result in the deletion of your Personal Information.</p>
 
          <ContentTitle>Can I have my name removed from the public forum/message board?</ContentTitle>
-         <p>Yes. If you wish to have your name removed from the messages you post to our public forum/message boards please contact us.</p>
+         <p style={{marginBottom : "10px"}}>Yes. If you wish to have your name removed from the messages you post to our public forum/message boards please contact us.</p>
          <ExternalLink href="mailto:thesvens@22seven.com" target="_blank">
                Contact thesvens@22seven.com
                <Arrow src={linkArrow} alt="link" />
          </ExternalLink><br/>
 
          <ContentTitle>Who should I contact if I have any comments, questions, concerns or complaints?</ContentTitle>
-         <p>If you have any questions, comments or concerns about our Privacy Policy, please contact us.</p>
+         <p style={{marginBottom : "10px"}}>If you have any questions, comments or concerns about our Privacy Policy, please contact us.</p>
          <ExternalLink href="mailto:thesvens@22seven.com" target="_blank">
                Contact thesvens@22seven.com
                <Arrow src={linkArrow} alt="link" />

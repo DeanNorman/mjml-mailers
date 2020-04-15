@@ -144,12 +144,12 @@ const Svens = () => {
             <Contact>
             <a href="mailto:thzesvens@22seven.com">
                <Icon src={email} />
-                  thesvens@22sven.com
+                  thesvens@22seven.com
                <Arrow src={linkArrow} alt="link" />
             </a>
             <a href="tel:+27875504331">
                <Icon src={phone} />
-                  +27 87 8550 4331
+                  +27 87 550 4331
                <Arrow src={linkArrow} alt="link" />
             </a>
             </Contact>

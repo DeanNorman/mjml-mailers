@@ -20,7 +20,7 @@ const Content = styled.div`
    display: flex;
    justify-content: center;
    flex-direction: column;
-
+   padding: 0 40px;
    p {
     font-family: "CircularStd", Helvetica, Arial, serif;
     font-size: 16px;

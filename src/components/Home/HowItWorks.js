@@ -28,9 +28,9 @@ const Content = styled.div`
    justify-content: space-evenly;
    width: 100%;
    max-width: 1000px;
-
-   ${bp.md`
-      flex-direction: row;
+   flex-wrap: wrap;
+   ${bp.lg`
+       flex-direction: row;
    `}
 `
 
