@@ -105,7 +105,7 @@ const SectionSecurity = () => {
          <Shield src={shield} alt=""/>         
          <h2>We take security very seriously.</h2>
          <p>Your data is secure, private and insured.</p>
-         <a href="/">
+         <a href="/security/">
             Over 300,000 South Africans trust us with their money stuff.
             <Arrow src={linkArrow} alt="link" />
          </a>

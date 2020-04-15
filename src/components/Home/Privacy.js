@@ -204,7 +204,7 @@ const Privacy = () => {
          </Benefit> 
       </Content> 
       <Content>
-         <a href="/">More about our security
+         <a href="/security/">More about our security
             <Arrow src={linkArrow} alt="link" />
          </a>
        </Content>
