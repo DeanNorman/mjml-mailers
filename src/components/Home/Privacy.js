@@ -25,7 +25,7 @@ const Content = styled.div`
    display:flex;
    flex-direction: ${props => props.benefit ? 'row' : 'column'};
    justify-content: center;
-   padding: 20px 0;
+   padding: 20px 20px;
    flex-wrap:wrap;
    p {
       font-weight: 300;
@@ -46,6 +46,9 @@ const Content = styled.div`
       transition: all 0.2s ease-in-out;
    }
 
+   ${bp.sm`
+      padding: 20px 0px;
+   `}
 `
 
 const Benefit = styled.div`
@@ -201,7 +204,7 @@ const Privacy = () => {
          </Benefit> 
       </Content> 
       <Content>
-         <a href="/">More about our security
+         <a href="/security/">More about our security
             <Arrow src={linkArrow} alt="link" />
          </a>
        </Content>

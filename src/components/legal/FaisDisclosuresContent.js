@@ -34,6 +34,7 @@ const Content = styled.div`
    ${bp.md`
       width: 70%;
       padding: 50px;
+      max-width: 900px;
    `}
 `
 
