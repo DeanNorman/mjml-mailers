@@ -17,8 +17,16 @@
 /** 
  * * Groovy Zone 
 */
+def setEnvironmentFrom( branch ) {
+  switch ( branch ) {
+    case 'develop': return "develop"
+    case 'staging': return "pi"
+    case 'master': return "publicsite"
+    default: return "develop"
+  }
+}
 
-// DNS,Vault based on branch name: [develop|staging|master].
+// * DNS/Vault based on branch name: [develop|staging|master].
 def sshRemote = [:]
 	sshRemote.host = "publicsite.${env.BRANCH_NAME}.my227.net"
 	sshRemote.name = "publicsite.${env.BRANCH_NAME}.my227.net"
@@ -29,7 +37,6 @@ def sshRemote = [:]
 /**
  * * DSL Zone - Jenkins Pipeline
 */
-
 pipeline {
 	agent { label 'master' }
 	options {
@@ -41,7 +48,7 @@ pipeline {
 	}
 	environment {
 		JOB = "publicsite"
-		ENV = "${env.BRANCH_NAME}"
+		ENV = setEnvironmentFrom(env.BRANCH_NAME)
 		NUM = "${env.BUILD_NUMBER}"
 		DOCKER_TAGS = "${JOB}.${ENV}"
 		DOCKER_FILE = "Dockerfile"
@@ -65,14 +72,34 @@ pipeline {
 						"-c" "cd /src/public/ && tar -cz -f /mnt/${JOB}.tar.gz *";
 				"""
 				archiveArtifacts allowEmptyArchive:false , fingerprint:true, artifacts:"${JOB}.tar.gz"
-				// sh 'docker rmi --force ${DOCKER_TAGS}'
+				sh 'docker rmi --force ${DOCKER_TAGS}'
 			}
 		}
 		stage('Package App') {
 			options { skipDefaultCheckout true }
 			agent {label 'fpm'}
 			steps{
-				echo 'TODO'
+				copyArtifacts projectName:env.JOB_NAME, selector:specific(env.BUILD_NUMBER), fingerprintArtifacts:true
+				sh label: 'Package file.', script: """
+					fpm \\
+						--input-type "tar" \\
+						--output-type "deb" \\
+						--name "${JOB}" \\
+						--description "22seven ${JOB}." \\
+						--version "${NUM}" \\
+						--architecture "all" \\
+						--vendor "22seven" \\
+						--maintainer "Team 22Seven <admin@22seven.com>" \\
+						--url "http://www.22seven.com" \\
+						--license "(c) Copyright 22Seven Digital Pty Ltd." \\
+						--category misc \\
+						--prefix "/var/www/${ENV}.22seven.com/public/" \\
+						--deb-user "nginx" \\
+						--deb-group "nginx" \\
+						--package "./" \\
+						${JOB}.tar.gz;
+				"""
+				archiveArtifacts artifacts:"${JOB}_${NUM}_all.deb", allowEmptyArchive:false , fingerprint:true
 			}
 		}
 		stage('Publish') {
@@ -85,12 +112,12 @@ pipeline {
 						copyArtifacts fingerprintArtifacts:true, projectName:env.JOB_NAME, selector:specific(env.BUILD_NUMBER)
 						sshPut remote:sshRemote, from:"${JOB}.tar.gz", into:"."
 						sshCommand remote:sshRemote, failOnError:true, command: """
-							sudo rm -rf /srv/${JOB}.${ENV}.my227.net/public/;
-							sudo mkdir -p /srv/${JOB}.${ENV}.my227.net/public/;
-							sudo tar -xzf /home/jenkins-${ENV}/${JOB}.tar.gz -C /srv/${JOB}.${ENV}.my227.net/public/;
-							sudo chown -R nginx:nginx /srv/${JOB}.${ENV}.my227.net/;
-							find /srv/${JOB}.${ENV}.my227.net -type f -print0 | sudo xargs -0 chmod 644;
-							find /srv/${JOB}.${ENV}.my227.net -type d -print0 | sudo xargs -0 chmod 755;
+							sudo rm -rf /srv/web.develop.my227.net/public/;
+							sudo mkdir -p /srv/web.develop.my227.net/public/;
+							sudo tar -xzf /home/jenkins-${env.BRANCH_NAME}/${JOB}.tar.gz -C /srv/web.develop.my227.net/public/;
+							sudo chown -R nginx:nginx /srv/web.develop.my227.net/;
+							find /srv/web.develop.my227.net -type f -print0 | sudo xargs -0 chmod 644;
+							find /srv/web.develop.my227.net -type d -print0 | sudo xargs -0 chmod 755;
 						"""
 						sshRemove remote:sshRemote, failOnError:true, path:"${JOB}.tar.gz"
 					}
@@ -98,7 +125,17 @@ pipeline {
 				stage('Staging') {
 					when {branch 'staging'}
 					steps {
-						echo 'TODO'
+						copyArtifacts fingerprintArtifacts:true, projectName:env.JOB_NAME, selector:specific(env.BUILD_NUMBER)
+						sshPut remote:sshRemote, from:"${JOB}_${NUM}_all.deb", into:"."
+						sshCommand remote:sshRemote, failOnError:true, command:"""
+							sudo scp -i /home/ubuntu/puppet.pem ${JOB}_${NUM}_all.deb ubuntu@puppet.briteblue.co.za:/home/ubuntu/${JOB}.deb;
+						"""
+						sshCommand remote:sshRemote, failOnError:true, command: """
+							sudo ssh -q -i /home/ubuntu/puppet.pem ubuntu@puppet.briteblue.co.za \\
+								"sudo sh -c \\"mv /home/ubuntu/${JOB}.deb /etc/puppet/environments/production/modules/${JOB}-pi/files/ && \\
+								 chmod 640 /etc/puppet/environments/production/modules/${JOB}-pi/files/${JOB}.deb && \\
+								 chown puppet:www-data /etc/puppet/environments/production/modules/${JOB}-pi/files/${JOB}.deb\\"";
+						"""
 					}
 				}
 				stage('Production') {
