@@ -76,7 +76,11 @@ background-color: rgba(255,255,255,0.0);
 
 const Column = styled.div`
 align-self:center;
-padding-right: ${props => props.right ? '50px' : '0'};
+
+${bp.xs`
+   padding-right: ${props => props.right ? '50px' : '0'};
+`}
+
 padding-left: ${props => props.left ? '10px' : '0'};
 `
 

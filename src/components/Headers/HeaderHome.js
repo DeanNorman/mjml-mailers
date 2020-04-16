@@ -93,7 +93,9 @@ const AppLink = styled.img`
     height: 42px;
     width: 139px;
     margin: 10px 0;
-
+   &:hover {
+   box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
+   }
 `
 
 const AppLinksContainer = styled.div`
@@ -187,6 +189,11 @@ ${bp.md`
 
       margin-left:20px;
    `}
+
+&:hover {
+      transform: translate(0, -5px);
+      transition: all 0.2s ease-in-out;
+   }
 `
 
 const MobileColumn = styled.div`
@@ -245,7 +252,7 @@ const HeaderHome = () => {
                   <p>Sign up. It&apos;s free.</p>
                </SignUpBtn>
 
-               <WatchVideo href="https://vimeo.com/310103079" target="_blank">
+               <WatchVideo href="https://www.youtube.com/watch?v=Rk6PbEDa0OM" target="_blank">
                   <img src={playButton} alt="play" />
                   <p>Watch the video</p>
                </WatchVideo>

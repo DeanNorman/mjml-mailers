@@ -78,6 +78,7 @@ const SecurityInformation = () => {
                </a><br/>
                <a href="https://conversations.22seven.com/hc/en-us/articles/360016980233" target="_blank">
                FNB client? Set up an FNB  “view-only” profile    
+               <Arrow src={linkArrow} alt="link" />
                </a>
             </Card>
             <Card>

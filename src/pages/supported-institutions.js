@@ -9,7 +9,7 @@ import { Link } from 'gatsby';
 const Background = styled.div`
       width: 100%;
     min-width: 320px;
-    height: 100vh;
+    height: calc(0.00% + 838px);
     min-height: 2309px;
     position: relative;
     /* overflow: hidden; */
@@ -18,7 +18,9 @@ const Background = styled.div`
     -moz-osx-font-smoothing: grayscale;
     background-color: rgba(106, 102, 143, 1.0);
 
-
+   ${bp.md`
+       min-height: 1400px;
+   `}
 
 
 `

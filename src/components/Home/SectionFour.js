@@ -79,7 +79,7 @@ const SectionFour = () => {
          <Column>
             <h2>Invest in your goals and<br />reach them sooner.</h2>
             <p>Putting money towards your future can be a pain. But<br />the right planning can change that. Set, track and<br /> invest in your life goals from as little as R250.</p>
-            <a href="/">
+            <a href="/invest/">
                Learn more about investing 
                <Arrow src={linkArrow} alt="link" />
             </a>
