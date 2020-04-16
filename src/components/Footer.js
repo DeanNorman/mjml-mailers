@@ -45,6 +45,7 @@ const Column = styled.div`
       flex-basis: ${props => props.social ? '100%' : '50%'};
       padding: 15px;
       margin-top: 10px;
+      padding-left: ${props => props.social ? '15px' : '34px'};
   }
 `
 const NavItem = styled(Link)`
