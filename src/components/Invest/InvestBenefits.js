@@ -5,8 +5,6 @@ import noFee from '../../images/invest/noFee.svg';
 import world from '../../images/invest/world.svg';
 import clock from '../../images/invest/clock.svg';
 
-import { breakpoints as bp } from '../../styling/index';
-
 const Container = styled.div`
    display: flex;
    flex-direction: column;

@@ -1,5 +1,5 @@
 import React from "react"
-import styled, { css } from "styled-components"
+import styled from "styled-components"
 import appStore from '../../images/public-mobile-badgeappstore-1@2x.png';
 import googlePlay from '../../images/public-mobile-badgegoogle-play-1@2x.png';
 import { Link } from "gatsby"

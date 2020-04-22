@@ -169,19 +169,19 @@ export default function Footer() {
          </Column>
          <Column social>
             <SocialContainer>
-               <a href="https://twitter.com/22seven" target="_blank">
+               <a href="https://twitter.com/22seven" target="_blank" rel="noopener noreferrer">
                   <img src={twitter} alt="twitter" />
                </a>
-               <a href="https://www.facebook.com/ilike22seven" target="_blank">
+               <a href="https://www.facebook.com/ilike22seven" target="_blank" rel="noopener noreferrer">
                <img src={facebook} alt="facebook" />
                </a>
-               <a href="https://www.linkedin.com/company/22seven-digital/" target="_blank">
+               <a href="https://www.linkedin.com/company/22seven-digital/" target="_blank" rel="noopener noreferrer">
                   <img src={linkedin} alt="linkedin" />
                </a>
-               <a href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ" target="_blank">
+               <a href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ" target="_blank" rel="noopener noreferrer">
                   <img src={youtube} alt="youtube" />
                </a>
-               <a href="https://www.instagram.com/ilike22seven/" target="_blank">
+               <a href="https://www.instagram.com/ilike22seven/" target="_blank" rel="noopener noreferrer">
                   <img src={instagram} alt="instagram" />
                </a>
             </SocialContainer>

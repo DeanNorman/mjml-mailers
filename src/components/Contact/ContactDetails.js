@@ -121,28 +121,28 @@ const ContactDetails = () => {
                   <Title>By Email.</Title>
                   <ContactItem>
                      <p>General enquiries and support</p>
-                     <a href="mailto:thesvens@22seven.com" target="_blank">
+                     <a href="mailto:thesvens@22seven.com" target="_blank" rel="noopener noreferrer">
                         thesvens@22seven.com
                         <Arrow src={linkArrow} alt="link" />
                      </a>
                   </ContactItem>
                   <ContactItem>
                      <p>Security</p>
-                     <a href="mailto:security@22seven.com" target="_blank">
+                     <a href="mailto:security@22seven.com" target="_blank" rel="noopener noreferrer">
                            security@22seven.com
                         <Arrow src={linkArrow} alt="link" />
                      </a>
                   </ContactItem>
                   <ContactItem>
                      <p>Media-related stuff or PR</p>
-                     <a href="mailto:prteam@22seven.com" target="_blank">
+                     <a href="mailto:prteam@22seven.com" target="_blank" rel="noopener noreferrer">
                            prteam@22seven.com
                         <Arrow src={linkArrow} alt="link" />
                      </a>
                   </ContactItem>
                   <ContactItem>
                      <p>Jobs</p>
-                     <a href="mailto:awesomejobs@22seven.com" target="_blank">
+                     <a href="mailto:awesomejobs@22seven.com" target="_blank" rel="noopener noreferrer">
                            awesomejobs@22seven.com
                         <Arrow src={linkArrow} alt="link" />
                      </a>
@@ -157,7 +157,7 @@ const ContactDetails = () => {
                <Title>By phone.</Title>      
                <ContactItem>
                   <p>The svens</p>
-                  <a href="tel:+27875504331" target="_blank">
+                  <a href="tel:+27875504331" target="_blank" rel="noopener noreferrer">
                            +27 87 550 4331
                      <Arrow src={linkArrow} alt="link" />
                   </a>

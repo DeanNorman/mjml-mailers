@@ -3,7 +3,6 @@ import styled, { css } from 'styled-components'
 import { Link } from "gatsby"
 import { breakpoints as bp } from '../../styling/index'
 
-import linkArrow from '../../images/legal/arrow.png'
 
 const baseFontStyles = css`
    font-family: 'CircularStd';
@@ -100,18 +99,8 @@ P {
     color: #4e4b6b;
     font-weight: 300;
 }
-     
-
 `
 
-const Arrow = styled.img`
-       height: 7px;
-    width: 4px;
-    margin-left: 5px;
-`
-const InternalLink = styled(Link)`
-   ${baseLinkStyles}
-`
 const ExternalLink = styled.a`
    ${baseLinkStyles}
 `

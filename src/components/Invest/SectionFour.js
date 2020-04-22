@@ -4,7 +4,6 @@ import styled, { css } from 'styled-components';
 import sectionTwo from '../../images/invest/sectionFour.svg';
 
 import background from '../../images/homepageCurves/blobTwo.png';
-import InvestPromo from './InvestPromo';
 import { breakpoints as bp } from '../../styling/index';
 
 const Container = styled.div`

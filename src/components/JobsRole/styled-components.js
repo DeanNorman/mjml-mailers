@@ -1,6 +1,4 @@
-import styled, { css } from 'styled-components'
-
-import { breakpoints as bp } from '../../styling/index'
+import styled from 'styled-components'
 
 
 export const Container = styled.div`

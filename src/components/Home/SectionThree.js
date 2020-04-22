@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 
 import temp from '../../images/sectionThree.svg';
 import background from '../../images/homepageCurves/blobFour.png';
@@ -14,7 +14,6 @@ const Container = styled.div`
    /* margin-top: 100px; */
    text-align: center;
    z-index: 1;
-
 
 ${bp.md`
    text-align: left;
@@ -59,18 +58,12 @@ background-color: rgba(255,255,255,0.0);
     opacity: 0.72;
     z-index: -1;
 
-
-
-
     ${bp.sm`
-         
     top: 1637px;
     height: 813px;
     width: 1116px;
-    
     left: calc(0.00% - 634px);
     opacity: 0.72;
-
     `}
 `
 

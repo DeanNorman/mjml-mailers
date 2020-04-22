@@ -107,11 +107,11 @@ const SupportedInstitutions = () => {
          <Container>
                <Close>
                <Link to="/">
-                  <img src={closeImg} />
+                  <img src={closeImg} alt="close" />
                </Link>
                </Close>
                <Title>
-                  All financial institutions you can link accounts from  &nbsp;🙌
+                  All financial institutions you can link accounts from  &nbsp;<span role="img" aria-label="hands up">🙌</span>
                </Title>
             <Content>
                <Column>

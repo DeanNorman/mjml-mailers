@@ -2,8 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 
-import phoneBackground from '../../images/invest/phoneBackground.svg';
-import sectionOneAnimation from '../../images/invest/sectionOneAnimation.gif';
 import background from '../../images/homepageCurves/blobFive.png';
 import tweetOne from '../../images/invest/tweetOne.svg';
 import tweetTwo from '../../images/invest/tweetTwo.svg';

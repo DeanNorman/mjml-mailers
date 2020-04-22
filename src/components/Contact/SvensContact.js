@@ -4,7 +4,6 @@ import svens from '../../images/svens.png';
 
 import email from '../../images/email.svg'
 import phone from '../../images/phone.svg'
-import background from '../../images/homepageCurves/blobSix.svg';
 import linkArrow from '../../images/linkArrow.png';
 import { breakpoints as bp } from '../../styling/index';
 

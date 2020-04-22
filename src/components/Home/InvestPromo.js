@@ -38,7 +38,7 @@ const InvestPromo = () => {
    return (
       <Container>
          <Content>
-            <Title> 👋   <strong>Pssssssst!</strong></Title>
+            <Title><strong>Pssssssst!</strong></Title>
             <Copy>For a limited time, you can put a minimum of R250<br />into your goals (instead of the usual R350). Once off or<br /> monthly. Or both!</Copy>         
          </Content>
       </Container> 

@@ -138,7 +138,7 @@ const LearnMore = () => {
                <Icon src={megaphone} alt="megaphone" />
                <h3>On the blog</h3>
                <p>Check out what we have to say about everything money related.</p>
-               <a href="https://blog.22seven.com/" target="_blank">
+               <a href="https://blog.22seven.com/" target="_blank" rel="noopener noreferrer">
                   See what we are saying
                   <Arrow src={arrow} alt="arrow" />
                </a>
@@ -165,7 +165,7 @@ const LearnMore = () => {
                <Icon src={testPilot} alt="test pilot" />
                <h3>Test Pilot community</h3>
                <p>There’s lots happening at 22seven and we want you to be a part of it. So we’d like to invite you to join our Test Pilot community.</p>
-               <a href="https://blog.22seven.com/2018/06/join-our-test-pilot-community/" target="_blank">
+               <a href="https://blog.22seven.com/2018/06/join-our-test-pilot-community/" target="_blank" rel="noopener noreferrer">
                   Learn More
                   <Arrow src={arrow} alt="arrow" />
                </a>

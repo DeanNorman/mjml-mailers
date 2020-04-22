@@ -51,7 +51,6 @@ export default {
    /* Sedconday Colors */
 
    black: '#000',
-   white: '#fff',
    darthVader: '#606060',
 
    megaman: '#24B4C7',
