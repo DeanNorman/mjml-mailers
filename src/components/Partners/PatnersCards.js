@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { breakpoints as bp } from '../../styling/index'
 
 import linkArrow from '../../images/linkArrow.png';
-import uber from '../../images/partners/uber.png'
 import taxTim from '../../images/partners/taxtim.png'
 
 const Container = styled.div`
@@ -158,7 +157,7 @@ const PartnersCards = () => {
                      Thanks to a direct integration with SARS eFiling, your IRP5 data can be imported into TaxTim and your completed return is automatically filed at the touch of a button. No more blue blocked forms for you!
                   </p>
 
-                  <a href="https://www.taxtim.com/za/?193" target="_blank">
+                  <a href="https://www.taxtim.com/za/?193" target="_blank" rel="noopener noreferrer">
                      How to rock your tax return
                      <Arrow src={linkArrow} alt="link" />
                   </a>

@@ -62,4 +62,14 @@ export default css`
    button:focus, input:focus, a:focus, div:focus {
       outline: none;
    }
+
+   h2,
+h3,
+h4,
+h5,
+h6,
+span {
+   font-family: "CircularStd", Helvetica, Arial, serif;
+}
+
 `;

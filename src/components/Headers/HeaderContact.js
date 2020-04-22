@@ -5,7 +5,6 @@ import { breakpoints as bp } from '../../styling/index'
 import animation from '../../images/contact/animation.gif'
 
 
-
 const baseFontStyles = css`
    font-family: 'CircularStd';
    color: #4e4b6b;
@@ -55,20 +54,6 @@ const Title = styled.h1`
      ${bp.lg`
        margin-bottom: 40px;
     `}
-`
-
-const Text = styled.p`
-   font-family: 'CircularStd';
-   font-size: 15px;
-   line-height: 19px;
-   text-align: center;
-   font-weight: 300;
-
-   ${bp.sm`
-      font-size: 20px;
-      line-height: 25px;
-   `}
-
 `
 
 const Contract = styled.img`

@@ -84,32 +84,6 @@ const Description = styled.p`
    font-weight: 300;
 `
 
-const SignUpBtn = styled.a`
-   display: flex;
-   background-color: #13c6b9;
-   height: 45px;
-   width: 176px;
-   border-radius: 4px;
-   justify-content: center;
-   align-content: center;
-   text-decoration: none;
-   margin-bottom: 10px;
-
-   p {
-      font-weight: 300;
-      font-size: 17px;
-      margin: 0;
-      color: #fff;
-      align-self:center;
-   }
-
-   ${bp.sm`
-      max-width: 157px;
-      text-align: center; 
-      align-self: flex-start;
-   `}
-`
-
 const HeaderInvest = () => {
    return (
       <Container>

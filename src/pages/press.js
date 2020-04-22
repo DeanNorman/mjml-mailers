@@ -25,7 +25,7 @@ const press = () => {
             </div>
             <h1>Get your savings priorities right</h1>
             <p> Given the ongoing pressure on personal finances, the reality is that many parents struggle to prioritise saving for their child's education with 57% of urban South African parentsnot actively saving for their... </p>
-            <a href="#">"Read full article"</a>
+            <a href="/">"Read full article"</a>
          </div>
             
          <div>
@@ -38,7 +38,7 @@ const press = () => {
             <h1>What's your financial action plan for 2019</h1>
             <p> IT'S A new year and a new you or rather, it could be. If 2018 felt a tad chaotic, 2019 needn't be. Take charge this year of your financesand write your own story on a "blank slate".</p>
 
-            <a href="#">"Read full article"</a>
+            <a href="/">"Read full article"</a>
          </div>
       </Layout>
    )

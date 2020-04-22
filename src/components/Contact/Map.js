@@ -123,6 +123,7 @@ const Map = () => {
             </MapText>
             <MapEmbed>
             <iframe 
+               title="22seven Location"
                frameBorder="0" 
                width="100%"
                height="100%"
