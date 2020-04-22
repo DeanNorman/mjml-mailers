@@ -29,6 +29,7 @@ const Content = styled.div`
    padding: 20px 0;
    flex-wrap:wrap;
    transition: all 0.2s ease-in-out;
+    h2 {font-family: 'CircularStd';}
    p {
       font-weight: 300;
       margin-bottom: 10px;
