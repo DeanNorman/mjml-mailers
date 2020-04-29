@@ -71,7 +71,7 @@ ${bp.sm`
 `
 
 const QuoteText = styled.div`
-   font-family: 'CircularStd-Book';
+   font-family: 'CircularStd';
    font-weight: 400px;
    margin: 0;
    P { 
@@ -86,7 +86,7 @@ const QuoteText = styled.div`
 const Author = styled.div`
    p {
       font-size: 11px;
-      font-family: 'CircularStd-Bold';
+      font-family: 'CircularStd';
       font-weight: 400;
       margin-bottom: 10px;
    }
