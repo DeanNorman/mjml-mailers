@@ -142,7 +142,7 @@ const Svens = () => {
             <h2>Get really good support from real, live people.</h2>
             <p>The Svens, our support team, are available from 8am to 8pm.</p>
             <Contact>
-            <a href="mailto:thzesvens@22seven.com">
+            <a href="mailto:thesvens@22seven.com">
                <Icon src={email} />
                   thesvens@22seven.com
                <Arrow src={linkArrow} alt="link" />

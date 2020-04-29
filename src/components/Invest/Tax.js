@@ -24,7 +24,7 @@ const Content = styled.div`
    justify-content: center;
    padding: 0 50px;
    line-height: 20.74px;
-   
+   font-family: 'CircularStd';
    align-self: center;
 
    ${bp.sm`
@@ -48,10 +48,12 @@ const Content = styled.div`
       }
 
    p {
+      font-family: 'CircularStd';
       font-weight: 300;
       line-height: 20px;
       font-size: 14px;
       color: #69668e;
+      
    }
 `
 
@@ -72,6 +74,7 @@ const Column = styled.div`
       order: 0;
       padding-left: ${props => props.left ? '50px' : '0'};
    `)}
+   
 `
 
 
