@@ -17,7 +17,7 @@
     "@inlightmedia/react-zendesk-chat": "^1.3.0",
     "@nfront/global-styles": "^1.2.1",
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.20.8",
+    "gatsby": "^2.32.13",
     "gatsby-cli": "^2.8.30",
     "gatsby-plugin-global-styles": "^1.0.17",
     "gatsby-plugin-google-analytics": "^2.2.2",
